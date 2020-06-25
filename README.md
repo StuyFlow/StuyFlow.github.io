@@ -23,7 +23,7 @@ git clone git@github.com:StuyFlow/StuyFlow.github.io.git
 cd StuyFlow.github.io/
 npm install
 ```
-## Contributing
+### Contributing
 1.) Make a new branch off of the `main` branch to start doing your changes:
 ```
 git checkout main
