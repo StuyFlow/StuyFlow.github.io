@@ -6,6 +6,9 @@ The official website for StuyFlow.
 ```
 git clone git@github.com:StuyFlow/StuyFlow.github.io.git
 ```
+Make sure you have Python3!!!
+Install flask by doing `pip3 install flask`.
+
 2.) Make a new branch to start doing your changes:
 ```
 git checkout -b <branch-name>
