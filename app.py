@@ -30,6 +30,6 @@ def videos():
     return render_template('videos.html')
 
 
-if __name__ == "__main__":
-    app.debug = True
-    app.run()
+#if __name__ == "__main__":
+#    app.debug = True
+#    app.run()
