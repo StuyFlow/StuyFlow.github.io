@@ -23,7 +23,7 @@ git clone git@github.com:StuyFlow/StuyFlow.github.io.git
 cd StuyFlow.github.io/
 npm install
 ```
-## Contributing
+### Contributing
 1.) Make a new branch off of the `main` branch to start doing your changes:
 ```
 git checkout main
@@ -67,7 +67,7 @@ onto the `master` branch:
 ```
 npm run deploy
 ```
-Check that it worked by going to [stuyflow.github.io](stuyflow.github.io)
+Check that it worked by going to [stuyflow.github.io](https://stuyflow.github.io)
 
 ## People
 - Jason Lin
