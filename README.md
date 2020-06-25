@@ -26,3 +26,6 @@ instead to publish your branch first. Then you can use the above method for futu
 write what you changed, and request a review.
 
 5.) The reviewer will make comments on the code and if everything is good, it will be merged to the master branch.
+
+## People
+- Jason Lin
