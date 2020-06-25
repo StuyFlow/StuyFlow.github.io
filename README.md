@@ -67,7 +67,7 @@ onto the `master` branch:
 ```
 npm run deploy
 ```
-Check that it worked by going to [stuyflow.github.io](stuyflow.github.io)
+Check that it worked by going to [stuyflow.github.io](https://stuyflow.github.io)
 
 ## People
 - Jason Lin
