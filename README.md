@@ -2,18 +2,41 @@
 The official website for StuyFlow.
 
 ## Instructions For Developers
-1.) Clone the repository
+These will be the instructions for the developers.
+### Getting Started (Do This Once)
+1.) Install [Node.js](https://nodejs.org/en/).
+
+2.) Check that you have installed it correctly by running the following commands
+from your terminal:
+```
+node -v
+npm -v
+```
+You should get some numbers that indicate the version that you have installed.
+
+3.) Clone the repository
 ```
 git clone git@github.com:StuyFlow/StuyFlow.github.io.git
 ```
-Make sure you have Python3!!!
-Install flask by doing `pip3 install flask`.
-
-2.) Make a new branch to start doing your changes:
+4.) Go into the folder and install the dependencies:
 ```
+cd StuyFlow.github.io/
+npm install
+```
+## Contributing
+1.) Make a new branch off of the `main` branch to start doing your changes:
+```
+git checkout main
 git checkout -b <branch-name>
 ```
-3.) If you want to save your changes to your branch:
+2.) Run the client side:
+```
+cd stuyflow/
+npm run start
+```
+3.) Make your changes. Most of the code is located inside of `StuyFlow.github.io/stuyflow/src/`. It is recommended that you open two tabs in your terminal. One for running the client side and the other for git related things.
+
+3.) If you want to save your changes to your branch, **make sure you are in the root directory**:
 ```
 git add .
 git commit -m "Type message here. The quotes are necessary"
