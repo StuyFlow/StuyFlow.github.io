@@ -29,12 +29,12 @@ npm install
 git checkout main
 git checkout -b <branch-name>
 ```
-2.) Run the client side:
+2.) Run the client side server:
 ```
-cd stuyflow/
 npm run start
 ```
-3.) Make your changes. Most of the code is located inside of `StuyFlow.github.io/stuyflow/src/`. It is recommended that you open two tabs in your terminal. One for running the client side and the other for git related things.
+3.) Now you can make your changes. You can view it on `localhost:3000`, or any other port
+if you are already using that port for some reason. Most of the code is located inside of `src/`. It is recommended that you open two tabs in your terminal. One for running the client side and the other for git related things.
 
 3.) If you want to save your changes to your branch, **make sure you are in the root directory**:
 ```
@@ -42,13 +42,32 @@ git add .
 git commit -m "Type message here. The quotes are necessary"
 git push
 ```
-NOTE: If you are pushing for the first time, do `git push -u origin <branch-name>`
+**NOTE**: If you are pushing for the first time, do `git push -u origin <branch-name>`
 instead to publish your branch first. Then you can use the above method for future changes.
 
 4.) Once you are done making changes to your branch, make a pull request,
 write what you changed, and request a review.
 
-5.) The reviewer will make comments on the code and if everything is good, it will be merged to the master branch.
+5.) The reviewer will make comments on the code and if everything is good, it will be merged to the master branch. If there is something that needs to be changed, the reviewer will leave a review and you just
+have to make the changes and push it to the same branch. The pull request will update with those new changes.
+
+**Warnings**: Please do not commit directly to either the `master` or the `main` branch.
+The `main` branch will contain the main source code. The `master` branch contains the
+website after it has been converted into a static site.
+
+## Instructions for Owners
+Let's say that you just finished merging the developers' changes to the `main` branch.
+To deploy the changes, go to the `main` branch and pull in the new changes:
+```
+git checkout main
+git pull
+```
+Now, deploy by running this command. It will automatically push the new static website
+onto the `master` branch:
+```
+npm run deploy
+```
+Check that it worked by going to [stuyflow.github.io](stuyflow.github.io)
 
 ## People
 - Jason Lin
