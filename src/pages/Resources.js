@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import '../styles/Resources.css';
 
 class Resources extends Component {
     render() {

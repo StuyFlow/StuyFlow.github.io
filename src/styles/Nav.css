@@ -1,0 +1,11 @@
+a {
+    margin: 10px;
+}
+
+.navbar {
+    display: flex;
+}
+
+.navlinks {
+    text-transform: capitalize;
+}

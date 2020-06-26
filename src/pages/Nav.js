@@ -1,29 +1,26 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
+import '../styles/Nav.css';
 
-const beforeHome = ["about", "board", "contact"];
-const afterHome = ["photos", "resources", "videos"];
+const beforeHome = ["home", "about", "board", "contact", "photos", "resources", "videos"];
 
 class Nav extends Component {
     render() {
         return (
-            <div style={{display: "flex"}}>
+            <div className="navbar">
                 {beforeHome.map((link, k) => {
+                    if (link === "home") {
+                        return (
+                            <Link to={"/"} key={k}>
+                                <span className="navlinks">
+                                    {link}
+                                </span>
+                            </Link>
+                        );
+                    }
                     return (
                         <Link to={link} key={k}>
-                            <span style={{textTransform: "capitalize"}}>
-                                {link}
-                            </span>
-                        </Link>
-                    );
-                })}
-                <Link to="">
-                    <span>STUYFLOW</span>
-                </Link>
-                {afterHome.map((link, k) => {
-                    return (
-                        <Link to={link} key={k}>
-                            <span style={{textTransform: "capitalize"}}>
+                            <span className="navlinks">
                                 {link}
                             </span>
                         </Link>
