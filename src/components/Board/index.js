@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { boardPeople } from './boardPeople';
+import { board } from './board';
 import './Board.css';
 
 class Board extends Component {
@@ -7,14 +7,14 @@ class Board extends Component {
         return (
             <div>
                 <h1>Hi. I am the Board Page.</h1>
-                {Object.keys(boardPeople).map(date => (
-                    <div key={date}>
-                        <h2>{date}</h2>
-                        {boardPeople[date].map(person => (
+                {board.map(term => (
+                    <div key={term.year}>
+                        <h2>{term.year}</h2>
+                        {term.people.map(person => (
                             <div>
                                 <img
                                     className="board-photos"
-                                    src={require(`./imgs/${date}/${person.imgName}`)}
+                                    src={require(`./imgs/${term.year}/${person.imgName}`)}
                                 />
                                 <br/>
                                 {person.name} <br/>
