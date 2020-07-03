@@ -71,3 +71,4 @@ Check that it worked by going to [stuyflow.github.io](https://stuyflow.github.io
 
 ## People
 - Jason Lin
+- Steve Wang
