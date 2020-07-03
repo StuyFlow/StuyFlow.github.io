@@ -4,7 +4,7 @@ export const boardPeople = {
         {
             name: "Raymond Xu",
             title: "President",
-            desc: "I am Raymond Xu and I like to drink bubble tea.",
+            desc: "I am Raymond Xu and I do not like to drink bubble tea.",
             imgName: "raymond_xu.jpg"
         },
         {
