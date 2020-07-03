@@ -1,14 +1,13 @@
 import React, { Component } from 'react';
 import { Switch, Route } from 'react-router-dom';
-import Home from './pages/Home.js';
-import About from './pages/About.js';
-import Contact from './pages/Contact.js';
-import Board from './pages/Board.js';
-import Photos from './pages/Photos.js';
-import Videos from './pages/Videos.js';
-import Resources from './pages/Resources.js';
-import Error from './pages/Error.js';
-import Nav from './pages/Nav.js';
+import Home from './components/Home';
+import Board from './components/Board';
+import Contact from './components/Contacts';
+import Photos from './components/Photos';
+import Videos from './components/Videos';
+import Resources from './components/Resources';
+import Error from './components/Utils/Error';
+import Nav from './components/Utils/Nav';
 
 class App extends Component {
     render() {
@@ -16,7 +15,6 @@ class App extends Component {
             <div>
                 <Nav />
                 <Switch>
-                    <Route path="/about" component={About}/>
                     <Route path="/contact" component={Contact}/>
                     <Route path="/board" component={Board}/>
                     <Route path="/photos" component={Photos}/>
