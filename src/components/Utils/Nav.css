@@ -1,11 +1,16 @@
-a {
-    margin: 10px;
-}
-
 .navbar {
     display: flex;
 }
 
-.navlinks {
+.navbar a {
+    margin-left: auto;
+    margin-right: 20px;
+    font-family: Gugi;
+    text-decoration: none;
+    color: white;
+}
 
+
+.logo {
+    width: 120px;
 }

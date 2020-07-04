@@ -1,3 +1,9 @@
-h1 {
-    color: red;
+.background {
+    background-color: #120033;
+}
+
+.pageHeader {
+    color: white;
+    font-family: Gugi;
+    font-size: 60px;
 }
