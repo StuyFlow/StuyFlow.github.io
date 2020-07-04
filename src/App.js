@@ -14,7 +14,9 @@ class App extends Component {
     render() {
         return (
             <div className="background">
-                <Nav />
+                <Switch>
+                    <Nav/>
+                </Switch>
                 <Switch>
                     <Route path="/board" component={Board}/>
                     <Route path="/contact" component={Contact}/>
