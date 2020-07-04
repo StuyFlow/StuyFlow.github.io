@@ -6,9 +6,9 @@ class Board extends Component {
     render() {
         return (
             <div>
-                <h1>Hi. I am the Board Page.</h1>
+                <div className="pageHeader">StuyFlow Board</div>
                 {board.map(term => (
-                    <div key={term.year}>
+                    <div key={term.year} style={{color:"white"}}>
                         <h2>{term.year}</h2>
                         {term.people.map(person => (
                             <div>

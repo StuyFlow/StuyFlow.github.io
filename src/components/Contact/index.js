@@ -5,7 +5,7 @@ class Contact extends Component {
     render() {
         return (
             <div>
-                <h1>Hi. I am the Contact Page.</h1>
+                <div className="pageHeader">Contact Us</div>
                 <div>
                     Contact us here (links here)!!!
                 </div>
