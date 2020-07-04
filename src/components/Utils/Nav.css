@@ -3,15 +3,20 @@
 }
 
 .navlinks {
-    color: white;
     font-family: Gugi;
+    padding: 40px;
+    font-size: 22px;
+}
+
+.navlinks a {
     text-decoration: none;
+    color: white;
 }
 
 .link-div {
+    display: flex;
     margin-left: auto;
 }
-
 
 .logo {
     width: 120px;

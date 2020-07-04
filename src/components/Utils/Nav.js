@@ -26,11 +26,11 @@ class Nav extends Component {
                 <div className="link-div">
                 {links.map((link, k) => {
                     return (
-                        <Link to={link.link} key={k}>
-                            <span className="navlinks">
+                        <div className="navlinks">
+                            <Link to={link.link} key={k}>
                                 {link.name}
-                            </span>
-                        </Link>
+                            </Link>
+                        </div>
                     );
                 })}
                 </div>
