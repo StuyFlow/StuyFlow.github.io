@@ -23,6 +23,7 @@ class Nav extends Component {
                         alt="StuyFlow Logo"
                     />
                 </div>
+                <div className="link-div">
                 {links.map((link, k) => {
                     return (
                         <Link to={link.link} key={k}>
@@ -32,6 +33,7 @@ class Nav extends Component {
                         </Link>
                     );
                 })}
+                </div>
             </div>
         );
     }
