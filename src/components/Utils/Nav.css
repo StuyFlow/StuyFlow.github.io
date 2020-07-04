@@ -4,8 +4,8 @@
 
 .navlinks {
     font-family: Gugi;
-    padding: 40px;
-    font-size: 22px;
+    padding: 50px 40px;
+    font-size: 20px;
 }
 
 .navlinks a {
@@ -19,5 +19,6 @@
 }
 
 .logo {
-    width: 120px;
+    padding: 30px;
+    width: 130px;
 }
