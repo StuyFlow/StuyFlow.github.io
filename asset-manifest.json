@@ -1,25 +1,28 @@
 {
   "files": {
-    "main.css": "/static/css/main.20b40eb9.chunk.css",
-    "main.js": "/static/js/main.fbfd57ca.chunk.js",
-    "main.js.map": "/static/js/main.fbfd57ca.chunk.js.map",
+    "main.css": "/static/css/main.2d9ef508.chunk.css",
+    "main.js": "/static/js/main.83edb808.chunk.js",
+    "main.js.map": "/static/js/main.83edb808.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.63b07cbf.js",
     "runtime-main.js.map": "/static/js/runtime-main.63b07cbf.js.map",
-    "static/js/2.6fa537b2.chunk.js": "/static/js/2.6fa537b2.chunk.js",
-    "static/js/2.6fa537b2.chunk.js.map": "/static/js/2.6fa537b2.chunk.js.map",
+    "static/js/2.fc4f06c6.chunk.js": "/static/js/2.fc4f06c6.chunk.js",
+    "static/js/2.fc4f06c6.chunk.js.map": "/static/js/2.fc4f06c6.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.fa6ac53d96ae9934b6da65c135b55c21.js": "/precache-manifest.fa6ac53d96ae9934b6da65c135b55c21.js",
+    "precache-manifest.de557f2c2dca7d155967da13492e7e0e.js": "/precache-manifest.de557f2c2dca7d155967da13492e7e0e.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/main.20b40eb9.chunk.css.map": "/static/css/main.20b40eb9.chunk.css.map",
-    "static/js/2.6fa537b2.chunk.js.LICENSE.txt": "/static/js/2.6fa537b2.chunk.js.LICENSE.txt",
+    "static/css/main.2d9ef508.chunk.css.map": "/static/css/main.2d9ef508.chunk.css.map",
+    "static/js/2.fc4f06c6.chunk.js.LICENSE.txt": "/static/js/2.fc4f06c6.chunk.js.LICENSE.txt",
+    "static/media/index.css": "/static/media/Timmana-Regular.a7c2bafd.ttf",
+    "static/media/background_video.mp4": "/static/media/background_video.2e649b1d.mp4",
     "static/media/heiley_tai.jpg": "/static/media/heiley_tai.237a03d5.jpg",
     "static/media/khandaker_ridwan.jpg": "/static/media/khandaker_ridwan.7f3c4f4d.jpg",
-    "static/media/raymond_xu.jpg": "/static/media/raymond_xu.fee6df02.jpg"
+    "static/media/raymond_xu.jpg": "/static/media/raymond_xu.fee6df02.jpg",
+    "static/media/stuyflow_logo.png": "/static/media/stuyflow_logo.9caa1f6c.png"
   },
   "entrypoints": [
     "static/js/runtime-main.63b07cbf.js",
-    "static/js/2.6fa537b2.chunk.js",
-    "static/css/main.20b40eb9.chunk.css",
-    "static/js/main.fbfd57ca.chunk.js"
+    "static/js/2.fc4f06c6.chunk.js",
+    "static/css/main.2d9ef508.chunk.css",
+    "static/js/main.83edb808.chunk.js"
   ]
 }
