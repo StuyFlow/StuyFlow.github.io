@@ -19,6 +19,17 @@ class Nav extends Component {
         super(props);
     }
 
+    componentDidUpdate() {
+        const { pathname } = this.props.location;
+        if (pathname === "/") {
+            document.body.style.overflowY = "hidden";
+        } else {
+            document.body.style.overflowY = "scroll";
+        }
+        document.body.scrollTop = 0; // For Safari
+        document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+    }
+
     render() {
         const { pathname } = this.props.location;
         return (

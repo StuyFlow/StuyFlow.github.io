@@ -6,6 +6,7 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+
 @font-face {
     font-family: Gugi;
     src: url(./fonts/Gugi-Regular.ttf);

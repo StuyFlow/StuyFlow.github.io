@@ -1,9 +1,11 @@
+/* Top Level Home Page*/
 .homepage {
     overflow-y: scroll;
     height: 100vh;
     scroll-snap-type: y mandatory;
 }
 
+/* Dividers */
 .home-div {
     position: relative;
     scroll-snap-align: start;
@@ -14,16 +16,12 @@
     overflow-y: hidden;
 }
 
+/* Video */
 .backgroundVideo {
     width: 100%;
 }
 
-.about-desc {
-    font-family: Gugi;
-    font-size: 20px;
-    color: white;
-}
-
+/* Text in front of video */
 .frontpage-desc {
     position: absolute;
     right: 0;
@@ -44,6 +42,13 @@
     text-shadow: 10px 4px 20px #030303;
 }
 
+/* About */
 .about-page {
     padding: 150px 80px;
+}
+
+.about-desc {
+    font-family: Gugi;
+    font-size: 20px;
+    color: white;
 }
