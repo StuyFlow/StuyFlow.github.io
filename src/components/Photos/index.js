@@ -14,7 +14,7 @@ import './Photos.css';
 class Photos extends Component {
     render() {
         return (
-            <div>
+            <div className="page">
                 <div className="pageHeader">Photos</div>
             </div>
         );

@@ -4,7 +4,7 @@ import './Resources.css';
 class Resources extends Component {
     render() {
         return (
-            <div>
+            <div className="page">
                 <div className="pageHeader">Resources</div>
             </div>
         );

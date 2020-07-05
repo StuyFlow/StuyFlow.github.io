@@ -12,8 +12,8 @@ import './Videos.css';
 class Videos extends Component {
     render() {
         return (
-            <div className="pageHeader">
-                <div>Videos</div>
+            <div className="page">
+                <div className="pageHeader">Videos</div>
             </div>
         );
     }
