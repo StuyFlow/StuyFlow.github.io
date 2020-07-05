@@ -1,13 +1,10 @@
 // Please put date in YYYY-MM-DD format
 export const stuysquadPhotos = [
     {
-        "name": "Sample",
+        "name": "StuySquad",
         "desc": "Sample Desc",
         "date": "2019-02-4",
+	"imgname": "stuysquad.png",
     },
-    {
-        "name": "Sample",
-        "desc": "Sample Desc",
-        "date": "2019-02-4",
-    },
+
 ]

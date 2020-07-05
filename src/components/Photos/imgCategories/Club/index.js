@@ -4,10 +4,12 @@ export const clubPhotos = [
         "name": "Sample",
         "desc": "Sample Desc",
         "date": "2019-02-4",
+	"imgname": "club.png",
     },
     {
         "name": "Sample",
         "desc": "Sample Desc",
         "date": "2019-02-4",
+	"imgname": "club.png",
     },
 ]

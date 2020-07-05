@@ -11,14 +11,65 @@ import { wallpaperPhotos } from './imgCategories/Wallpapers';
 
 import './Photos.css';
 
+const categories = {
+    "All": "",
+    "StuySquad": stuysquadPhotos,
+    "Sing": singPhotos,
+    "SOS": sosPhotos,
+    "Club": clubPhotos,
+    "Multigen": multigenPhotos,
+    "Wallpapers": wallpaperPhotos,
+    "Logos": logoPhotos,
+    "Merch": merchPhotos,
+    "Others": otherPhotos,
+};
+
+function all(category) {
+    if (category === "All") { return true; }
+    else { return false; }
+}
+
 class Photos extends Component {
+    constructor(props) {
+        super(props);
+        this.state = {
+            category: "StuySquad",
+        };
+    }
+
+    changeCategory = category => {
+        this.setState({ category: category });
+    };
+
     render() {
         return (
-            <div className="page">
-                <div className="pageHeader">Photos</div>
+		<div className="page">
+                   <div className="pageHeader">Photos</div>         
+                   <div style={{display: "flex"}}>
+                   {Object.keys(categories).map(category => (
+			   <div className="categories"
+                       style={{margin:"10px",color:"white"}}
+                       onClick={() => this.changeCategory(category)}
+			   >
+                           { category }
+                          </div>
+                   ))}
+
+	    <br /><br />
+	    { categories[this.state.category].map( img => (	
+			<img className="imag"
+		    src={require('../../../src/components/Photos/imgCategories/'+this.state.category+'/'
+				 + img.imgname)} style={{width:"380px", height:"230px"}}>
+			</img>
+	    )) }
+	    
+	    </div>
+
             </div>
+
         );
     }
 }
+
 
 export default Photos;

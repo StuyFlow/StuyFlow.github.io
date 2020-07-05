@@ -4,10 +4,12 @@ export const merchPhotos = [
         "name": "Sample",
         "desc": "Sample Desc",
         "date": "2019-02-4",
+	"imgname": "merch.png",
     },
     {
         "name": "Sample",
         "desc": "Sample Desc",
         "date": "2019-02-4",
+	"imgname": "merch.png",
     },
 ]
