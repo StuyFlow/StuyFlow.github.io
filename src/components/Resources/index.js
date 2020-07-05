@@ -33,17 +33,17 @@ class Resources extends Component {
         return (
             <div className="page">
                 <div className="pageHeader">Resources</div>
-                <div style={{display: "flex", fontFamily:"Gugi"}}>
+                <div className="resource-bar">
                     {Object.keys(sections).map(section => (
-                        <div
-                            style={{color: "white", margin: "10px"}}
+                        <div className="resource-bar-items"
                             onClick={() => this.changeSection(section)}
                         >
                             {section}
                         </div>
                     ))}
                 </div>
-                <div style={{fontSize: "30px", color: "white"}}>
+
+                <div className="section-component">
                     <SectionComponent />
                 </div>
             </div>

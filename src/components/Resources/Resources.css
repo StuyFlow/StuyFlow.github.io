@@ -1,3 +1,23 @@
 .section-name {
     color: white;
 }
+
+.resource-bar {
+    display: flex;
+    font-family: "Gugi";
+}
+
+.resource-bar-items {
+    color: white;
+    margin: 20px;
+}
+
+.resource-bar-items:hover {
+    color: #FFF500;
+    text-decoration: underline;
+}
+
+.section-component {
+    color: white;
+    font-size: 30px;
+}
