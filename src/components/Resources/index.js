@@ -4,7 +4,9 @@ import './Resources.css';
 class Resources extends Component {
     render() {
         return (
-            <h1>Hi. I am the Resources Page.</h1>
+            <div className="page">
+                <div className="pageHeader">Resources</div>
+            </div>
         );
     }
 }
