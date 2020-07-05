@@ -1,10 +1,23 @@
 import React, { Component } from 'react';
+import EquipmentBox from './EquipmentBox.js';
 import './Resources.css';
 
-class Resources extends Component {
+const stores = [
+	{ name: "ExtremeGlow", desc: "Cool" },
+	{ name: "ExtremeGlow2", desc: "Cool2" }
+];
+
+class General extends Component {
 	render() {
 		return (
-			<p>test</p>
+			<div>
+				<p className="section-name">General</p>
+				{stores.map(store => (
+					<EquipmentBox name={store.name} desc={store.desc}/>
+				))}
+			</div>
 		);
 	}
 }
+
+export default General;
