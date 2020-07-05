@@ -1,5 +1,20 @@
+.homepage {
+    overflow-y: scroll;
+    height: 100vh;
+    scroll-snap-type: y mandatory;
+}
+
+.home-div {
+    position: relative;
+    scroll-snap-align: start;
+}
+
+.video {
+    height: 100vh;
+    overflow-y: hidden;
+}
+
 .backgroundVideo {
-    margin-top: -5%;
     width: 100%;
 }
 
@@ -12,7 +27,7 @@
 .frontpage-desc {
     position: absolute;
     right: 0;
-    top: 40%;
+    top: 37%;
     color: white;
     padding-right: 80px;
     text-align: right;
@@ -27,4 +42,8 @@
 .slogan {
     font-size: 25px;
     text-shadow: 10px 4px 20px #030303;
+}
+
+.about-page {
+    padding: 150px 80px;
 }
