@@ -1,9 +1,9 @@
 // NOTE: Please format dates like YYYY-MM-DD
 export const stuysquadVideos = [
     {
-        "name": "VideoName",
+        "name": "StuySquad 2020",
         "date": "2020-09-21",
-        "videoLink": "link",
+        "videoLink": "linkfiosfjosj",
     },
     {
         "name": "VideoName",

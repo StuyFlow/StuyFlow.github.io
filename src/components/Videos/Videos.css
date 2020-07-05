@@ -1,0 +1,10 @@
+.categories {
+    display: flex;
+}
+
+.category {
+    color: white;
+    font-family: Gugi;
+    font-size: 20px;
+    margin: 10px;
+}
