@@ -6,13 +6,13 @@ export const board = [
             {
                 name: "Raymond Xu",
                 title: "President",
-                desc: "I am Raymond Xu and I am bubble tea and like to drink drink drink drink bubble tea.",
+                desc: "I am Raymond Xu and I really do not like bubble tea",
                 imgName: "raymond_xu.jpg"
             },
             {
                 name: "Aaron Hsu",
                 title: "Vice President",
-                desc: "I am Aaron Hsu and I like to play Minecraft.",
+                desc: "I am Aaron Hsu and I like to play Minecraft .",
                 imgName: "aaron_hsu.jpg"
             },
         ]
