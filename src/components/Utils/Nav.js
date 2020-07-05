@@ -3,6 +3,8 @@ import { Link } from 'react-router-dom';
 import logo from './stuyflow_logo.png';
 import './Nav.css';
 
+import { useLocation } from 'react-router-dom';
+
 const links = [
     { name: "Home", link: "/" },
     { name: "Board", link: "/board" },
@@ -13,7 +15,12 @@ const links = [
 ];
 
 class Nav extends Component {
+    constructor(props) {
+        super(props);
+    }
+
     render() {
+        const { pathname } = this.props.location;
         return (
             <div className="navbar">
                 <div>
@@ -23,15 +30,21 @@ class Nav extends Component {
                         alt="StuyFlow Logo"
                     />
                 </div>
+                <div className="link-div">
                 {links.map((link, k) => {
+
                     return (
-                        <Link to={link.link} key={k}>
-                            <span className="navlinks">
+                        <div
+                            className={`navlink ${link.link === pathname && 'navlink-active'}`}
+                            key={k}
+                        >
+                            <Link to={link.link}>
                                 {link.name}
-                            </span>
-                        </Link>
+                            </Link>
+                        </div>
                     );
                 })}
+                </div>
             </div>
         );
     }

@@ -5,7 +5,7 @@ import './Board.css';
 class Board extends Component {
     render() {
         return (
-            <div>
+            <div className="page">
                 <div className="pageHeader">StuyFlow Board</div>
                 {board.map(term => (
                     <div key={term.year} style={{color:"white"}}>

@@ -2,15 +2,38 @@
     display: flex;
 }
 
-.navbar a {
-    margin-left: auto;
-    margin-right: 20px;
+.navlink {
     font-family: Gugi;
+    padding: 60px 40px;
+    font-size: 20px;
+}
+
+.navlink:last-child {
+    padding-right: 80px;
+}
+
+.navlink a {
     text-decoration: none;
     color: white;
 }
 
+.navlink-active a {
+    text-decoration: none;
+    padding-bottom: 3px;
+    border-bottom: 1px solid #fff500;
+    color: #fff500;
+}
+
+.navlink a:hover {
+    color: #fff500;
+}
+
+.link-div {
+    display: flex;
+    margin-left: auto;
+}
 
 .logo {
-    width: 120px;
+    padding: 30px 0 0 80px;
+    width: 130px;
 }

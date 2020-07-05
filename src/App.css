@@ -2,8 +2,13 @@
     background-color: #120033;
 }
 
+.page {
+    padding: 40px 80px;
+}
+
 .pageHeader {
     color: white;
     font-family: Gugi;
     font-size: 60px;
+    border-bottom: 3px solid #fff500;
 }
