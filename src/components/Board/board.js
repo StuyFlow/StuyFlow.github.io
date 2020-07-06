@@ -2,6 +2,12 @@
 export const board = {
     "2020-2021": [
         {
+            name: "Raymond Xu",
+            title: "President",
+            desc: "Aside from my STEM interests, I love fostering environments where people are able to vibe and grow happily as a community. I joined StuyFlow in my sophomore year, and I have to give a shoutout to all the previous leaders of StuyFlow for cultivating a club for me to grow in. Because of this club, I’ve thankfully fallen out of my middle school gaming life as flowing and spending quality time with old and new people have become my new forte. Oh, and did I forget to mention that I have the same birthday as Jenny?",
+            imgName: "raymond_xu.jpg"
+        },
+        {
             name: "Susu Tran",
             title: "Designer",
             desc: "I like skating around and longboard dancing and teaching my friends to skate too. I draw when I have the time or if I’m bored in class, and I think being a tattoo artist would be pretty cool.",
@@ -14,6 +20,12 @@ export const board = {
             title: "President",
             desc: "Aloha Flowers! I love learning about different languages and cultures through traveling! I also love taking photos. During my freshman year, I learned about this amazing club called StuyFlow. I loved how unique it was so I decided to join. Through the art of poi spinning and various new styles like Whipping and Flow x HipHop, the 2020 cohort changed Flow for the years to come. I absolutely love leading and being with this beautiful community.",
             imgName: "khandaker_ridwan.jpg"
+        },
+        {
+            name: "Raymond Xu",
+            title: "Leader In Training",
+            desc: "Aside from my STEM interests, I love fostering environments where people are able to vibe and grow happily as a community. I joined StuyFlow in my sophomore year, and I have to give a shoutout to all the previous leaders of StuyFlow for cultivating a club for me to grow in. Because of this club, I’ve thankfully fallen out of my middle school gaming life as flowing and spending quality time with old and new people have become my new forte. Oh, and did I forget to mention that I have the same birthday as Jenny?",
+            imgName: "raymond_xu.jpg"
         },
     ],
     "2018-2019": [
@@ -53,7 +65,7 @@ export const board = {
             name: "Nicholas Yang",
             title: "Treasurer",
             desc: "Currently student on leave from NYU. Cloudflare intern for fall 2020. Interested in programming languages, movies and cooking.",
-            imgName: "nicholas_yang.png"
+            imgName: "nicholas_yang.jpg"
         },
     ],
     "2014-2015": [
