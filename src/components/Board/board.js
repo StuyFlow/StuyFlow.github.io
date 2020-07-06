@@ -41,6 +41,12 @@ export const board = {
             desc: "Aloha Flowers! I love learning about different languages and cultures through traveling! I also love taking photos. During my freshman year, I learned about this amazing club called StuyFlow. I loved how unique it was so I decided to join. Through the art of poi spinning and various new styles like Whipping and Flow x HipHop, the 2020 cohort changed Flow for the years to come. I absolutely love leading and being with this beautiful community.",
             imgName: "khandaker_ridwan.jpg"
         },
+        {
+            name: "Celeste Cheung",
+            title: "Treasurer",
+            desc: "My name is Celeste Cheung. I joined stuy Flow as a freshman in 2015. Thanks to mentorship from older members I became a confident performer in the flow arts. I also co-directed various annual performances and took on a leadership role as treasurer of our club. I learned valuable leadership and collaborative skills from these experiences. However, the lasting friendships that come from practicing and performing with other members is the best part of joining Stuy Flow.",
+            imgName: "celeste_cheung.jpg"
+        },
     ],
     "2017-2018": [
 
