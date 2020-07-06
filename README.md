@@ -75,3 +75,4 @@ Check that it worked by going to [stuyflow.github.io](https://stuyflow.github.io
 - Alice Ni
 - Alvin Chung
 - Aaron Hsu
+- Isabelle Lam
