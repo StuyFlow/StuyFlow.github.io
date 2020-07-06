@@ -21,7 +21,7 @@ class General extends Component {
 					<InfoBox header={list.header} desc={list.desc}/>
 				))}
 
-				<center><iframe className="video" width="560" height="315" src="https://www.youtube.com/embed/N4U-1Apvpd8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></center>
+				<center><iframe className="video" width="100%" height="100%" src="https://www.youtube.com/embed/N4U-1Apvpd8" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></center>
 
 				{stores.map(store => (
 					<EquipmentBox name={store.name} desc={store.desc}/>
