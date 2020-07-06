@@ -1,0 +1,18 @@
+.sentence {
+  display: flex;
+  color: white;
+  font-family: Gugi;
+  font-size: 25px;
+}
+
+a {
+  display: flex;
+  color: white;
+  font-family: Gugi;
+}
+.email {
+  display: flex;
+  color: cyan;
+  font-family: Gugi;
+  font-size: 25px;
+}
