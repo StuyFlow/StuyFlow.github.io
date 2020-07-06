@@ -8,11 +8,11 @@ class EquipmentBox extends Component {
                 <div className="item-box">
 
                     <div>
-                        <img className="item-image" src={require(`./imgs/${this.props.imgs}`)} />
+                        <img className="item-image" src={require(`./imgs/${this.props.img}`)} />
                     </div>
 
                     <div className="item-text">
-                        
+
                         <h3 className="item-name">{this.props.name}</h3>
 
                         <ul className="item-description">
