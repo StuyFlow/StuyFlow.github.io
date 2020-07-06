@@ -24,10 +24,10 @@ const categories = {
     "Others": otherPhotos,
 };
 
-function all(category) {
+const all = (category) => {
     if (category === "All") { return true; }
     else { return false; }
-}
+};
 
 class Photos extends Component {
     constructor(props) {
@@ -44,29 +44,27 @@ class Photos extends Component {
     render() {
         return (
 		<div className="page">
-                   <div className="pageHeader">Photos</div>         
-                   <div style={{display: "flex"}}>
-                   {Object.keys(categories).map(category => (
-			   <div className="categories"
-                       style={{margin:"10px",color:"white"}}
-                       onClick={() => this.changeCategory(category)}
-			   >
-                           { category }
-                          </div>
-                   ))}
-
-	    <br /><br />
-	    { categories[this.state.category].map( img => (	
-			<img className="imag"
-		    src={require('../../../src/components/Photos/imgCategories/'+this.state.category+'/'
-				 + img.imgname)} style={{width:"380px", height:"230px"}}>
-			</img>
-	    )) }
-	    
-	    </div>
-
+           <div className="pageHeader">Photos</div>
+           <div style={{display: "flex"}}>
+               {Object.keys(categories).map(category => (
+                    <div
+                        className="categories"
+                        style={{margin:"10px",color:"white"}}
+                        onClick={() => this.changeCategory(category)}
+                	>
+                        { category }
+                    </div>
+               ))}
             </div>
-
+            <br /><br />
+            {categories[this.state.category].map(img => (
+                <img
+                    className="imag"
+                    src={require('../../../src/components/Photos/imgCategories/'+this.state.category+'/'
+                     + img.imgname)} style={{width:"380px", height:"230px"}}>
+                </img>
+            ))}
+        </div>
         );
     }
 }
