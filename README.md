@@ -55,6 +55,12 @@ have to make the changes and push it to the same branch. The pull request will u
 The `main` branch will contain the main source code. The `master` branch contains the
 website after it has been converted into a static site.
 
+### Adding Photos For Board Members
+1.) Get the picture, position title, and description from a board member.
+2.) Go to [PicResize](https://picresize.com/#) to resize the image to 500 x 500 pixels (use custom size).
+This will make the images load faster.
+3.) Place the image in the correct year folder and add an entry to the `/src/Board/board.js` file.
+
 ## Instructions for Owners
 Let's say that you just finished merging the developers' changes to the `main` branch.
 To deploy the changes, go to the `main` branch and pull in the new changes:
