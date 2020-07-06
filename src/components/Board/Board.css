@@ -1,4 +1,58 @@
-.board-photos {
-    height: 200px;
-    width: 200px;
+/* Year Selector */
+
+.year {
+    display: flex;
+    margin: 10px 0px 40px;
+}
+
+.year-label {
+    font-family: Gugi;
+    font-size: 20px;
+    color: white;
+    margin-right: 10px;
+}
+
+.year-selector {
+    font-size: 18px;
+    font-family: Gugi;
+
+}
+
+/* Board People */
+.board-members {
+
+}
+
+.person {
+    display: flex;
+    height: 50vh;
+}
+
+.board-photo {
+    width: 300px;
+    height: 300px;
+    border-radius: 100%;
+    border: 3px solid #FFF500;
+}
+
+.info {
+    margin-left: 40px;
+}
+
+.board-name {
+    font-family: Gugi;
+    font-size: 48px;
+    color: white;
+}
+
+.board-title {
+    font-family: Timmana;
+    font-size: 30px;
+    color: #FFF500;
+}
+
+.board-desc {
+    font-family: Gugi;
+    font-size: 24px;
+    color: white;
 }
