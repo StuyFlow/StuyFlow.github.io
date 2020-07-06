@@ -12,7 +12,7 @@ class EquipmentBox extends Component {
                     </div>
 
                     <div className="item-text">
-                        
+
                         <h3 className="item-name">{this.props.name}</h3>
 
                         <ul className="item-description">
