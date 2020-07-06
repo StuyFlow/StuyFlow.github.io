@@ -2,16 +2,16 @@
 export const board = {
     "2020-2021": [
         {
-            name: "Susu Tran",
-            title: "Designer",
-            desc: "I like skating around and longboard dancing and teaching my friends to skate too. I draw when I have the time or if I’m bored in class, and I think being a tattoo artist would be pretty cool.",
-            imgName: "susu_tran.jpg"
-        },
-        {
             name: "Raymond Xu",
             title: "President",
             desc: "Aside from my STEM interests, I love fostering environments where people are able to vibe and grow happily as a community. I joined StuyFlow in my sophomore year, and I have to give a shoutout to all the previous leaders of StuyFlow for cultivating a club for me to grow in. Because of this club, I’ve thankfully fallen out of my middle school gaming life as flowing and spending quality time with old and new people have become my new forte. Oh, and did I forget to mention that I have the same birthday as Jenny?",
             imgName: "raymond_xu.jpg"
+        },
+        {
+            name: "Susu Tran",
+            title: "Designer",
+            desc: "I like skating around and longboard dancing and teaching my friends to skate too. I draw when I have the time or if I’m bored in class, and I think being a tattoo artist would be pretty cool.",
+            imgName: "susu_tran.jpg"
         },
     ],
     "2019-2020": [
