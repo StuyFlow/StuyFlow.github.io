@@ -1,4 +1,17 @@
-.board-photos {
+.board-photo {
     height: 200px;
     width: 200px;
+}
+
+.year-selector {
+    display: flex;
+}
+
+.year-label {
+    color: white;
+    font-family: Gugi;
+}
+
+.info {
+    color: white;
 }
