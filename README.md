@@ -74,3 +74,4 @@ Check that it worked by going to [stuyflow.github.io](https://stuyflow.github.io
 - Steve Wang
 - Alice Ni
 - Alvin Chung
+- Aaron Hsu
