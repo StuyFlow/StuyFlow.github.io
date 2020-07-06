@@ -45,6 +45,15 @@
     border: 2px white solid;
 }
 
+
+.equipment-header {
+    color: white;
+    margin-bottom: 30px;
+    font-family: "Gugi";
+    font-size: 50px;
+    font-weight: 1;
+}
+
 .item-box {
     display: flex;
 }
@@ -68,5 +77,8 @@
 
 .item-image {
     border: 2px white solid;
-    border-radius: 5px;
+    border-radius: 20px;
+    width: 350px;
+    margin-right: 30px;
+    margin-bottom: 60px;
 }

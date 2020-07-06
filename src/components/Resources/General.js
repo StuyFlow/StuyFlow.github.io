@@ -23,7 +23,7 @@ class General extends Component {
 
 				<center><iframe className="video" width="100%" height="100%" src="https://www.youtube.com/embed/N4U-1Apvpd8" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></center>
 
-				<h2 className="header">Glowstick Stores</h2>
+				<h2 className="equipment-header">Glowstick Stores</h2>
 				{equipment.map(item => (
 					<EquipmentBox name={item.name} desc={item.desc} img={item.img}/>
 				))}
