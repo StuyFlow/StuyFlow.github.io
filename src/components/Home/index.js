@@ -17,14 +17,26 @@ class Home extends Component {
                 </div>
                 <div className="about-page home-div">
                     <div className="pageHeader">What is StuyFlow?</div>
-                    <div className="about-desc">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Vivamus at augue eget arcu dictum varius duis at. Egestas sed sed risus pretium quam vulputate. Commodo viverra maecenas accumsan lacus vel. Et pharetra pharetra massa massa ultricies mi quis hendrerit. Nullam non nisi est sit amet. Turpis egestas maecenas pharetra convallis posuere morbi leo urna. Adipiscing tristique risus nec feugiat in fermentum posuere urna. Sed ullamcorper morbi tincidunt ornare. Fermentum odio eu feugiat pretium nibh. Tincidunt dui ut ornare lectus sit amet. Aliquet porttitor lacus luctus accumsan tortor posuere ac ut. Ut tortor pretium viverra suspendisse potenti nullam ac tortor. Cursus vitae congue mauris rhoncus aenean vel elit scelerisque mauris. Sed blandit libero volutpat sed cras ornare arcu dui vivamus. Est pellentesque elit ullamcorper dignissim cras tincidunt. Enim nec dui nunc mattis enim ut tellus. Mattis vulputate enim nulla aliquet porttitor lacus luctus.
+                    <div>
+                        StuyFlow is a highschool club based in New York City
+                        focused on mastering props to create shows. The props
+                        we use include: poi, whips, staffs, and fans. We
+                        teach members how to use this variety to perform in
+                        any of three school shows--StuySquad, SING!, and SOS.
+                        We operate on a set of principles known as PLURR,
+                        partly due to the large culmulative effort needed to
+                        run shows smoothly. This motto stands for “Peace,
+                        Love, Unity, Respect, and Responsibility”.
                     </div>
-                    <div className="about-desc">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Vivamus at augue eget arcu dictum varius duis at. Egestas sed sed risus pretium quam vulputate. Commodo viverra maecenas accumsan lacus vel. Et pharetra pharetra massa massa ultricies mi quis hendrerit. Nullam non nisi est sit amet. Turpis egestas maecenas pharetra convallis posuere morbi leo urna. Adipiscing tristique risus nec feugiat in fermentum posuere urna. Sed ullamcorper morbi tincidunt ornare. Fermentum odio eu feugiat pretium nibh. Tincidunt dui ut ornare lectus sit amet. Aliquet porttitor lacus luctus accumsan tortor posuere ac ut. Ut tortor pretium viverra suspendisse potenti nullam ac tortor. Cursus vitae congue mauris rhoncus aenean vel elit scelerisque mauris. Sed blandit libero volutpat sed cras ornare arcu dui vivamus. Est pellentesque elit ullamcorper dignissim cras tincidunt. Enim nec dui nunc mattis enim ut tellus. Mattis vulputate enim nulla aliquet porttitor lacus luctus.
-                    </div>
-                    <div className="about-desc">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Vivamus at augue eget arcu dictum varius duis at. Egestas sed sed risus pretium quam vulputate. Commodo viverra maecenas accumsan lacus vel. Et pharetra pharetra massa massa ultricies mi quis hendrerit. Nullam non nisi est sit amet. Turpis egestas maecenas pharetra convallis posuere morbi leo urna. Adipiscing tristique risus nec feugiat in fermentum posuere urna. Sed ullamcorper morbi tincidunt ornare. Fermentum odio eu feugiat pretium nibh. Tincidunt dui ut ornare lectus sit amet. Aliquet porttitor lacus luctus accumsan tortor posuere ac ut. Ut tortor pretium viverra suspendisse potenti nullam ac tortor. Cursus vitae congue mauris rhoncus aenean vel elit scelerisque mauris. Sed blandit libero volutpat sed cras ornare arcu dui vivamus. Est pellentesque elit ullamcorper dignissim cras tincidunt. Enim nec dui nunc mattis enim ut tellus. Mattis vulputate enim nulla aliquet porttitor lacus luctus.
+                    <div>
+                        During off-seasons, a.k.a. times when we don’t
+                        have shows, we meet on Wednesdays and Fridays,
+                        usually in room 736 or 738. These meetings are
+                        used to get to know each other better, learn new
+                        moves, create choreography projects, etc. We use
+                        choreography projects as stress-free creative outlets,
+                        as they are not for shows, and they are displayed at a
+                        studio, typically during July or August.
                     </div>
                 </div>
             </div>
