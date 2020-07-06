@@ -1,28 +1,31 @@
 {
   "files": {
-    "main.css": "/static/css/main.e66a79e6.chunk.css",
-    "main.js": "/static/js/main.d005afbd.chunk.js",
-    "main.js.map": "/static/js/main.d005afbd.chunk.js.map",
+    "main.css": "/static/css/main.aaf4f5dd.chunk.css",
+    "main.js": "/static/js/main.b65bccf7.chunk.js",
+    "main.js.map": "/static/js/main.b65bccf7.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.63b07cbf.js",
     "runtime-main.js.map": "/static/js/runtime-main.63b07cbf.js.map",
-    "static/js/2.fc4f06c6.chunk.js": "/static/js/2.fc4f06c6.chunk.js",
-    "static/js/2.fc4f06c6.chunk.js.map": "/static/js/2.fc4f06c6.chunk.js.map",
+    "static/js/2.38e12d9c.chunk.js": "/static/js/2.38e12d9c.chunk.js",
+    "static/js/2.38e12d9c.chunk.js.map": "/static/js/2.38e12d9c.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.55d8cbc2903d4c1c3a69533ad962825a.js": "/precache-manifest.55d8cbc2903d4c1c3a69533ad962825a.js",
+    "precache-manifest.1c8c9570b5f4cde9b7b6d75afc7ac209.js": "/precache-manifest.1c8c9570b5f4cde9b7b6d75afc7ac209.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/main.e66a79e6.chunk.css.map": "/static/css/main.e66a79e6.chunk.css.map",
-    "static/js/2.fc4f06c6.chunk.js.LICENSE.txt": "/static/js/2.fc4f06c6.chunk.js.LICENSE.txt",
+    "static/css/main.aaf4f5dd.chunk.css.map": "/static/css/main.aaf4f5dd.chunk.css.map",
+    "static/js/2.38e12d9c.chunk.js.LICENSE.txt": "/static/js/2.38e12d9c.chunk.js.LICENSE.txt",
     "static/media/index.css": "/static/media/Timmana-Regular.a7c2bafd.ttf",
+    "static/media/angela_lin.jpg": "/static/media/angela_lin.76a0b087.jpg",
     "static/media/background_video.mp4": "/static/media/background_video.2e649b1d.mp4",
-    "static/media/heiley_tai.jpg": "/static/media/heiley_tai.237a03d5.jpg",
-    "static/media/khandaker_ridwan.jpg": "/static/media/khandaker_ridwan.7f3c4f4d.jpg",
-    "static/media/raymond_xu.jpg": "/static/media/raymond_xu.fee6df02.jpg",
-    "static/media/stuyflow_logo.png": "/static/media/stuyflow_logo.9caa1f6c.png"
+    "static/media/kayli_matsuyoshi.jpg": "/static/media/kayli_matsuyoshi.7cc81157.jpg",
+    "static/media/kevin_yan.jpg": "/static/media/kevin_yan.2f326e81.jpg",
+    "static/media/khandaker_ridwan.jpg": "/static/media/khandaker_ridwan.f13541b5.jpg",
+    "static/media/nicholas_yang.png": "/static/media/nicholas_yang.39ac689b.png",
+    "static/media/stuyflow_logo.png": "/static/media/stuyflow_logo.9caa1f6c.png",
+    "static/media/susu_tran.jpg": "/static/media/susu_tran.71bacf05.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.63b07cbf.js",
-    "static/js/2.fc4f06c6.chunk.js",
-    "static/css/main.e66a79e6.chunk.css",
-    "static/js/main.d005afbd.chunk.js"
+    "static/js/2.38e12d9c.chunk.js",
+    "static/css/main.aaf4f5dd.chunk.css",
+    "static/js/main.b65bccf7.chunk.js"
   ]
 }
