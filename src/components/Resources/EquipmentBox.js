@@ -6,9 +6,21 @@ class EquipmentBox extends Component {
 		return (
             <div>
                 <div className="item-box">
-                    <img src='./imgs/general/extreme_glow.jpg' />
-                    {this.props.name} <br/>
-                    {this.props.desc[0]}
+
+                    <div>
+                        <img className="item-image" src={this.props.img} />
+                    </div>
+
+                    <div className="item-text">
+                        
+                        <h3 className="item-name">{this.props.name}</h3>
+
+                        <ul className="item-description">
+                        {this.props.desc.map(details => (
+                            <li>{details}</li>
+                        ))}
+                        </ul>
+                    </div>
                 </div>
             </div>
 		);

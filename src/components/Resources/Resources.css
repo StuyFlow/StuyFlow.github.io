@@ -5,11 +5,14 @@
 .resource-bar {
     display: flex;
     font-family: "Gugi";
+    padding-left: 0px;
 }
 
 .resource-bar-items {
     color: white;
     margin: 20px;
+    margin-right: 40px;
+    margin-left: 0px;
 }
 
 .resource-bar-items:hover {
@@ -26,6 +29,7 @@
     color: white;
     margin-bottom: 10px;
     font-family: "Gugi";
+    font-size: 40px;
 }
 
 .desc {
@@ -43,4 +47,26 @@
 
 .item-box {
     display: flex;
+}
+
+.item-text {
+    font-family: "Timmana";
+}
+
+.item-name {
+    font-size: 40px;
+    font-weight: 1;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    color: #FFF500;
+}
+
+.item-description {
+    margin-top: 0px;
+    font-size: 24px;
+}
+
+.item-image {
+    border: 2px white solid;
+    border-radius: 5px;
 }

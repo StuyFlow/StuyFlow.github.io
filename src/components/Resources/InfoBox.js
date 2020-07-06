@@ -6,7 +6,7 @@ class InfoBox extends Component {
 		return (
             <div>
                 <div>
-                    <h2 class="header">{this.props.header}</h2>
+                    <p class="header">{this.props.header}</p>
                     <p class="desc">{this.props.desc}</p>
                 </div>
             </div>
