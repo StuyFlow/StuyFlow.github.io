@@ -19,11 +19,11 @@ class Home extends Component {
                     <div className="pageHeader">What is StuyFlow?</div>
                     <div className="about-desc">
                         StuyFlow is a highschool club based in New York City
-                        focused on learning how to use props to create beautiful
-                        shows.
+                        focused on learning how to use light up props to create
+                        visually aesthetic performances
                         We teach members how to use a variety of props
-                        like poi, whips, staffs, and fans to perform in
-                        any of three school shows — StuySquad, SING!, and SOS.
+                        like poi, whips, staffs, and fans to perform in our annual shows -
+                        StuySquad, SING!, SOS while also performing in a variety of other events.
                         We operate on a set of principles known as PLURR,
                         partly due to the large culmulative effort needed to
                         run shows smoothly. This motto stands for “Peace,
@@ -36,7 +36,9 @@ class Home extends Component {
                         moves, get to know each other better, create choreography projects, etc.
                         We use choreography projects as stress-free creative outlets,
                         as they are not for shows, and they are displayed at a
-                        studio, typically during July or August.
+                        studio, typically during July or August. As a club, we also like to meet outside
+                        of school to explore Manhattan, eat at restuarants, play games, and other activities to
+                        create stronger bonds between our members.
                     </div>
                 </div>
             </div>
