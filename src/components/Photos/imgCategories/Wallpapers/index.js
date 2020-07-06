@@ -3,7 +3,7 @@ export const wallpaperPhotos = [
     {
         "name": "Sample",
         "desc": "Sample Desc",
-        "date": "2019-02-4",
+        "date": "2000-02-5",
 	"imgname": "wallpapers.png",
     },
     {
