@@ -36,7 +36,7 @@ class Resources extends Component {
                 <div className="resource-bar">
                     {Object.keys(sections).map(section => (
                         <div className="resource-bar-items"
-                            onClick={() => this.changeSection(section)}
+                             onClick={() => this.changeSection(section)}
                         >
                             {section}
                         </div>

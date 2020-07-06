@@ -21,3 +21,22 @@
     color: white;
     font-size: 30px;
 }
+
+.header {
+    color: white;
+    margin-bottom: 10px;
+    font-family: "Gugi";
+}
+
+.desc {
+    color: white;
+    margin-top: 7px;
+    margin-bottom: 40px;
+    font-size: 20px;
+    font-family: "Timmana";
+}
+
+.video {
+    margin: 0 auto;
+    border: 2px white solid;
+}
