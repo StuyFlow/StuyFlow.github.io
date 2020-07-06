@@ -9,8 +9,8 @@ const masterList = [
 ];
 
 const equipment = [
-	{ name: "Extreme Glow 6 Revolution 5-Minute Lightsticks", desc: ["Super Bright", "Comes in packs of 10", "Variety of colors, but sometimes out of stock", "Lasts only 5 minutes", "Round and doesn't break that often", "Gets cheaper the more you buy"], img: "./imgs/general/extreme_glow.jpg" },
-	{ name: "Glow Products 6 Inch Glow Sticks", desc: ["Some colors", "Hexagon glowsticks", "Last 5 minutes", "Breaks kinda easily so don't use as duds", "Expensive", "Etc..."], img: "./imgs/general/glow_products.jpg" }
+	{ name: "Extreme Glow 6 Revolution 5-Minute Lightsticks", desc: ["Super Bright", "Comes in packs of 10", "Variety of colors, but sometimes out of stock", "Lasts only 5 minutes", "Round and doesn't break that often", "Gets cheaper the more you buy"], img: "general/extreme_glow.jpg" },
+	{ name: "Glow Products 6 Inch Glow Sticks", desc: ["Some colors", "Hexagon glowsticks", "Last 5 minutes", "Breaks kinda easily so don't use as duds", "Expensive", "Etc..."], img: "general/glow_products.jpg" }
 ];
 
 class General extends Component {
