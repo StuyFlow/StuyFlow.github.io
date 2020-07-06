@@ -5,7 +5,7 @@ class InfoBox extends Component {
 	render() {
 		return (
             <div>
-                <div style={{color: "white"}}>
+                <div>
                     <h2 class="header">{this.props.header}</h2>
                     <p class="desc">{this.props.desc}</p>
                 </div>

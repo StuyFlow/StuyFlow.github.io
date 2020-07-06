@@ -3,9 +3,9 @@ import EquipmentBox from './EquipmentBox.js';
 import InfoBox from './InfoBox.js';
 import './Resources.css';
 
-const stores = [
-	{ name: "ExtremeGlow", desc: "Cool" },
-	{ name: "ExtremeGlow2", desc: "Cool2" }
+const equipment = [
+	{ name: "ExtremeGlow", desc: ["Super Bright", "Comes in packs of 10"], img: "qwer.png" },
+	{ name: "ExtremeGlow2", desc: ["Some colors", "Hexagon glowsticks"], img: "asdf.png" }
 ];
 
 const masterList = [
@@ -23,8 +23,8 @@ class General extends Component {
 
 				<center><iframe className="video" width="100%" height="100%" src="https://www.youtube.com/embed/N4U-1Apvpd8" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></center>
 
-				{stores.map(store => (
-					<EquipmentBox name={store.name} desc={store.desc}/>
+				{equipment.map(item => (
+					<EquipmentBox name={item.name} desc={item.desc} img={item.img}/>
 				))}
 			</div>
 		);

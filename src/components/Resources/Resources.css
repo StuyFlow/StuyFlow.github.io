@@ -40,3 +40,7 @@
     margin: 0 auto;
     border: 2px white solid;
 }
+
+.item-box {
+    display: flex;
+}

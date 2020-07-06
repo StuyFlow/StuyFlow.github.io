@@ -5,9 +5,10 @@ class EquipmentBox extends Component {
 	render() {
 		return (
             <div>
-                <div style={{color: "white"}}>
+                <div className="item-box">
+                    <img src='./imgs/general/extreme_glow.jpg' />
                     {this.props.name} <br/>
-                    {this.props.desc}
+                    {this.props.desc[0]}
                 </div>
             </div>
 		);
