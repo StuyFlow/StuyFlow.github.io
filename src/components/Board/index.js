@@ -19,9 +19,9 @@ class Board extends Component {
         return (
             <div className="page">
                 <div className="pageHeader">StuyFlow Board Members</div>
-                <div className="year-selector">
+                <div className="year">
                     <div className="year-label">Year:</div>
-                    <select onChange={this.changeYear}>
+                    <select className="year-selector" onChange={this.changeYear}>
                         {Object.keys(board).map(term => (
                             <option key={term}>
                                 {term}
@@ -37,13 +37,13 @@ class Board extends Component {
                                 src={require(`./imgs/${this.state.year}/${person.imgName}`)}
                             />
                             <div className="info">
-                                <div>
+                                <div className="board-name">
                                     {person.name}
                                 </div>
-                                <div>
+                                <div className="board-title">
                                     {person.title}
                                 </div>
-                                <div>
+                                <div className="board-desc">
                                     {person.desc}
                                 </div>
                             </div>
