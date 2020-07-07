@@ -13,64 +13,39 @@ class Contact extends Component {
              <div className="sentence">
                 <br></br>
                 If you would like to contact us, please send an email to&nbsp;
-                    <a href="mailto:stuyvesantflow@gmail.com?subject=test%20email"><br></br>stuyvesantflow@gmail.com</a>
+                    <a href="mailto:stuyvesantflow@gmail.com?subject=test%20email"><br></br>stuyvesantflow@gmail.com</a> <br></br>!
                     <br></br>
 
                 </div>
                 <br></br>
                 <div className="sentence">
                   <br></br>
-                    Click the icons below to check us out on our social media!
+                    Click the icons below to check us out on our social media pages!
                 </div>
                 <br></br>
 
-                <a href="https://www.facebook.com/StuyFl0w" class="fab fa-facebook-square" style={{fontSize: '40px'}}></a>&nbsp;&nbsp;&nbsp;
-                <a href="https://www.youtube.com/channel/UCsWvNNE26HT40Tk7O9afkSA" class="fab fa-youtube" style={{fontSize: '38px'}}></a>&nbsp;&nbsp;&nbsp;
-                <a href="https://www.instagram.com/stuyflow/" class="fab fa-instagram" style={{fontSize: '40px'}}></a>&nbsp;&nbsp;&nbsp;
-                <a href="https://www.tiktok.com/@stuyflow?lang=en" class="fab fa-tiktok"style={{fontSize: '40px'}}></a>
+                <a href="https://www.facebook.com/StuyFl0w" className="fab fa-facebook-square" target='_blank'></a>
+                <a href="https://www.youtube.com/channel/UCsWvNNE26HT40Tk7O9afkSA" className="fab fa-youtube target='_blank'" ></a>
+                <a href="https://www.instagram.com/stuyflow/" className="fab fa-instagram" target='_blank' ></a>
+                <a href="https://www.tiktok.com/@stuyflow?lang=en" className="fab fa-tiktok" target='_blank'></a>
 
                 <div className="sentence">
                    <br></br>
-                   Private Facebook Group (Stuyvesant Students Only!)
+                   Private Facebook Group (Stuyvesant Students Only)!
                 </div>
                    <br></br>
-                         <a href="https://www.facebook.com/groups/277759659004764" class="fab fa-facebook-square" style={{fontSize: '40px'}}></a>
-
-                {/* <div className="sentence">
-                <br></br>
-                    Click on the links below to check us out on our social media!
-                    </div>
-                    <div className="a">
-                      <a href="https://www.youtube.com/channel/UCsWvNNE26HT40Tk7O9afkSA">
-                        <br></br>
-                          Youtube
-                      </a>
-                    </div>
-
-                    <div className="a">
-                      <a href="https://www.instagram.com/stuyflow/">
-                        <br></br>
-                          Instagram: @stuyflow
-                      </a>
-                    </div>
-                    <div className="a">
-                      <a href="https://www.tiktok.com/@stuyflow?lang=en">
+                         <a href="https://www.facebook.com/groups/277759659004764" class="fab fa-facebook-square" target='_blank' ></a>
+                         <div className="sentence">
+                         <br></br>
+                         For more information about our club, visit us at&nbsp;
+                      <a href="https://www.stuyactivities.org/club/stuyflow">
                         <br />
-                          TikTok: @stuyflow
+                          StuyActivities
                       </a>
+                      <br></br>.
                     </div>
-                    <div className="a">
-                      <a href="https://www.facebook.com/StuyFl0w"><br></br>
-                          Public Facebook page
-                      </a>
-                    </div>
-                    <div className="a">
-                      <a href="https://www.facebook.com/groups/277759659004764">
-                        <br />
-                          Private Facebook group (Stuyvesant Students/Alumni only!)
-                      </a>
-                    </div> */}
             </div>
+
         );
     }
 }
