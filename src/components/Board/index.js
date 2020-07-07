@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+
 import { board } from './board';
 import './Board.css';
 
@@ -35,6 +36,7 @@ class Board extends Component {
                             <img
                                 className="board-photo"
                                 src={require(`./imgs/${this.state.year}/${person.imgName}`)}
+                                alt={person.name}
                             />
                             <div className="info">
                                 <div className="board-name">
