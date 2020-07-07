@@ -38,7 +38,8 @@ const get_photos = (category,sort) => {
 		    'date':Date.parse(img.date),
 		    'category':category,
 		    'name':img.name,
-		    'desc':img.desc, 
+		    'desc':img.desc,
+		    'credits':img.credits,
 		})		
 	    ))))
 	if (sort === "Date Desc.") {dates.sort((a, b) => a.date - b.date)}
@@ -53,6 +54,7 @@ const get_photos = (category,sort) => {
 		<div id="image-title"></div>
 		<div style={{display: "flex"}}>
 		<img className="modal-content" id="big-image"/>
+		<p id="image-credits"></p>
 		<div id="image-desc"></div>
 		</div>
 		</div>
@@ -60,9 +62,10 @@ const get_photos = (category,sort) => {
 	        id="myImg"
                 className="imag"
 	        onClick={() => {
-		 document.getElementById("big-image").setAttribute('src', require('./imgCategories/' + img.category + '/' + img.imgname))
-		 document.getElementById("image-desc").innerHTML = img.desc
-		 document.getElementById("image-title").innerHTML = img.name
+		    document.getElementById("big-image").setAttribute('src', require('./imgCategories/' + img.category + '/' + img.imgname))
+		    document.getElementById("image-desc").innerHTML = img.desc
+		    document.getElementById("image-title").innerHTML = img.name
+		    document.getElementById("image-credits").innerHTML = "Photo Credits: " + img.credits
 		 document.getElementById("myModal").style.display = 'block'	
 		}}
 	    src={require('./imgCategories/' + img.category + '/' + img.imgname)} />
@@ -83,8 +86,10 @@ const get_photos = (category,sort) => {
 		>&times;</span>
 		<div id="image-title"></div>
 		<div style={{display: "flex"}}>
-		<img className="modal-content" id="big-image"/>
+		<img className="modal-content" id="big-image" />
+		<p id="image-credits"></p>
 		<div id="image-desc"></div>
+		<a id="download" download></a>
 		</div>
 		</div>
                 <img
@@ -93,6 +98,9 @@ const get_photos = (category,sort) => {
 		document.getElementById("big-image").setAttribute('src', require('./imgCategories/' + category + '/' + img.imgname))
 		document.getElementById("image-desc").innerHTML = img.desc
 		document.getElementById("image-title").innerHTML = img.name
+		document.getElementById("download").innerHTML = 'Download'
+		document.getElementById("download").setAttribute("href", './imgCategories/' + category + '/' + img.imgname)
+		document.getElementById("image-credits").innerHTML = "Photo Credits: " + img.credits
 		document.getElementById("myModal").style.display = 'block'	
 	    }}
 	    src={require('./imgCategories/' + category + '/' + img.imgname)} />

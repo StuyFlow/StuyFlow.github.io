@@ -60,23 +60,28 @@
 }
 
 .modal {
-  display: none;
-  position: fixed; 
-  z-index: 20;
-  padding-top: 100px; 
-  left: 0;
-  top: 0;
-  width: 100%; 
-  height: 100%; 
-  overflow: auto; 
-  background-color: rgba(0,0,0,0.95);
+    display: none;
+    position: fixed; 
+    z-index: 20;
+    padding-top: 100px; 
+    left: 0;
+    top: 0;
+    width: 100%; 
+    height: 100%; 
+    overflow: auto; 
+    background-color: rgba(0,0,0,0.95);
 }
 
 #big-image {
-    width: 80%;
+    width: 100%;
     padding: 100px 100px;
-    max-width: 700px;
+    max-width: 750px;
     display: inline;
+}
+
+#image-credits {
+    color:white;
+    font-family: Timmana;
 }
 
 #image-title {
@@ -103,10 +108,35 @@
     font-size: 26px;
     line-height: 32px;
 
-    color: #FFFFFF;
+    color: white;
 }
 
-.modal-content, #image-title {
+#download {
+    color: yellow;
+    position: absolute;
+    text-decoration: none;
+    font-family: Gugi;
+    font-size: 20px;
+    overflow: auto;
+    margin-top: 400px;
+    margin-left: 1250px;
+    margin-bottom: 250px;
+    border: 3px solid #FFF500;
+    box-sizing: border-box;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+#download:hover {
+    background: rgb(255,255,0);
+    color: black;
+    transition: 0.5s;
+    cursor: pointer;
+    
+}
+
+
+#big-image, #image-title {
   animation-name: zoom;
   animation-duration: 0.3s;
 }
@@ -116,7 +146,6 @@
   to {transform:scale(1)}
 }
 
-/* The Close Button */
 .close {
   position: absolute;
   top: 50px;
@@ -133,8 +162,6 @@
   cursor: pointer;
 }
 
-
-/* 100% Image Width on Smaller Screens */
 @media only screen and (max-width: 700px){
   .modal-content {
     width: 100%;
