@@ -15,9 +15,6 @@ class App extends Component {
         return (
             <div className="background">
                 <Switch>
-                    <Nav/>
-                </Switch>
-                <Switch>
                     <Route path="/board" component={Board}/>
                     <Route path="/contact" component={Contact}/>
                     <Route path="/photos" component={Photos}/>
@@ -25,6 +22,9 @@ class App extends Component {
                     <Route path="/resources" component={Resources}/>
                     <Route path="/" exact component={Home}/>
                     <Route path="/" component={Error}/>
+                </Switch>
+                <Switch>
+                    <Nav/>
                 </Switch>
             </div>
         );

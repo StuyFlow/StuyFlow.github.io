@@ -20,23 +20,11 @@ class Nav extends Component {
     }
 
     componentDidMount() {
-        const { pathname } = this.props.location;
-        if (pathname === "/") {
-            document.body.style.overflowY = "hidden";
-        } else {
-            document.body.style.overflowY = "scroll";
-        }
         document.body.scrollTop = 0; // For Safari
         document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
     }
 
     componentDidUpdate() {
-        const { pathname } = this.props.location;
-        if (pathname === "/") {
-            document.body.style.overflowY = "hidden";
-        } else {
-            document.body.style.overflowY = "scroll";
-        }
         document.body.scrollTop = 0; // For Safari
         document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
     }
@@ -44,7 +32,7 @@ class Nav extends Component {
     render() {
         const { pathname } = this.props.location;
         return (
-            <div className="navbar">
+            <div className='navbar'>
                 <div>
                     <img
                         className="logo"
@@ -57,7 +45,10 @@ class Nav extends Component {
 
                     return (
                         <div
-                            className={`navlink ${link.link === pathname && 'navlink-active'}`}
+                            className={`navlink
+                                ${link.link === pathname && 'navlink-active'}
+                                ${pathname === "/" && 'homepage-navlink'}`
+                            }
                             key={k}
                         >
                             <Link to={link.link}>
