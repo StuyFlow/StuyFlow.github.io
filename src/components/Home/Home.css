@@ -1,14 +1,12 @@
 /* Top Level Home Page*/
 .homepage {
-    overflow-y: scroll;
     height: 100vh;
-    scroll-snap-type: y mandatory;
+    overflow-y: scroll;
 }
 
 /* Dividers */
 .home-div {
     position: relative;
-    scroll-snap-align: start;
 }
 
 .video {

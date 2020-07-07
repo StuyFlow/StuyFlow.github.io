@@ -2,10 +2,30 @@ import React, { Component } from 'react';
 import backgroundVideo from './background_video.mp4';
 import './Home.css';
 
+import ScrollSnap from 'scroll-snap';
+
 class Home extends Component {
+    constructor(props) {
+        super(props);
+        this.homeRef = React.createRef();
+    }
+
+    bindScrollSnap() {
+        const element = this.homeRef.current;
+        const snapElement = new ScrollSnap(element, {
+            snapDestinationY: '100%',
+        });
+
+        snapElement.bind();
+    }
+
+    componentDidMount() {
+        this.bindScrollSnap();
+    }
+
     render() {
         return (
-            <div className="homepage">
+            <div className="homepage" ref={this.homeRef}>
                 <div className="home-div video">
                     <video autoPlay muted loop className="backgroundVideo">
                         <source src={backgroundVideo} type="video/mp4"/>
@@ -15,7 +35,7 @@ class Home extends Component {
                         <div className="slogan">Stars Shine Brightest in the Dark</div>
                     </div>
                 </div>
-                <div className="about-page home-div">
+                <div className="about-page home-div" id="about">
                     <div className="pageHeader">What is StuyFlow?</div>
                     <div className="about-desc">
                         StuyFlow is a highschool club based in New York City
