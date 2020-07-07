@@ -30,6 +30,12 @@ export const board = {
     ],
     "2018-2019": [
         {
+            name: "Jason Lin",
+            title: "President",
+            desc: "My name is Jason Lin. I'm 19 years old. My house is in the south section of Brooklyn, where all the fireworks are, and I am not married. I work as an employee for the Digital Humanities Lab at MIT, and I finish work every day by 5 PM at the latest. I don't smoke or drink, but I occasionally indulge myself with manga and anime. I'm in bed by 12 AM, and make sure I get six hours of sleep, no matter what. After drinking approximately 2.5 liters of room temperature water and doing about 5 pull-ups, 15 push-ups, and 20 squats, I usually have no problems sleeping until morning. Just like a baby, I wake up without any fatigue or stress in the morning. I was told there were no issues at my last check-up. I'm trying to explain that I'm a person who wishes to live a very quiet life. I take care not to trouble myself with any enemies, like winning and losing, that would cause me to lose sleep at night. That is how I deal with society, and I know that is what brings me happiness.",
+            imgName: "jason_lin.jpg"
+        },
+        {
             name: "Kayli Matsuyoshi",
             title: "Vice President",
             desc: "My greatest interest at the moment would be atmospheric sciences, and I hope to someday work towards healing the planet. Aside from Flow, I enjoy playing tennis or running. Expression comes in many forms and can help someone find their voice or identity. Flow has helped me find both.",

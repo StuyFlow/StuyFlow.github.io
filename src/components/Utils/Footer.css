@@ -4,11 +4,8 @@
     align-items: center;
     color: white;
     font-family: Timmana;
-    padding: 30px;
-}
-
-.github {
-
+    padding: 50px 0 30px;
+    background-image: linear-gradient(rgba(0,0,0,0) 0%, rgba(0,0,0,1) 20%);
 }
 
 .github-logo {
@@ -16,12 +13,13 @@
 }
 
 .made-with {
-    font-size: 18px;
+    font-size: 25px;
 }
 
 .react-logo {
     width: 30px;
-    margin-top: 5px;
+    margin-left: 10px;
+    margin-bottom: -5px;
 }
 
 
