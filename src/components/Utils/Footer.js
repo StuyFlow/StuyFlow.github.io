@@ -40,19 +40,27 @@ class Footer extends Component {
         return (
             <div className="footer">
                 <div className="github">
-                    <img
-                        src={githubLogo}
-                        className="github-logo"
-                        alt="Github Link"
-                    />
+                    <a
+                        href="https://github.com/StuyFlow/StuyFlow.github.io"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                    >
+                        <img
+                            src={githubLogo}
+                            className="github-logo"
+                            alt="Github Link"
+                        />
+                    </a>
                 </div>
                 <div className="made-with">
                     Made With
-                    <img
-                        src={reactLogo}
-                        className="react-logo"
-                        alt="React Logo"
-                    />
+                    <a href="https://reactjs.org/" target="_blank" rel="noopener noreferrer">
+                        <img
+                            src={reactLogo}
+                            className="react-logo"
+                            alt="React Logo"
+                        />
+                    </a>
                 </div>
                 <div className="created-by">
                     Created By: Jason Lin, Aaron Hsu, Alice Ni, Alvin Chung,

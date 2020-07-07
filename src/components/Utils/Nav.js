@@ -3,8 +3,6 @@ import { Link } from 'react-router-dom';
 import logo from './stuyflow_logo.png';
 import './Nav.css';
 
-import { useLocation } from 'react-router-dom';
-
 const links = [
     { name: "Home", link: "/" },
     { name: "Board", link: "/board" },
@@ -15,10 +13,6 @@ const links = [
 ];
 
 class Nav extends Component {
-    constructor(props) {
-        super(props);
-    }
-
     componentDidMount() {
         document.body.scrollTop = 0; // For Safari
         document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
