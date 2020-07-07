@@ -11,18 +11,18 @@ class Contact extends Component {
                 <script src="https://kit.fontawesome.com/index.js"></script>
 
              <div className="sentence">
-                <br></br>
+                <div className="break">
                 If you would like to contact us, please send an email to&nbsp;
-                    <a href="mailto:stuyvesantflow@gmail.com?subject=test%20email"><br></br>stuyvesantflow@gmail.com</a> <br></br>!
-                    <br></br>
+                    <a href="mailto:stuyvesantflow@gmail.com?subject=test%20email">stuyvesantflow@gmail.com</a>!
+                    </div>
 
                 </div>
-                <br></br>
+                <div className="break">
                 <div className="sentence">
-                  <br></br>
+
                     Click the icons below to check us out on our social media pages!
                 </div>
-                <br></br>
+                </div>
 
                 <a href="https://www.facebook.com/StuyFl0w" className="fab fa-facebook-square" target='_blank'></a>
                 <a href="https://www.youtube.com/channel/UCsWvNNE26HT40Tk7O9afkSA" className="fab fa-youtube target='_blank'" ></a>
@@ -30,19 +30,18 @@ class Contact extends Component {
                 <a href="https://www.tiktok.com/@stuyflow?lang=en" className="fab fa-tiktok" target='_blank'></a>
 
                 <div className="sentence">
-                   <br></br>
+                   <div className="break">
                    Private Facebook Group (Stuyvesant Students Only)!
                 </div>
-                   <br></br>
+                   </div>
                          <a href="https://www.facebook.com/groups/277759659004764" class="fab fa-facebook-square" target='_blank' ></a>
                          <div className="sentence">
-                         <br></br>
+                         <div className="break">
                          For more information about our club, visit us at&nbsp;
-                      <a href="https://www.stuyactivities.org/club/stuyflow">
-                        <br />
+                      <a href="https://www.stuyactivities.org/club/stuyflow" target='_blank'>
                           StuyActivities
-                      </a>
-                      <br></br>.
+                      </a>.
+                      </div>
                     </div>
             </div>
 
