@@ -9,8 +9,8 @@ const masterList = [
 ];
 
 const equipment = [
-	{ name: "Extreme Glow 6 Revolution 5-Minute Lightsticks", desc: ["Super Bright", "Comes in packs of 10", "Variety of colors, but sometimes out of stock", "Lasts only 5 minutes", "Round and doesn't break that often", "Gets cheaper the more you buy"], img: "general/extreme_glow.jpg" },
-	{ name: "Glow Products 6 Inch Glow Sticks", desc: ["Some colors", "Hexagon glowsticks", "Last 5 minutes", "Breaks kinda easily so don't use as duds", "Expensive", "Etc..."], img: "general/glow_products.jpg" }
+	{ name: (<> <a href="https://www.extremeglow.com/store/p/68-6-Revolution-5-Minute-Lightsticks-10-pack.aspx" target="_blank">Extreme Glow 6 Revolution 5-Minute Lightsticks </a></>), desc: ["Super Bright", "Comes in packs of 10", "Variety of colors, but sometimes out of stock", "Lasts only 5 minutes", "Round and doesn't break that often", "Gets cheaper the more you buy"], img: "general/extreme_glow.jpg", link: "https://www.extremeglow.com/store/p/68-6-Revolution-5-Minute-Lightsticks-10-pack.aspx" },
+	{ name: (<> <a href="https://glowproducts.com/us/ultra6inchglowsticks" target="_blank">Glow Products 6 Inch Glow Sticks </a> </>), desc: ["Some colors", "Hexagon glowsticks", "Last 5 minutes", "Breaks kinda easily so don't use as duds", "Expensive", "Etc..."], img: "general/glow_products.jpg", link: "https://glowproducts.com/us/ultra6inchglowsticks" }
 ];
 
 class General extends Component {
@@ -18,14 +18,14 @@ class General extends Component {
 		return (
 			<div>
 				{masterList.map(list => (
-					<InfoBox header={list.header} desc={list.desc}/>
+					<InfoBox key={list.header} desc={list.desc}/>
 				))}
 
-				<center><iframe className="video" width="100%" height="100%" src="https://www.youtube.com/embed/N4U-1Apvpd8" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></center>
+				<center><iframe className="video" width="100%" height="100%" src="https://www.youtube.com/embed/N4U-1Apvpd8" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe></center>
 
 				<h2 className="equipment-header">Glowstick Stores</h2>
 				{equipment.map(item => (
-					<EquipmentBox name={item.name} desc={item.desc} img={item.img}/>
+					<EquipmentBox key={item.name} desc={item.desc} img={item.img} link={item.link}/>
 				))}
 			</div>
 		);

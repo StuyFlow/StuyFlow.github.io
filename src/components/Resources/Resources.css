@@ -76,15 +76,21 @@
 }
 
 .item-image {
-    border: 2px white solid;
+    border: 3px white solid;
     border-radius: 20px;
     width: 350px;
     margin-right: 30px;
     margin-bottom: 60px;
+    transition: 0.3s;
+}
+
+.item-image:hover {
+    transform: scale(1.01, 1.01);
 }
 
 a {
     color: #FFF500;
+    text-decoration: none;
 }
 
 a:hover {
