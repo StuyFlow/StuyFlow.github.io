@@ -90,6 +90,7 @@
 
 a {
     color: #FFF500;
+    transition: 0.4s;
     text-decoration: none;
 }
 
