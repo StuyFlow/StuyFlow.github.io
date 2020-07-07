@@ -4,8 +4,14 @@ import './Error.css';
 class Error extends Component {
     render() {
         return (
-            <div>
-                <h1>Hi. I am the Error Page. 404 LMAO</h1>
+            <div className="page error">
+                <div className="error-header">
+                    Error 404: Page Not Found.
+                </div>
+                <div className="error-message">
+                    You are seeing this page because the url does not exist.
+                    Please check it for spelling errors.
+                </div>
             </div>
         );
     }
