@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+
 import { board } from './board';
 import './Board.css';
 
