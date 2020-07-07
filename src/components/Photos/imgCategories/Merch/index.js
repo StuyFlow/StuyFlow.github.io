@@ -1,15 +1,17 @@
 // Please put date in YYYY-MM-DD format
 export const merchPhotos = [
     {
-        "name": "Sample",
-        "desc": "Sample Desc",
-        "date": "2019-02-4",
-	"imgname": "merch.png",
+        "name": "StuySquad 2019 Shirt Front",
+        "desc": "The front of Flow B's shirt, designed by Jasmine Xiao.",
+        "date": "2019-01-27",
+	"imgname": "stuysquad_2019-front.png",
+	"credits": "Jasmine",
     },
     {
-        "name": "Sample",
-        "desc": "Sample Desc",
-        "date": "2019-02-4",
-	"imgname": "merch.png",
+        "name": "StuySquad 2019 Shirt Back",
+        "desc": "The back of Flow B's shirt, designed by Jasmine Xiao.",
+        "date": "2019-01-27",
+	"imgname": "stuysquad_2019-back.png",
+	"credits": "Jasmine",
     },
 ]

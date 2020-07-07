@@ -41,7 +41,7 @@ const get_photos = (category,sort) => {
 		    'desc':img.desc, 
 		})		
 	    ))))
-	if (sort === "Date Asc.") {dates.sort((a, b) => a.date - b.date)}
+	if (sort === "Date Desc.") {dates.sort((a, b) => a.date - b.date)}
 	else {dates.sort((a, b) => b.date - a.date)}
 	return dates.map(img => (
 		<React.Fragment>
@@ -65,13 +65,14 @@ const get_photos = (category,sort) => {
 		 document.getElementById("image-title").innerHTML = img.name
 		 document.getElementById("myModal").style.display = 'block'	
 		}}
-                src={require('./imgCategories/' + img.category + '/' + img.imgname)} />
+	    src={require('./imgCategories/' + img.category + '/' + img.imgname)} />
+                
 		</React.Fragment>		    
 	))
     }
     else {
 	var one_category = categories[category]
-	if (sort === "Date Asc.") {one_category.sort((a, b) => Date.parse(a.date) - Date.parse(b.date))}
+	if (sort === "Date Desc.") {one_category.sort((a, b) => Date.parse(a.date) - Date.parse(b.date))}
 	else {one_category.sort((a, b) => Date.parse(b.date) - Date.parse(a.date))}
 	return one_category.map(img => (
 	    <React.Fragment>

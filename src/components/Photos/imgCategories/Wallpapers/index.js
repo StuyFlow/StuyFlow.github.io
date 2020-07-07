@@ -1,15 +1,24 @@
 // Please put date in YYYY-MM-DD format
 export const wallpaperPhotos = [
     {
-        "name": "Sample",
-        "desc": "Sample Desc",
-        "date": "2000-02-5",
-	"imgname": "wallpapers.png",
+        "name": "FLOW",
+        "desc": "Kool Wallpaper",
+        "date": "2020-07-04",
+	"imgname": "flow.png",
+	"credits": "Khandy",
     },
     {
-        "name": "Sample",
-        "desc": "Sample Desc",
-        "date": "2019-02-4",
-	"imgname": "wallpapers.png",
+        "name": "FLOW",
+        "desc": "Kool Wallpaper",
+        "date": "2020-07-04",
+	"imgname": "flow1.png",
+	"credits": "Khandy",
+    },
+    {
+        "name": "FLOW",
+        "desc": "Kool Wallpaper",
+        "date": "2020-07-04",
+	"imgname": "flow2.png",
+	"credits": "Khandy",
     },
 ]
