@@ -1,15 +1,5 @@
 import React, { Component } from 'react';
 import './Contact.css';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import {
-  faFacebookSquare,
-  faTwitter,
-  faLinkedin,
-  faSkype,
-  faGoogle,
-  faInstagramSquare,
-  faYoutube,
-} from '@fortawesome/free-brands-svg-icons'
 
 
 class Contact extends Component {
