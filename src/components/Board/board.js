@@ -50,7 +50,7 @@ export const board = {
         {
             name: "Celeste Cheung",
             title: "Treasurer",
-            desc: "My name is Celeste Cheung. I joined stuy Flow as a freshman in 2015. Thanks to mentorship from older members I became a confident performer in the flow arts. I also co-directed various annual performances and took on a leadership role as treasurer of our club. I learned valuable leadership and collaborative skills from these experiences. However, the lasting friendships that come from practicing and performing with other members is the best part of joining Stuy Flow.",
+            desc: "My name is Celeste Cheung. I joined StuyFlow as a freshman in 2015. Thanks to mentorship from older members I became a confident performer in the flow arts. I also co-directed various annual performances and took on a leadership role as treasurer of our club. I learned valuable leadership and collaborative skills from these experiences. However, the lasting friendships that come from practicing and performing with other members is the best part of joining Stuy Flow.",
             imgName: "celeste_cheung.jpg"
         },
     ],
