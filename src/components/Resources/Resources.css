@@ -82,3 +82,11 @@
     margin-right: 30px;
     margin-bottom: 60px;
 }
+
+a {
+    color: #FFF500;
+}
+
+a:hover {
+    color: orange;
+}
