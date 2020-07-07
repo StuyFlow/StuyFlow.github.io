@@ -1,4 +1,6 @@
 import React, { Component } from 'react';
+import Footer from '../Utils/Footer';
+
 import backgroundVideo from './background_video.mp4';
 import './Home.css';
 
@@ -52,7 +54,7 @@ class Home extends Component {
                     <div className="about-desc">
                         During off-seasons, a.k.a. times when we don’t
                         have shows, we meet on Wednesdays and Fridays,
-                        usually in rooms 736 or 738. In these meetings, learn new
+                        usually in rooms 736 or 738. In these meetings, we learn new
                         moves, get to know each other better, create choreography projects, etc.
                         We use choreography projects as stress-free creative outlets,
                         as they are not for shows, and they are displayed at a
@@ -61,6 +63,7 @@ class Home extends Component {
                         create stronger bonds between our members.
                     </div>
                 </div>
+                <Footer />
             </div>
         );
     }

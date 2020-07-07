@@ -8,10 +8,10 @@ import { useLocation } from 'react-router-dom';
 const links = [
     { name: "Home", link: "/" },
     { name: "Board", link: "/board" },
-    { name: "Contact", link: "/contact" },
     { name: "Photos", link: "/photos" },
+    { name: "Videos", link: "/videos" },
     { name: "Resources", link: "/resources" },
-    { name: "Videos", link: "/videos" }
+    { name: "Contact", link: "/contact" },
 ];
 
 class Nav extends Component {

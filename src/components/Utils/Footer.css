@@ -1,0 +1,30 @@
+.footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    font-family: Timmana;
+    padding: 30px;
+}
+
+.github {
+
+}
+
+.github-logo {
+    width: 40px;
+}
+
+.made-with {
+    font-size: 18px;
+}
+
+.react-logo {
+    width: 30px;
+    margin-top: 5px;
+}
+
+
+.created-by {
+    font-size: 16px;
+}
