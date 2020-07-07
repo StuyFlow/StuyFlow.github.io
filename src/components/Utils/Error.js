@@ -1,22 +1,37 @@
 import React, { Component } from 'react';
 import './Error.css';
 
-const startAnimation = () => {
-    const c = document.getElementById('canvas');
-    const ctx = c.getContext("2d");
-    ctx.clearRect(0, 0, ctx.canvas.width, ctx.canvas.height);
+let requestId;
+let radius = 1;
+let ctx;
+
+const animate = () => {
+    clear();
     ctx.fillStyle = "#000";
     ctx.fillRect(0, 0, ctx.canvas.width, ctx.canvas.height)
     ctx.fillStyle = "#ffffff";
     ctx.beginPath();
-    ctx.ellipse(100,100,50,50,0,0,Math.PI*2);
+    ctx.ellipse(100,100,radius,radius,0,0,Math.PI*2);
     ctx.fill();
+    // radius += 1;
+    requestId = window.requestAnimationFrame(animate);
+};
+
+const clear = () => {
+    ctx.clearRect(0, 0, ctx.canvas.width, ctx.canvas.height);
+}
+
+const beginAnimation = () => {
+    const c = document.getElementById('canvas');
+    ctx = c.getContext("2d");
+    animate();
 };
 
 
 class Error extends Component {
     componentDidMount() {
-        startAnimation();
+        console.log("mounted");
+        beginAnimation();
     }
 
     render() {

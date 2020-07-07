@@ -14,7 +14,6 @@ class Footer extends Component {
     updateFooter() {
         if (this.props.location) {
             const { pathname } = this.props.location;
-            console.log(pathname);
             if (pathname === "/") {
                 this.setState({ display: false });
             } else {
