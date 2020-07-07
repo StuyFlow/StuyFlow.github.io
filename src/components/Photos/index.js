@@ -26,11 +26,45 @@ const categories = {
 
 const sorts = [ "Date Asc.", "Date Desc." ];
 
+class Image extends Component { 
+    render() {
+	return (
+	    <React.Fragment>
+	    	<div id="myModal" className="modal">
+		<span
+	    className="close"
+	    onClick={() => document.getElementById("myModal").style.display = 'none'}
+		>&times;</span>
+		<div id="image-title"></div>
+		<div style={{display: "flex"}}>
+		<img className="modal-content" id="big-image"/>
+		<p id="image-credits"></p>
+		<div id="image-desc"></div>
+		<a id="download" download></a>
+		</div>
+		</div>
+		<img
+            className="imag"
+	    onClick={() => {
+		document.getElementById("big-image").setAttribute('src', require('./imgCategories/' + this.props.category + '/' + this.props.imgname))
+		document.getElementById("image-desc").innerHTML = this.props.desc
+		document.getElementById("image-title").innerHTML = this.props.title
+		document.getElementById("download").innerHTML = 'Download'
+		document.getElementById("download").setAttribute("href", './imgCategories/' + this.props.category + '/' + this.props.imgname)
+		document.getElementById("image-credits").innerHTML = "Photo Credits: " + this.props.credits
+		document.getElementById("myModal").style.display = 'block'	
+	    }}
+	    src={require('./imgCategories/' + this.props.category + '/' + this.props.imgname)} /> 
+		</React.Fragment>
+	)
+    }
+}
+
 const get_photos = (category,sort) => {
     if (category === "All") {
-	var c = Object.keys(categories)
+	let c = Object.keys(categories)
 	c.shift()
-	var dates = []
+	let dates = []
 	c.map(category => (
 	    categories[category].map(img => (
 		dates.push({
@@ -45,66 +79,15 @@ const get_photos = (category,sort) => {
 	if (sort === "Date Desc.") {dates.sort((a, b) => a.date - b.date)}
 	else {dates.sort((a, b) => b.date - a.date)}
 	return dates.map(img => (
-		<React.Fragment>
-		<div id="myModal" className="modal">
-		<span
-	        className="close"
-	        onClick={() => document.getElementById("myModal").style.display = 'none'}
-		>&times;</span>
-		<div id="image-title"></div>
-		<div style={{display: "flex"}}>
-		<img className="modal-content" id="big-image"/>
-		<p id="image-credits"></p>
-		<div id="image-desc"></div>
-		</div>
-		</div>
-                <img
-	        id="myImg"
-                className="imag"
-	        onClick={() => {
-		    document.getElementById("big-image").setAttribute('src', require('./imgCategories/' + img.category + '/' + img.imgname))
-		    document.getElementById("image-desc").innerHTML = img.desc
-		    document.getElementById("image-title").innerHTML = img.name
-		    document.getElementById("image-credits").innerHTML = "Photo Credits: " + img.credits
-		 document.getElementById("myModal").style.display = 'block'	
-		}}
-	    src={require('./imgCategories/' + img.category + '/' + img.imgname)} />
-                
-		</React.Fragment>		    
+		<Image desc={ img.desc } title={ img.name } category={ img.category } imgname={img.imgname} credits={img.credits}></Image>		    
 	))
     }
     else {
-	var one_category = categories[category]
+	const one_category = categories[category]
 	if (sort === "Date Desc.") {one_category.sort((a, b) => Date.parse(a.date) - Date.parse(b.date))}
 	else {one_category.sort((a, b) => Date.parse(b.date) - Date.parse(a.date))}
 	return one_category.map(img => (
-	    <React.Fragment>
-		<div id="myModal" className="modal">
-		<span
-	        className="close"
-	        onClick={() => document.getElementById("myModal").style.display = 'none'}
-		>&times;</span>
-		<div id="image-title"></div>
-		<div style={{display: "flex"}}>
-		<img className="modal-content" id="big-image" />
-		<p id="image-credits"></p>
-		<div id="image-desc"></div>
-		<a id="download" download></a>
-		</div>
-		</div>
-                <img
-            className="imag"
-	    onClick={() => {
-		document.getElementById("big-image").setAttribute('src', require('./imgCategories/' + category + '/' + img.imgname))
-		document.getElementById("image-desc").innerHTML = img.desc
-		document.getElementById("image-title").innerHTML = img.name
-		document.getElementById("download").innerHTML = 'Download'
-		document.getElementById("download").setAttribute("href", './imgCategories/' + category + '/' + img.imgname)
-		document.getElementById("image-credits").innerHTML = "Photo Credits: " + img.credits
-		document.getElementById("myModal").style.display = 'block'	
-	    }}
-	    src={require('./imgCategories/' + category + '/' + img.imgname)} />
-	    </React.Fragment>
+	    <Image desc={ img.desc } title={ img.name } category={ category } imgname={img.imgname} credits={img.credits}></Image>		    
 	))
     }				   
 }
@@ -140,7 +123,7 @@ class Photos extends Component {
                     </div>
 		))}
 		<div className="sort">
-                    <div className="sort-label">Sort By:&nbsp;&nbsp;</div>
+                    <div className="sort-label">Sort By:</div>
                     <select className="sort-selector" onChange={this.changeSort}>
                         {sorts.map(sort => (
                             <option key={sort}>
