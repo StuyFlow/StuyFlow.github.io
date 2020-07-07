@@ -17,9 +17,14 @@ class EquipmentBox extends Component {
                         
                         <ul className="item-description">
                         {this.props.desc.map((details, i) => (
-                            <li key={i}>{details}</li>
+                            <li key={i}><span className="item-description">{details}</span></li>
                         ))}
                         </ul>
+                    </div>
+
+
+                    <div className="item-side-image">
+                        {this.props.sideimg}
                     </div>
                 </div>
             </div>

@@ -9,8 +9,8 @@ const masterList = [
 ];
 
 const equipment = [
-	{ name: (<> <a className="item-name" href="https://www.extremeglow.com/store/p/68-6-Revolution-5-Minute-Lightsticks-10-pack.aspx" target="_blank">Extreme Glow 6 Revolution 5-Minute Lightsticks </a></>), desc: ["Super Bright", "Comes in packs of 10", "Variety of colors, but sometimes out of stock", "Lasts only 5 minutes", "Round and doesn't break that often", "Gets cheaper the more you buy"], img: "general/extreme_glow.jpg", link: "https://www.extremeglow.com/store/p/68-6-Revolution-5-Minute-Lightsticks-10-pack.aspx" },
-	{ name: (<> <a className="item-name" href="https://glowproducts.com/us/ultra6inchglowsticks" target="_blank">Glow Products 6 Inch Glow Sticks </a> </>), desc: ["Some colors", "Hexagon glowsticks", "Last 5 minutes", "Breaks kinda easily so don't use as duds", "Expensive", "Etc..."], img: "general/glow_products.jpg", link: "https://glowproducts.com/us/ultra6inchglowsticks" }
+	{ name: (<> <a className="item-name" href="https://www.extremeglow.com/store/p/68-6-Revolution-5-Minute-Lightsticks-10-pack.aspx" target="_blank">Extreme Glow 6 Revolution 5-Minute Lightsticks </a></>), desc: ["Bright glowsticks that come in packs of 10", "Comes in red, orange, yellow, green, blue, purple, aqua, and white",  "Rounded glowsticks made with slightly flexible plastic", "Most common glowstick that StuyFlow uses"], img: "general/extreme_glow.jpg", link: "https://www.extremeglow.com/store/p/68-6-Revolution-5-Minute-Lightsticks-10-pack.aspx", sideimg: (<img className="item-side-image" src={require(`./imgs/general/brightness_chart.jpg`)}/>)},
+	{ name: (<> <a className="item-name" href="https://glowproducts.com/us/ultra6inchglowsticks" target="_blank">Glow Products 6 Inch Glow Sticks </a> </>), desc: ["Glowsticks that come in packs of 10", "Comes in red, orange, yellow, green, blue, pink, aqua, and white", "Hexagonal glowsticks made with hard plastic", "Can leak, dispose after cracking", "Less frequently used by StuyFlow"], img: "general/glow_products.jpg", link: "https://glowproducts.com/us/ultra6inchglowsticks" }
 ];
 
 class General extends Component {
@@ -35,6 +35,7 @@ class General extends Component {
 						desc={item.desc}
 						img={item.img}
 						link={item.link}
+						sideimg={item.sideimg}
 					/>
 				))}
 			</div>

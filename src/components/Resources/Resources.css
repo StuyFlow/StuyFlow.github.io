@@ -97,3 +97,10 @@ a {
 a:hover {
     color: orange;
 }
+
+.item-side-image {
+    transform: scale(0.95, 0.95);
+    margin: 0 auto;
+    margin-top: 1.1%;
+    border-radius: 10px;
+}
