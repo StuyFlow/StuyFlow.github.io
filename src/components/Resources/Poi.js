@@ -12,7 +12,8 @@ const description = [
 
 const youtube = [
 	{name: "Drexfactor Poi", img: "poi/drexfactor.jpg", link: "https://www.youtube.com/user/TaoAvatar20"},
-	{name: "Playpoi", img: "poi/playpoi.jpg", link: "https://www.youtube.com/user/meenik"}
+	{name: "Playpoi", img: "poi/playpoi.jpg", link: "https://www.youtube.com/user/meenik"},
+	{name: "Timmehtek", img: "poi/timmehtek.jpg", link: "https://www.youtube.com/channel/UC5MA1jWFgbevB9fNhibHmOw"}
 ]
 
 const equipment = [
