@@ -1,14 +1,12 @@
 /* Top Level Home Page*/
 .homepage {
-    overflow-y: scroll;
     height: 100vh;
-    scroll-snap-type: y mandatory;
+    overflow-y: scroll;
 }
 
 /* Dividers */
 .home-div {
     position: relative;
-    scroll-snap-align: start;
 }
 
 .video {
@@ -48,7 +46,9 @@
 }
 
 .about-desc {
-    font-family: Gugi;
-    font-size: 20px;
+    font-family: Timmana;
+    font-size: 30px;
     color: white;
+    text-indent: 80px;
+    margin-top: 20px;
 }

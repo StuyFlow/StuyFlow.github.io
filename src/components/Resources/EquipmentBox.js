@@ -8,13 +8,19 @@ class EquipmentBox extends Component {
                 <div className="item-box">
 
                     <div>
-                        <a rel="noopener noreferrer" href={this.props.link} target="_blank"> <img className="item-image" src={require(`./imgs/${this.props.img}`)} /> </a>
+                        <a rel="noopener noreferrer" href={this.props.link} target="_blank">
+							<img
+								className="item-image"
+								src={require(`./imgs/${this.props.img}`)}
+								alt={this.props.name}
+							/>
+						</a>
                     </div>
 
                     <div className="item-text">
 
                         {this.props.name}
-                        
+
                         <ul className="item-description">
                         {this.props.desc.map((details, i) => (
                             <li key={i}><span className="item-description">{details}</span></li>
