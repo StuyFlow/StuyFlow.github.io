@@ -32,7 +32,7 @@ class General extends Component {
 					allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
 					allowFullScreen
 				/>
-
+				
 				<h2 className="equipment-header">Glowstick Stores</h2>
 				{equipment.map(item => (
 					<EquipmentBox
