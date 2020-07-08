@@ -43,6 +43,7 @@ class Modal extends Component {
                 		<img
                             className="big-image"
                             src={require(`./imgCategories/${this.props.img.category}/${this.props.img.imgname}`)}
+                            alt={this.props.img.title}
                         />
                         <p className="image-credits">Photo Credits: {this.props.img.credits}</p>
 
@@ -68,6 +69,7 @@ class Image extends Component {
                 className="imag"
                 src={require(`./imgCategories/${this.props.category}/${this.props.imgname}`)}
                 onClick={() => this.props.setModalImg(this.props)}
+                alt={this.props.title}
             />
         );
     }

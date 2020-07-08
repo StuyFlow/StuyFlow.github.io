@@ -23,16 +23,16 @@ class Contact extends Component {
                     </div>
                 </div>
 
-                <a href="https://www.facebook.com/StuyFl0w" className="fab fa-facebook-square" target='_blank' rel="noopener noreferrer"></a>
-                <a href="https://www.youtube.com/channel/UCsWvNNE26HT40Tk7O9afkSA" className="fab fa-youtube" target='_blank' rel="noopener noreferrer"></a>
-                <a href="https://www.instagram.com/stuyflow/" className="fab fa-instagram" target='_blank' rel="noopener noreferrer"></a>
-                <a href="https://www.tiktok.com/@stuyflow?lang=en" className="fab fa-tiktok" target='_blank' rel="noopener noreferrer"></a>
+                <a href="https://www.facebook.com/StuyFl0w" className="fab fa-facebook-square" target='_blank' rel="noopener noreferrer"/>
+                <a href="https://www.youtube.com/channel/UCsWvNNE26HT40Tk7O9afkSA" className="fab fa-youtube" target='_blank' rel="noopener noreferrer"/>
+                <a href="https://www.instagram.com/stuyflow/" className="fab fa-instagram" target='_blank' rel="noopener noreferrer"/>
+                <a href="https://www.tiktok.com/@stuyflow?lang=en" className="fab fa-tiktok" target='_blank' rel="noopener noreferrer"/>
                 <div className="sentence">
                    <div className="break">
                        Private Facebook Group (Stuyvesant Students Only)!
                    </div>
                 </div>
-                <a href="https://www.facebook.com/groups/277759659004764" class="fab fa-facebook-square" target='_blank' rel="noopener noreferrer" ></a>
+                <a href="https://www.facebook.com/groups/277759659004764" class="fab fa-facebook-square" target='_blank' rel="noopener noreferrer" />
                 <div className="sentence">
                    <div className="break">
                         For more information about our club, visit us at&nbsp;
