@@ -70,7 +70,18 @@
     margin-top: 0px;
     margin-bottom: 0px;
     color: #FFF500;
+    transition: 0.4s;
+    text-decoration: none;
 }
+
+.item-name:visited {
+    color: #FFF500;
+}
+
+.item-name:hover {
+    color: orange;
+}
+
 
 .item-description {
     margin-top: 0px;
@@ -88,16 +99,6 @@
 
 .item-image:hover {
     transform: scale(1.01, 1.01);
-}
-
-a {
-    color: #FFF500;
-    transition: 0.4s;
-    text-decoration: none;
-}
-
-a:hover {
-    color: orange;
 }
 
 .item-side-image {

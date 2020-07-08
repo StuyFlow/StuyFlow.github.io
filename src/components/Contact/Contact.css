@@ -1,0 +1,60 @@
+.sentence {
+  display: flex;
+  color: white;
+  font-family: Gugi;
+  font-size: 25px;
+}
+
+.contact-link{
+  color:white;
+}
+
+.contact-link:visited { color: white; }
+
+.fab {
+  padding: 10px;
+  border-radius: 5px;
+  width: 20px;
+  text-align: center;
+  text-decoration: none;
+  margin-top: 35px;
+  margin-bottom: 35px;
+  margin-right: 45px;
+  margin-left: 45px;
+  transform: scale(2.5, 2.6);
+  border: 0.5px solid white;
+}
+
+
+.fab:hover {
+  opacity: 0.8;
+}
+
+.fa-facebook{
+  background: #3B5998;
+  color: white;
+
+}
+.fa-facebook-square{
+  background: #3B5998;
+  color: white;
+
+}
+.fa-instagram {
+  background: #E1306C;
+  color: white;
+}
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+}
+
+.fa-tiktok {
+  background: #000000;
+  color: white;
+}
+
+.break{
+  margin-top: 25px;
+  margin-bottom: 30px;
+}
