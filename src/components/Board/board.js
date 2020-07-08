@@ -13,6 +13,12 @@ export const board = {
             desc: "I like skating around and longboard dancing and teaching my friends to skate too. I draw when I have the time or if I’m bored in class, and I think being a tattoo artist would be pretty cool.",
             imgName: "susu_tran.jpg"
         },
+        {
+            name: "Sarah Ibrahim",
+            title: "Leader In Training",
+            desc: "Hi I'm Sarah. My passions are collecting dad jokes and watching overly dramatic shows that make me emotional. I know a lot about astrological signs if you want a reading. I am a friendly and funny person so let's hang out soon!",
+            imgName: "sarah_ibrahim.jpg"
+        },
     ],
     "2019-2020": [
         {
