@@ -31,7 +31,7 @@
 
 .fab:hover {
   opacity: 0.8;
-  transform: scale(2.4);
+  transform: scale(2.7, 2.7);
 }
 
 .fa-facebook{
