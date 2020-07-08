@@ -27,10 +27,9 @@ const categories = {
 
 const sorts = [ "Date Asc.", "Date Desc." ];
 
-class Image extends Component {
-    render() {
+class Modal extends Component {
+    render () {
 	return (
-	    <React.Fragment>
 	    	<div id="myModal" className="modal">
     		<span
     	    className="close"
@@ -44,6 +43,16 @@ class Image extends Component {
     		<a id="download" download></a>
     		</div>
     		</div>
+	)
+    
+    }
+}
+
+class Image extends Component {
+    render() {
+	return (
+	    <React.Fragment>
+	    <Modal />
     		<img
                 className="imag"
         	    onClick={() => {
