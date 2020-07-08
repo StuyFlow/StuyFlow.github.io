@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/static/css/main.6211bbd5.chunk.css",
-    "main.js": "/static/js/main.7acffeb6.chunk.js",
-    "main.js.map": "/static/js/main.7acffeb6.chunk.js.map",
+    "main.js": "/static/js/main.6665ea98.chunk.js",
+    "main.js.map": "/static/js/main.6665ea98.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.63b07cbf.js",
     "runtime-main.js.map": "/static/js/runtime-main.63b07cbf.js.map",
-    "static/js/2.7c45574b.chunk.js": "/static/js/2.7c45574b.chunk.js",
-    "static/js/2.7c45574b.chunk.js.map": "/static/js/2.7c45574b.chunk.js.map",
+    "static/js/2.b205291c.chunk.js": "/static/js/2.b205291c.chunk.js",
+    "static/js/2.b205291c.chunk.js.map": "/static/js/2.b205291c.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.96daf81789c47ebdcaa8d2124c95bb6d.js": "/precache-manifest.96daf81789c47ebdcaa8d2124c95bb6d.js",
+    "precache-manifest.de681f57f274583a7caa73d2b6e5fb43.js": "/precache-manifest.de681f57f274583a7caa73d2b6e5fb43.js",
     "service-worker.js": "/service-worker.js",
     "static/css/main.6211bbd5.chunk.css.map": "/static/css/main.6211bbd5.chunk.css.map",
-    "static/js/2.7c45574b.chunk.js.LICENSE.txt": "/static/js/2.7c45574b.chunk.js.LICENSE.txt",
+    "static/js/2.b205291c.chunk.js.LICENSE.txt": "/static/js/2.b205291c.chunk.js.LICENSE.txt",
     "static/media/index.css": "/static/media/Timmana-Regular.a7c2bafd.ttf",
     "static/media/React-Logo.png": "/static/media/React-Logo.49f6325d.png",
     "static/media/angela_lin.jpg": "/static/media/angela_lin.c6970811.jpg",
@@ -26,13 +26,14 @@
     "static/media/khandaker_ridwan.jpg": "/static/media/khandaker_ridwan.eb9e5f49.jpg",
     "static/media/nicholas_yang.jpg": "/static/media/nicholas_yang.c0433f5d.jpg",
     "static/media/raymond_xu.jpg": "/static/media/raymond_xu.48bfb5dd.jpg",
+    "static/media/sarah_ibrahim.jpg": "/static/media/sarah_ibrahim.a9607556.jpg",
     "static/media/stuyflow_logo.png": "/static/media/stuyflow_logo.9caa1f6c.png",
     "static/media/susu_tran.jpg": "/static/media/susu_tran.4133c20b.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.63b07cbf.js",
-    "static/js/2.7c45574b.chunk.js",
+    "static/js/2.b205291c.chunk.js",
     "static/css/main.6211bbd5.chunk.css",
-    "static/js/main.7acffeb6.chunk.js"
+    "static/js/main.6665ea98.chunk.js"
   ]
 }
