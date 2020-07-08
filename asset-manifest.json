@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.64b1fe0e.chunk.css",
+    "main.css": "/static/css/main.d3f31454.chunk.css",
     "main.js": "/static/js/main.7dff21b5.chunk.js",
     "main.js.map": "/static/js/main.7dff21b5.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.63b07cbf.js",
@@ -8,9 +8,9 @@
     "static/js/2.e70775bb.chunk.js": "/static/js/2.e70775bb.chunk.js",
     "static/js/2.e70775bb.chunk.js.map": "/static/js/2.e70775bb.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.f4ba159cfbcfd83ab4ec2e89a063ad6d.js": "/precache-manifest.f4ba159cfbcfd83ab4ec2e89a063ad6d.js",
+    "precache-manifest.e10ba7b6b3ccebff3fb3e4b45e13ad49.js": "/precache-manifest.e10ba7b6b3ccebff3fb3e4b45e13ad49.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/main.64b1fe0e.chunk.css.map": "/static/css/main.64b1fe0e.chunk.css.map",
+    "static/css/main.d3f31454.chunk.css.map": "/static/css/main.d3f31454.chunk.css.map",
     "static/js/2.e70775bb.chunk.js.LICENSE.txt": "/static/js/2.e70775bb.chunk.js.LICENSE.txt",
     "static/media/index.css": "/static/media/Timmana-Regular.a7c2bafd.ttf",
     "static/media/React-Logo.png": "/static/media/React-Logo.49f6325d.png",
@@ -155,7 +155,7 @@
   "entrypoints": [
     "static/js/runtime-main.63b07cbf.js",
     "static/js/2.e70775bb.chunk.js",
-    "static/css/main.64b1fe0e.chunk.css",
+    "static/css/main.d3f31454.chunk.css",
     "static/js/main.7dff21b5.chunk.js"
   ]
 }
