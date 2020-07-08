@@ -28,7 +28,7 @@ class Home extends Component {
     render() {
         return (
             <div className="homepage" ref={this.homeRef}>
-                <div className="home-div video">
+                <div className="home-div home-video">
                     <video autoPlay muted loop className="backgroundVideo">
                         <source src={backgroundVideo} type="video/mp4"/>
                     </video>
