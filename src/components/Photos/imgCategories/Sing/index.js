@@ -36,6 +36,13 @@ export const singPhotos = [
 	credits: "Khandy",
     },
     {
+        name: "SophFrosh SING! 2018 Beginner Stringers",
+        desc: "Beginner stringers, from left to right: Heiley, Steve, Joanna, Justin, Kaitlyn.",
+        date: "2018-02-25",
+	imgname : "sophfrosh-sing-2018-6.png",
+	credits: "Khandy",
+    },
+    {
         name: "Junior SING! 2019 Studio",
         desc: "Studio day. Juniors found dead.",
         date: "2019-03-01",

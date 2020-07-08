@@ -14,4 +14,12 @@ export const merchPhotos = [
 	imgname: "stuysquad_2019-back.png",
 	credits: "Jasmine",
     },
+    {
+        name: "StuFlow Hoodie",
+        desc: "Model: Maggie Xu",
+        date: "2020-06-01",
+	imgname: "stuyflow-hoodie-0.png",
+	credits: "Maggie",
+    },
+    
 ]
