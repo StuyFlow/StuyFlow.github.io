@@ -39,10 +39,7 @@ class Nav extends Component {
 
                     return (
                         <div
-                            className={`navlink
-                                ${link.link === pathname && 'navlink-active'}
-                                ${pathname === "/" && 'homepage-navlink'}`
-                            }
+                            className={`navlink ${link.link === pathname ? 'navlink-active' : ''} ${pathname === "/" ? 'homepage-navlink' : ''}`}
                             key={k}
                         >
                             <Link to={link.link}>
