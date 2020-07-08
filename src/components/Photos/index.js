@@ -29,7 +29,6 @@ const sorts = [ "Date Asc.", "Date Desc." ];
 
 class Modal extends Component {
     render () {
-        console.log(this.props);
     	return (
 	    	<div className="modal">
         		<span
@@ -52,7 +51,7 @@ class Modal extends Component {
             		<a
                         className="download"
                         href={require(`./imgCategories/${this.props.img.category}/${this.props.img.imgname}`)}
-            download={this.props.img.imgname}
+                        download={this.props.img.imgname}
                     >
                         Download
                     </a>
