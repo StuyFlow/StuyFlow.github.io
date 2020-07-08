@@ -147,7 +147,7 @@
 }
 
 .youtube-box:hover img {
-    opacity: 60%;
+    opacity: .6;
     transform: scale(1.03, 1.03);
 }
 
@@ -164,7 +164,7 @@
 }
 
 .youtube-image:hover {
-    opacity: 60%;
+    opacity: .6;
     transition: 0.2s;
     transform: scale(1.03, 1.03);
 }
