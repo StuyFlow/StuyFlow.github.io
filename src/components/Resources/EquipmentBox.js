@@ -8,7 +8,7 @@ class EquipmentBox extends Component {
                 <div className="item-box">
 
                     <div>
-                        <a href={this.props.link} target="_blank"> <img className="item-image" src={require(`./imgs/${this.props.img}`)} /> </a>
+                        <a rel="noopener noreferrer" href={this.props.link} target="_blank"> <img className="item-image" src={require(`./imgs/${this.props.img}`)} /> </a>
                     </div>
 
                     <div className="item-text">
