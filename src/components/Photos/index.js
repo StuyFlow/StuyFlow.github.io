@@ -27,70 +27,76 @@ const categories = {
 
 const sorts = [ "Date Asc.", "Date Desc." ];
 
-class Image extends Component { 
+class Image extends Component {
     render() {
 	return (
 	    <React.Fragment>
 	    	<div id="myModal" className="modal">
-		<span
-	    className="close"
-	    onClick={() => document.getElementById("myModal").style.display = 'none'}
-		>&times;</span>
-		<div id="image-title"></div>
-		<div style={{display: "flex"}}>
-		<img className="modal-content" id="big-image"/>
-		<p id="image-credits"></p>
-		<div id="image-desc"></div>
-		<a id="download" download></a>
-		</div>
-		</div>
-		<img
-            className="imag"
-	    onClick={() => {
-		document.getElementById("big-image").setAttribute('src', require('./imgCategories/' + this.props.category + '/' + this.props.imgname))
-		document.getElementById("image-desc").innerHTML = this.props.desc
-		document.getElementById("image-title").innerHTML = this.props.title
-		document.getElementById("download").innerHTML = 'Download'
-		document.getElementById("download").setAttribute("href", './imgCategories/' + this.props.category + '/' + this.props.imgname)
-		document.getElementById("image-credits").innerHTML = "Photo Credits: " + this.props.credits
-		document.getElementById("myModal").style.display = 'block'	
-	    }}
-	    src={require('./imgCategories/' + this.props.category + '/' + this.props.imgname)} /> 
+    		<span
+    	    className="close"
+    	    onClick={() => document.getElementById("myModal").style.display = 'none'}
+    		>&times;</span>
+    		<div id="image-title"></div>
+    		<div style={{display: "flex"}}>
+    		<img className="modal-content" id="big-image"/>
+    		<p id="image-credits"></p>
+    		<div id="image-desc"></div>
+    		<a id="download" download></a>
+    		</div>
+    		</div>
+    		<img
+                className="imag"
+        	    onClick={() => {
+        		document.getElementById("big-image").setAttribute('src', require('./imgCategories/' + this.props.category + '/' + this.props.imgname))
+        		document.getElementById("image-desc").innerHTML = this.props.desc
+        		document.getElementById("image-title").innerHTML = this.props.title
+        		document.getElementById("download").innerHTML = 'Download'
+        		document.getElementById("download").setAttribute("href", './imgCategories/' + this.props.category + '/' + this.props.imgname)
+        		document.getElementById("image-credits").innerHTML = "Photo Credits: " + this.props.credits
+        		document.getElementById("myModal").style.display = 'block'
+        	    }}
+        	    src={require('./imgCategories/' + this.props.category + '/' + this.props.imgname)}
+            />
 		</React.Fragment>
 	)
     }
 }
 
-const get_photos = (category,sort) => {
+const processImages = (imgs, category) => {
+    return imgs.map(img => {
+        return {
+            ...img,
+            category,
+            date: Date.parse(img.date),
+        };
+    });
+};
+
+const get_photos = (category, sort) => {
+    let dates = [];
     if (category === "All") {
-	let c = Object.keys(categories)
-	c.shift()
-	let dates = []
-	c.map(category => (
-	    categories[category].map(img => (
-		dates.push({
-		    'imgname':img.imgname,
-		    'date':Date.parse(img.date),
-		    'category':category,
-		    'name':img.name,
-		    'desc':img.desc,
-		    'credits':img.credits,
-		})		
-	    ))))
-	if (sort === "Date Desc.") {dates.sort((a, b) => a.date - b.date)}
-	else {dates.sort((a, b) => b.date - a.date)}
-	return dates.map(img => (
-		<Image desc={ img.desc } title={ img.name } category={ img.category } imgname={img.imgname} credits={img.credits}></Image>		    
-	))
+    	let c = Object.keys(categories);
+    	c.shift();
+        for (let aCategory of c) {
+            dates = [...dates, ...processImages(categories[aCategory], aCategory)];
+        }
+    } else {
+    	dates = [...processImages(categories[category], category)];
     }
-    else {
-	const one_category = categories[category]
-	if (sort === "Date Desc.") {one_category.sort((a, b) => Date.parse(a.date) - Date.parse(b.date))}
-	else {one_category.sort((a, b) => Date.parse(b.date) - Date.parse(a.date))}
-	return one_category.map(img => (
-	    <Image desc={ img.desc } title={ img.name } category={ category } imgname={img.imgname} credits={img.credits}></Image>		    
-	))
-    }				   
+    if (sort === "Date Desc.") {
+        dates.sort((a, b) => a.date - b.date);
+    } else {
+        dates.sort((a, b) => b.date - a.date);
+    }
+    return dates.map(img => (
+        <Image
+            desc={ img.desc }
+            title={ img.name }
+            category={ img.category }
+            imgname={img.imgname}
+            credits={img.credits}
+        />
+    ));
 }
 
 class Photos extends Component {
@@ -98,7 +104,7 @@ class Photos extends Component {
         super(props);
         this.state = {
             category: "All",
-	    sort: "Date Asc.",
+	        sort: "Date Asc.",
         };
     }
 
@@ -113,17 +119,17 @@ class Photos extends Component {
     render() {
         return (
 		<div className="page">
-		<div className="pageHeader">Photos</div>
-		<div style={{display: "flex"}}>
-		{Object.keys(categories).map(category => (
-			<div
-                    className="categories"
-                    onClick={() => this.changeCategory(category)}
+    		<div className="pageHeader">Photos</div>
+    		<div style={{display: "flex"}}>
+        		{Object.keys(categories).map(category => (
+        			<div
+                        className="categories"
+                        onClick={() => this.changeCategory(category)}
                 	>
                         { category }
                     </div>
-		))}
-		<div className="sort">
+        		))}
+        		<div className="sort">
                     <div className="sort-label">Sort By:</div>
                     <select className="sort-selector" onChange={this.changeSort}>
                         {sorts.map(sort => (
@@ -133,10 +139,10 @@ class Photos extends Component {
                         ))}
                     </select>
                 </div>
-   		</div>
-		<div className="images">
-		{ get_photos(this.state.category, this.state.sort) }
-	    </div>
+       		</div>
+    		<div className="images">
+    		{ get_photos(this.state.category, this.state.sort) }
+    	    </div>
         </div>
         );
     }
