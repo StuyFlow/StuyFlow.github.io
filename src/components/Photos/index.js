@@ -31,29 +31,28 @@ class Modal extends Component {
     render () {
         console.log(this.props);
     	return (
-	    	<div id="myModal" className="modal">
+	    	<div className="modal">
         		<span
             	    className="close"
             	    onClick={() => this.props.setModalImg(null)}
         		>
                     &times;
                 </span>
-        		<div id="image-title">{this.props.img.title}</div>
+        		<div className="image-title">{this.props.img.title}</div>
         		<div style={{display: "flex"}}>
                     <div>
                 		<img
-                            className="modal-content"
-                            id="big-image"
+                            className="big-image"
                             src={require(`./imgCategories/${this.props.img.category}/${this.props.img.imgname}`)}
                         />
-                        <p id="image-credits">Photo Credits: {this.props.img.credits}</p>
+                        <p className="image-credits">Photo Credits: {this.props.img.credits}</p>
 
                     </div>
-            		<div id="image-desc">{this.props.img.desc}</div>
+            		<div className="image-desc">{this.props.img.desc}</div>
             		<a
-                        id="download"
+                        className="download"
                         href={require(`./imgCategories/${this.props.img.category}/${this.props.img.imgname}`)}
-                        download
+            download={this.props.img.imgname}
                     >
                         Download
                     </a>

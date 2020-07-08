@@ -69,20 +69,22 @@
     background-color: rgba(0,0,0,0.95);
 }
 
-#big-image {
+.big-image {
     width: 100%;
     padding: 100px 100px 0;
     max-width: 750px;
     display: inline;
 }
 
-#image-credits {
+.image-credits {
     color:white;
     padding-left: 100px;
+    padding-bottom: 100px;
     font-family: Timmana;
+    font-size: 24px;
 }
 
-#image-title {
+.image-title {
     margin: 1px 100px -70px 100px;
     display: block;
     text-align: left;
@@ -93,7 +95,7 @@
     border-bottom: 3px solid #fff500;
 }
 
-#image-desc {
+.image-desc {
     position: absolute;
     width: 434px;
     height: 207px;
@@ -109,31 +111,32 @@
     color: white;
 }
 
-#download {
-    color: yellow;
+.download {
+    color: #FFF500;
     position: absolute;
     text-decoration: none;
     font-family: Gugi;
     font-size: 20px;
     overflow: auto;
-    margin-top: 400px;
-    margin-left: 1250px;
+    margin-top: 500px;
+    margin-left: 1265px;
     margin-bottom: 250px;
     border: 3px solid #FFF500;
     box-sizing: border-box;
-    padding: 10px;
+    padding: 13px;
     border-radius: 10px;
+    Content-Disposition: attachment; 
 }
 
-#download:hover {
-    background: rgb(255,255,0);
+.download:hover {
+    background: #FFF500;
     color: black;
     transition: 0.5s;
     cursor: pointer;
 
 }
 
-#big-image, #image-title, #image-desc, #image-credits, #download {
+.big-image, .image-title, .image-desc, .image-credits, .download {
   animation-name: zoom;
   animation-duration: 0.6s;
 }
@@ -160,7 +163,7 @@
 }
 
 @media only screen and (max-width: 700px){
-  .modal-content {
+  .big-image {
     width: 100%;
   }
 }
