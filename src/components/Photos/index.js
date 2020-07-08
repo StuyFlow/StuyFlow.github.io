@@ -40,12 +40,15 @@ class Modal extends Component {
                 </span>
         		<div id="image-title">{this.props.img.title}</div>
         		<div style={{display: "flex"}}>
-            		<img
-                        className="modal-content"
-                        id="big-image"
-                        src={require(`./imgCategories/${this.props.img.category}/${this.props.img.imgname}`)}
-                    />
-            		<p id="image-credits">Photo Credits: {this.props.img.credits}</p>
+                    <div>
+                		<img
+                            className="modal-content"
+                            id="big-image"
+                            src={require(`./imgCategories/${this.props.img.category}/${this.props.img.imgname}`)}
+                        />
+                        <p id="image-credits">Photo Credits: {this.props.img.credits}</p>
+
+                    </div>
             		<div id="image-desc">{this.props.img.desc}</div>
             		<a
                         id="download"
@@ -144,7 +147,7 @@ class Photos extends Component {
     		<div style={{display: "flex"}}>
         		{Object.keys(categories).map(category => (
         			<div
-                        className="categories"
+                        className={`categories ${this.state.category === category ? 'active-category' : ''}`}
                         onClick={() => this.changeCategory(category)}
                 	>
                         { category }
