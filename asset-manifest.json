@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/static/css/main.cd37ecab.chunk.css",
-    "main.js": "/static/js/main.b4ff9982.chunk.js",
-    "main.js.map": "/static/js/main.b4ff9982.chunk.js.map",
+    "main.js": "/static/js/main.b992764d.chunk.js",
+    "main.js.map": "/static/js/main.b992764d.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.63b07cbf.js",
     "runtime-main.js.map": "/static/js/runtime-main.63b07cbf.js.map",
     "static/js/2.f9355171.chunk.js": "/static/js/2.f9355171.chunk.js",
     "static/js/2.f9355171.chunk.js.map": "/static/js/2.f9355171.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.3e52a9e5ff6a49ea84f414d51333c075.js": "/precache-manifest.3e52a9e5ff6a49ea84f414d51333c075.js",
+    "precache-manifest.e9140229edab6559f1eb030e96bffd65.js": "/precache-manifest.e9140229edab6559f1eb030e96bffd65.js",
     "service-worker.js": "/service-worker.js",
     "static/css/main.cd37ecab.chunk.css.map": "/static/css/main.cd37ecab.chunk.css.map",
     "static/js/2.f9355171.chunk.js.LICENSE.txt": "/static/js/2.f9355171.chunk.js.LICENSE.txt",
@@ -74,7 +74,7 @@
     "static/media/logo_2019.png": "/static/media/logo_2019.9d15af74.png",
     "static/media/logo_2020.png": "/static/media/logo_2020.f198a44b.png",
     "static/media/lumiere_season1.png": "/static/media/lumiere_season1.f831b0f6.png",
-    "static/media/multigen.png": "/static/media/multigen.9127ff8c.png",
+    "static/media/multigen-logo.png": "/static/media/multigen-logo.6481c989.png",
     "static/media/nicholas_yang.jpg": "/static/media/nicholas_yang.c0433f5d.jpg",
     "static/media/poster-2019.png": "/static/media/poster-2019.0a360566.png",
     "static/media/random_exposure.png": "/static/media/random_exposure.56d3b777.png",
@@ -114,10 +114,10 @@
     "static/media/sos-2019-1.png": "/static/media/sos-2019-1.b3fdaf78.png",
     "static/media/sos-2019-2.png": "/static/media/sos-2019-2.d10bd27f.png",
     "static/media/sos-2019-3.png": "/static/media/sos-2019-3.0d8f2483.png",
-    "static/media/sos-2019-4.png": "/static/media/sos-2019-4.fb97c6c0.png",
+    "static/media/sos-2019-4.png": "/static/media/sos-2019-4.ebc08efe.png",
     "static/media/sos-2019-5.png": "/static/media/sos-2019-5.2605ffe1.png",
     "static/media/sos-2019-6.png": "/static/media/sos-2019-6.6c473a23.png",
-    "static/media/sos-2019-7.png": "/static/media/sos-2019-7.7047a09c.png",
+    "static/media/sos-2019-7.png": "/static/media/sos-2019-7.99f5f2a0.png",
     "static/media/sos-2019-8.png": "/static/media/sos-2019-8.2f1c0e00.png",
     "static/media/sos-2020-0.png": "/static/media/sos-2020-0.f91cd105.png",
     "static/media/spiral_exposure0.png": "/static/media/spiral_exposure0.730abd28.png",
@@ -147,6 +147,6 @@
     "static/js/runtime-main.63b07cbf.js",
     "static/js/2.f9355171.chunk.js",
     "static/css/main.cd37ecab.chunk.css",
-    "static/js/main.b4ff9982.chunk.js"
+    "static/js/main.b992764d.chunk.js"
   ]
 }

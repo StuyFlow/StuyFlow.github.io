@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "a91f25ec3e9ac8725f69a531f88c7cd6",
+    "revision": "63f250f72c0d5b6afe1cf2f8a95cce02",
     "url": "/index.html"
   },
   {
-    "revision": "168da5a10cd187b52fe8",
+    "revision": "de4c37f84ca86c8b9517",
     "url": "/static/css/main.cd37ecab.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/js/2.f9355171.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "168da5a10cd187b52fe8",
-    "url": "/static/js/main.b4ff9982.chunk.js"
+    "revision": "de4c37f84ca86c8b9517",
+    "url": "/static/js/main.b992764d.chunk.js"
   },
   {
     "revision": "0602ed45bc290b296f27",
@@ -280,8 +280,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/lumiere_season1.f831b0f6.png"
   },
   {
-    "revision": "9127ff8c8f9ff60f1350296f636a964a",
-    "url": "/static/media/multigen.9127ff8c.png"
+    "revision": "6481c9894a93c76dfc438cee09eafc31",
+    "url": "/static/media/multigen-logo.6481c989.png"
   },
   {
     "revision": "c0433f5d0b62fe0854ebc638935f2b79",
@@ -448,8 +448,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/sos-2019-3.0d8f2483.png"
   },
   {
-    "revision": "fb97c6c098c921bcf5f269a059ccca60",
-    "url": "/static/media/sos-2019-4.fb97c6c0.png"
+    "revision": "ebc08efef016668e3618c29d4e49a55d",
+    "url": "/static/media/sos-2019-4.ebc08efe.png"
   },
   {
     "revision": "2605ffe1db065f13f4e8ee7a78ca640f",
@@ -460,8 +460,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/sos-2019-6.6c473a23.png"
   },
   {
-    "revision": "7047a09cab38cbe7fa760fe0faeafd2d",
-    "url": "/static/media/sos-2019-7.7047a09c.png"
+    "revision": "99f5f2a0aafaa761652621f97fee4eae",
+    "url": "/static/media/sos-2019-7.99f5f2a0.png"
   },
   {
     "revision": "2f1c0e00eff402f10ea3eb2b74b26f09",
