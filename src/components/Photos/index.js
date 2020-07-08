@@ -121,6 +121,11 @@ class Photos extends Component {
     }
 
     setModalImg = modalImg => {
+        if (modalImg) {
+            document.body.style.overflowY = 'hidden';
+        } else {
+            document.body.style.overflowY = 'auto';
+        }
         this.setState({ modalImg });
     };
 
