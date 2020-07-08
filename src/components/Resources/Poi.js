@@ -17,7 +17,7 @@ const youtube = [
 
 const equipment = [
 	{ name: (<> <a rel="noopener noreferrer" className="item-name" href="https://flowtoys.com/podpoi-with-capsule-handles" target="_blank">Podpoi v2 with Capsule Handles ($264.95)</a></>), desc: ["Uses capsule 2.0 lights", "Good for gunslinging, stalls, and tosses", "Most expensive poi that StuyFlow commonly uses", "Made of silicone, hurts less on impact than glowsticks", "Uses smithy cord, a braided polyester rope"], img: "poi/podpoi_handles.jpg", link: "https://flowtoys.com/podpoi-with-capsule-handles" },
-	{ name: (<> <a rel="noopener noreferrer" className="item-name" href="https://flowtoys.com/podpoi" target="_blank">Podpoi v2 ($134.95)</a></>), desc: ["Same as Podpoi v2 with Capsule Handles, but handles are knobs"], img: "poi/podpoi.jpg", link: "https://flowtoys.com/podpoi" },
+	{ name: (<> <a rel="noopener noreferrer" className="item-name" href="https://flowtoys.com/podpoi" target="_blank">Podpoi v2 ($134.95)</a></>), desc: ["Same as Podpoi v2 with Capsule Handles, but the handles are knobs", "Center of weight is different due to the lightness of the knob", "Good for gunslinging and tosses", "Handles can be bought separately"], img: "poi/podpoi.jpg", link: "https://flowtoys.com/podpoi" },
 	{ name: (<> <a rel="noopener noreferrer" className="item-name" href="https://flowtoys.com/crystal-poi-lite" target="_blank">Crystal Poi ($64.95)</a></>), desc: ["Uses flowlight-fs lights", "Similar feel to glowsticks, but are heavier", "Less durable than podpoi", "Generally less used within StuyFlow", "Shells are made of polyethylene", "Uses j-lace, a supple polyester ribbon"], img: "poi/crystal.jpg", link: "https://flowtoys.com/crystal-poi-lite" }
 ]
 

@@ -137,7 +137,7 @@
     color: white;
     position: absolute;
     display: block;
-    top: 34%;
+    top: 37%;
     left: 52%;
     transform: translate(-50%, -50%);
     text-align: center;
@@ -146,13 +146,14 @@
     transition: 0.2s;
 }
 
-.youtube-box p:hover ~ img {
-    opacity: 10%;
-    transition: 0.2s;
+.youtube-box:hover img {
+    opacity: 60%;
+    transform: scale(1.03, 1.03);
 }
 
 .youtube-box p {
     display: none;
+    font-family: "Timmana";
 }
 
 .youtube-image {
@@ -164,7 +165,7 @@
 }
 
 .youtube-image:hover {
-    opacity: 10%;
+    opacity: 60%;
     transition: 0.2s;
     transform: scale(1.03, 1.03);
 }
