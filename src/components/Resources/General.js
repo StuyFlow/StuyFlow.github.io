@@ -20,12 +20,18 @@ class General extends Component {
 				{masterList.map(list => (
 					<InfoBox
 						key={list.header}
-						header={list.header} 
+						header={list.header}
 						desc={list.desc}
 					/>
 				))}
 
-				<center><iframe title="Master List Video" className="video" width="100%" height="100%" src="https://www.youtube.com/embed/N4U-1Apvpd8" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe></center>
+				<iframe
+					title="Master List Video"
+					className="video"
+					src="https://www.youtube.com/embed/N4U-1Apvpd8"
+					allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+					allowFullScreen
+				/>
 
 				<h2 className="equipment-header">Glowstick Stores</h2>
 				{equipment.map(item => (

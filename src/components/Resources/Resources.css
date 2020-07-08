@@ -42,6 +42,8 @@
 
 .video {
     margin: 0 auto;
+    height: 100vh;
+    width: 100%;
     border: 2px white solid;
 }
 
