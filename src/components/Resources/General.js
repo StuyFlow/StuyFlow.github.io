@@ -25,7 +25,6 @@ class General extends Component {
 					/>
 				))}
 
-				<center>
 				<iframe
 					title="Master List Video"
 					className="video"
@@ -33,7 +32,6 @@ class General extends Component {
 					allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
 					allowFullScreen
 				/>
-				</center>
 				
 				<h2 className="equipment-header">Glowstick Stores</h2>
 				{equipment.map(item => (
