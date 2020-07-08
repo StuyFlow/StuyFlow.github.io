@@ -5,11 +5,11 @@
   font-size: 25px;
 }
 
-a{
+.contact-link{
   color:white;
 }
 
-a:visited { color: white; }
+.contact-link:visited { color: white; }
 
 .fab {
   padding: 10px;

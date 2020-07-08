@@ -25,6 +25,7 @@
 .navlink a {
     text-decoration: none;
     color: white;
+    transition: 0.4s;
 }
 
 .navlink-active a {
