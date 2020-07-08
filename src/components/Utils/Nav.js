@@ -3,20 +3,19 @@ import { Link } from 'react-router-dom';
 import logo from './stuyflow_logo.png';
 import './Nav.css';
 
-import { useLocation } from 'react-router-dom';
-
 const links = [
     { name: "Home", link: "/" },
     { name: "Board", link: "/board" },
-    { name: "Contact", link: "/contact" },
     { name: "Photos", link: "/photos" },
+    { name: "Videos", link: "/videos" },
     { name: "Resources", link: "/resources" },
-    { name: "Videos", link: "/videos" }
+    { name: "Contact", link: "/contact" },
 ];
 
 class Nav extends Component {
-    constructor(props) {
-        super(props);
+    componentDidMount() {
+        document.body.scrollTop = 0; // For Safari
+        document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
     }
 
     componentDidMount() {
@@ -31,12 +30,6 @@ class Nav extends Component {
     }
 
     componentDidUpdate() {
-        const { pathname } = this.props.location;
-        if (pathname === "/") {
-            document.body.style.overflowY = "hidden";
-        } else {
-            document.body.style.overflowY = "scroll";
-        }
         document.body.scrollTop = 0; // For Safari
         document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
     }
@@ -44,7 +37,7 @@ class Nav extends Component {
     render() {
         const { pathname } = this.props.location;
         return (
-            <div className="navbar">
+            <div className='navbar'>
                 <div>
                     <img
                         className="logo"
@@ -57,7 +50,10 @@ class Nav extends Component {
 
                     return (
                         <div
-                            className={`navlink ${link.link === pathname && 'navlink-active'}`}
+                            className={`navlink
+                                ${link.link === pathname && 'navlink-active'}
+                                ${pathname === "/" && 'homepage-navlink'}`
+                            }
                             key={k}
                         >
                             <Link to={link.link}>
