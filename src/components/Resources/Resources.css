@@ -64,6 +64,21 @@
     font-family: "Timmana";
 }
 
+.resource-link {
+    color: #FFF500;
+    transition: 0.4s;
+    text-decoration: none;
+}
+
+.resource-link:visited {
+    color: #FFF500;
+}
+
+.resource-link:hover {
+    color: orange;
+}
+
+
 .item-name {
     font-size: 40px;
     font-weight: 1;
@@ -81,7 +96,6 @@
 .item-name:hover {
     color: orange;
 }
-
 
 .item-description {
     margin-top: 0px;

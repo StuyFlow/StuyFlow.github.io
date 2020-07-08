@@ -4,7 +4,7 @@ import InfoBox from './InfoBox.js';
 import './Resources.css';
 
 const masterList = [
-	{ header: "Master List of Flow Moves Spreadsheet", desc: (<> <a rel="noopener noreferrer" href="https://docs.google.com/spreadsheets/d/1SX_NGhIfmVFl4-BJUh9qQsWLR08Ov3D6Yl_rZIXnvNQ/edit#gid=109028202" target="_blank">A list of moves</a> for poi, staffs, whips, and other props. Each move is assigned a difficulty and most of them have links to tutorials.</>) },
+	{ header: "Master List of Flow Moves Spreadsheet", desc: (<> <a rel="noopener noreferrer" className="resource-link" href="https://docs.google.com/spreadsheets/d/1SX_NGhIfmVFl4-BJUh9qQsWLR08Ov3D6Yl_rZIXnvNQ/edit#gid=109028202" target="_blank">A list of moves</a> for poi, staffs, whips, and other props. Each move is assigned a difficulty and most of them have links to tutorials.</>) },
 	{ header: "Master List of Flow Moves Video", desc: "A video that goes with the master move list. There are timestamps to all the moves in the comments (thank you Alvin)." }
 ];
 
@@ -32,7 +32,7 @@ class General extends Component {
 					allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
 					allowFullScreen
 				/>
-				
+
 				<h2 className="equipment-header">Glowstick Stores</h2>
 				{equipment.map(item => (
 					<EquipmentBox
