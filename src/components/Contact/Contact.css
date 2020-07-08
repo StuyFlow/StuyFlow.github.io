@@ -25,11 +25,13 @@
   margin-left: 45px;
   transform: scale(2.5, 2.6);
   border: 0.5px solid white;
+  transition: 0.3s;
 }
 
 
 .fab:hover {
   opacity: 0.8;
+  transform: scale(2.4);
 }
 
 .fa-facebook{
