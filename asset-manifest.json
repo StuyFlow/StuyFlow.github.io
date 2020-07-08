@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/static/css/main.e4b9091a.chunk.css",
-    "main.js": "/static/js/main.7dff21b5.chunk.js",
-    "main.js.map": "/static/js/main.7dff21b5.chunk.js.map",
+    "main.css": "/static/css/main.14bcdd7e.chunk.css",
+    "main.js": "/static/js/main.a60c45cf.chunk.js",
+    "main.js.map": "/static/js/main.a60c45cf.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.63b07cbf.js",
     "runtime-main.js.map": "/static/js/runtime-main.63b07cbf.js.map",
-    "static/js/2.e70775bb.chunk.js": "/static/js/2.e70775bb.chunk.js",
-    "static/js/2.e70775bb.chunk.js.map": "/static/js/2.e70775bb.chunk.js.map",
+    "static/js/2.355b0bb0.chunk.js": "/static/js/2.355b0bb0.chunk.js",
+    "static/js/2.355b0bb0.chunk.js.map": "/static/js/2.355b0bb0.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.7f359f16fa4bf5e09ad99b0e60a7e4a5.js": "/precache-manifest.7f359f16fa4bf5e09ad99b0e60a7e4a5.js",
+    "precache-manifest.9715f2855c5bea8ecbab2cc57de62a18.js": "/precache-manifest.9715f2855c5bea8ecbab2cc57de62a18.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/main.e4b9091a.chunk.css.map": "/static/css/main.e4b9091a.chunk.css.map",
-    "static/js/2.e70775bb.chunk.js.LICENSE.txt": "/static/js/2.e70775bb.chunk.js.LICENSE.txt",
+    "static/css/main.14bcdd7e.chunk.css.map": "/static/css/main.14bcdd7e.chunk.css.map",
+    "static/js/2.355b0bb0.chunk.js.LICENSE.txt": "/static/js/2.355b0bb0.chunk.js.LICENSE.txt",
     "static/media/index.css": "/static/media/Timmana-Regular.a7c2bafd.ttf",
     "static/media/React-Logo.png": "/static/media/React-Logo.49f6325d.png",
     "static/media/angela_lin.jpg": "/static/media/angela_lin.c6970811.jpg",
@@ -51,6 +51,7 @@
     "static/media/flower_exposure3.png": "/static/media/flower_exposure3.f524fc8f.png",
     "static/media/flowlight.jpg": "/static/media/flowlight.e7ff511f.jpg",
     "static/media/flowvid-19.png": "/static/media/flowvid-19.c7ccb707.png",
+    "static/media/fuzzy.jpg": "/static/media/fuzzy.6c095d73.jpg",
     "static/media/glow_products.jpg": "/static/media/glow_products.840299db.jpg",
     "static/media/glowstick-0.png": "/static/media/glowstick-0.93b042e6.png",
     "static/media/halloween-2019-2.png": "/static/media/halloween-2019-2.6a709d5b.png",
@@ -154,8 +155,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.63b07cbf.js",
-    "static/js/2.e70775bb.chunk.js",
-    "static/css/main.e4b9091a.chunk.css",
-    "static/js/main.7dff21b5.chunk.js"
+    "static/js/2.355b0bb0.chunk.js",
+    "static/css/main.14bcdd7e.chunk.css",
+    "static/js/main.a60c45cf.chunk.js"
   ]
 }
