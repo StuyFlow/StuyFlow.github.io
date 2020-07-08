@@ -2,6 +2,20 @@ import React, { Component } from 'react';
 
 import './Contact.css';
 
+class SocialMediaIcon extends Component {
+    render() {
+        return (
+            <a
+                href={this.props.url}
+                target='_blank'
+                rel="noopener noreferrer"
+            >
+                <i className={`fab ${this.props.iconClass}`}/>
+            </a>
+        )
+    }
+}
+
 
 class Contact extends Component {
     render() {
@@ -11,35 +25,29 @@ class Contact extends Component {
                 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css" />
                 <script src="https://kit.fontawesome.com/index.js"></script>
                 <div className="sentence">
-                    <div className="break">
-                        If you would like to contact us, please send an email to&nbsp;
-                        <a href="mailto:stuyvesantflow@gmail.com?" target="_blank" rel="noopener noreferrer" className="contact-link">stuyvesantflow@gmail.com</a>!
-                    </div>
+                    If you would like to contact us, please send an email to&nbsp;
+                    <a href="mailto:stuyvesantflow@gmail.com?" target="_blank" rel="noopener noreferrer" className="contact-link">stuyvesantflow@gmail.com</a>!
                 </div>
-                <div className="break">
-                    <div className="sentence">
-
-                        Click the icons below to check us out on our social media pages!
-                    </div>
+                <div className="sentence">
+                    Click the icons below to check us out on our social media pages!
                 </div>
 
-                <a href="https://www.facebook.com/StuyFl0w" className="fab fa-facebook-square" target='_blank' rel="noopener noreferrer"/>
-                <a href="https://www.youtube.com/channel/UCsWvNNE26HT40Tk7O9afkSA" className="fab fa-youtube" target='_blank' rel="noopener noreferrer"/>
-                <a href="https://www.instagram.com/stuyflow/" className="fab fa-instagram" target='_blank' rel="noopener noreferrer"/>
-                <a href="https://www.tiktok.com/@stuyflow?lang=en" className="fab fa-tiktok" target='_blank' rel="noopener noreferrer"/>
+                <SocialMediaIcon url="https://www.facebook.com/StuyFl0w" iconClass="fa-facebook"/>
+                <SocialMediaIcon url="https://www.youtube.com/channel/UCsWvNNE26HT40Tk7O9afkSA" iconClass="fa-youtube"/>
+                <SocialMediaIcon url="https://www.instagram.com/stuyflow/" iconClass="fa-instagram"/>
+                <SocialMediaIcon url="https://www.tiktok.com/@stuyflow/" iconClass="fa-tiktok"/>
+
                 <div className="sentence">
-                   <div className="break">
-                       Private Facebook Group (Stuyvesant Students Only)!
-                   </div>
+                   Private Facebook Group (Stuyvesant Students Only)!
                 </div>
-                <a href="https://www.facebook.com/groups/277759659004764" class="fab fa-facebook-square" target='_blank' rel="noopener noreferrer" />
+
+                <SocialMediaIcon url="https://www.facebook.com/groups/277759659004764" iconClass="fa-facebook"/>
+
                 <div className="sentence">
-                   <div className="break">
-                        For more information about our club, visit us at&nbsp;
-                        <a href="https://www.stuyactivities.org/club/stuyflow" target='_blank' rel="noopener noreferrer" className="contact-link">
-                              StuyActivities
-                        </a>.
-                    </div>
+                    For more information about our club, visit us at&nbsp;
+                    <a href="https://www.stuyactivities.org/club/stuyflow" target='_blank' rel="noopener noreferrer" className="contact-link">
+                          StuyActivities
+                    </a>.
                 </div>
             </div>
         );

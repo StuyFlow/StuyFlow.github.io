@@ -3,6 +3,8 @@
   color: white;
   font-family: Gugi;
   font-size: 25px;
+  margin-top: 25px;
+  margin-bottom: 30px;
 }
 
 .contact-link{
@@ -35,11 +37,7 @@
   color: white;
 
 }
-.fa-facebook-square{
-  background: #3B5998;
-  color: white;
 
-}
 .fa-instagram {
   background: #E1306C;
   color: white;
@@ -52,9 +50,4 @@
 .fa-tiktok {
   background: #000000;
   color: white;
-}
-
-.break{
-  margin-top: 25px;
-  margin-bottom: 30px;
 }
