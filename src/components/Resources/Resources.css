@@ -121,3 +121,50 @@
     margin-top: 1.1%;
     border-radius: 10px;
 }
+
+.youtube-channels {
+    display: flex;
+}
+
+.youtube-box {
+    margin-right: 30px;
+    position: relative;
+    text-align: center;
+    transition: 0.2s;
+}
+
+.youtube-box:hover p {
+    color: white;
+    position: absolute;
+    display: block;
+    top: 37%;
+    left: 52%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font-weight: 600;
+    color: white;
+    transition: 0.2s;
+}
+
+.youtube-box:hover img {
+    opacity: .6;
+    transform: scale(1.03, 1.03);
+}
+
+.youtube-box p {
+    display: none;
+    font-family: "Timmana";
+}
+
+.youtube-image {
+    height: 200px;
+    border-radius: 20px;
+    border: 3px white solid;
+    transition: 0.2s;
+}
+
+.youtube-image:hover {
+    opacity: .6;
+    transition: 0.2s;
+    transform: scale(1.03, 1.03);
+}
