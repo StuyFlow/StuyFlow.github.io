@@ -5,6 +5,22 @@ const circle = (t, radius) => {
     return [radius/3*Math.cos(t), radius/3*Math.sin(t)];
 }
 
+const twoPetalInspin = (t, radius) => {
+    return [-radius/4.5 * (Math.sin(t) + Math.sin(3*t)),
+            -radius/4.5 * (Math.cos(t) + Math.cos(3*t))];
+}
+
+const threePetalInspin = (t, radius) => {
+    return [-radius/4.5 * (Math.sin(t) + Math.sin(4*t)),
+            -radius/4.5 * (Math.cos(t) + Math.cos(4*t))];
+}
+
+const fourPetalInspin = (t, radius) => {
+    return [-radius/4.5 * (Math.sin(t) + Math.sin(5*t)),
+            -radius/4.5 * (Math.cos(t) + Math.cos(5*t))];
+}
+
+
 const threePetalAntispin = (t, radius) => {
     return [-radius/4.5 * (Math.sin(t) + Math.sin(-2*t)),
             -radius/4.5 * (Math.cos(t) + Math.cos(-2*t))];
@@ -20,9 +36,19 @@ const fivePetalAntispin = (t, radius) => {
             -radius/4.5 * (Math.cos(t) + Math.cos(-4*t))];
 }
 
+const sixPetalAntispin = (t, radius) => {
+    return [-radius/4.5 * (Math.sin(t) + Math.sin(-5*t)),
+            -radius/4.5 * (Math.cos(t) + Math.cos(-5*t))];
+}
+
 const pentagram = (t, radius) => {
     return [-radius/4.5 * (Math.sin(2*t) + Math.sin(-3*t)),
             -radius/4.5 * (Math.cos(2*t) + Math.cos(-3*t))];
+}
+
+const octagram = (t, radius) => {
+    return [-radius/4.5 * (Math.sin(3*t) + Math.sin(-5*t)),
+            -radius/4.5 * (Math.cos(3*t) + Math.cos(-5*t))];
 }
 
 let requestId;
@@ -30,7 +56,7 @@ let radius = 15;
 let t = 0;
 let slowness = 70;
 let ctx;
-let animationFunc = fivePetalAntispin;
+let animationFunc = circle;
 const trailing = 800;
 
 
