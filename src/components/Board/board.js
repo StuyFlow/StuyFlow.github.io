@@ -8,6 +8,18 @@ export const board = {
             imgName: "raymond_xu.jpg"
         },
         {
+            name: "Chloe Liu",
+            title: "Vice President ☜(ﾟヮﾟ☜)",
+            desc: "Flow is super cool to me because I get to meet so many new people and connect with them through an awesome form of art/dance :DD. Other than Flow, I volunteer in parks and a vision-disability center and I love to boulder, a form of rock climbing without a harness. I also like cool emojis like these: (´▽`ʃ♡ƪ) (●'◡'●) ლ(╹◡╹ლ) (๑•̀ㅂ•́)و✧ and stickers on Messenger.",
+            imgName: "chloe_liu.jpg"
+        },
+        {
+            name: "Jenny Liu",
+            title: "Secretary",
+            desc: "Hi there! I’m StuyFlow’s version of Diane from Bojack Horseman. You can most likely find me reading, trying to balance a volleyball on my head, or drinking tea (I’m fond of Earl Grey). I joined StuyFlow as a freshman year, and it’s been real great since then. It’s a humbling experience to be part of an overwhelmingly talented and supportive community. Raymond tried to steal my birthday, but we’re such nice people that we decided to share.",
+            imgName: "jenny_liu.jpg"
+        },
+        {
             name: "Susu Tran",
             title: "Designer",
             desc: "I like skating around and longboard dancing and teaching my friends to skate too. I draw when I have the time or if I’m bored in class, and I think being a tattoo artist would be pretty cool.",
@@ -18,7 +30,7 @@ export const board = {
             title: "Leader In Training",
             desc: "Hi I'm Sarah. My passions are collecting dad jokes and watching overly dramatic shows that make me emotional. I know a lot about astrological signs if you want a reading. I am a friendly and funny person so let's hang out soon!",
             imgName: "sarah_ibrahim.jpg"
-        },
+        }
     ],
     "2019-2020": [
         {
