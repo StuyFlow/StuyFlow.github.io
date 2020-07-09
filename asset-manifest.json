@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/static/css/main.f03c5978.chunk.css",
-    "main.js": "/static/js/main.a60c45cf.chunk.js",
-    "main.js.map": "/static/js/main.a60c45cf.chunk.js.map",
+    "main.js": "/static/js/main.47d6e3a7.chunk.js",
+    "main.js.map": "/static/js/main.47d6e3a7.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.63b07cbf.js",
     "runtime-main.js.map": "/static/js/runtime-main.63b07cbf.js.map",
-    "static/js/2.355b0bb0.chunk.js": "/static/js/2.355b0bb0.chunk.js",
-    "static/js/2.355b0bb0.chunk.js.map": "/static/js/2.355b0bb0.chunk.js.map",
+    "static/js/2.0ff65751.chunk.js": "/static/js/2.0ff65751.chunk.js",
+    "static/js/2.0ff65751.chunk.js.map": "/static/js/2.0ff65751.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.257a830392114bece4b2977b9e595d99.js": "/precache-manifest.257a830392114bece4b2977b9e595d99.js",
+    "precache-manifest.0c3b16ca8e21970fab2d1443b26a6aa1.js": "/precache-manifest.0c3b16ca8e21970fab2d1443b26a6aa1.js",
     "service-worker.js": "/service-worker.js",
     "static/css/main.f03c5978.chunk.css.map": "/static/css/main.f03c5978.chunk.css.map",
-    "static/js/2.355b0bb0.chunk.js.LICENSE.txt": "/static/js/2.355b0bb0.chunk.js.LICENSE.txt",
+    "static/js/2.0ff65751.chunk.js.LICENSE.txt": "/static/js/2.0ff65751.chunk.js.LICENSE.txt",
     "static/media/index.css": "/static/media/Timmana-Regular.a7c2bafd.ttf",
     "static/media/React-Logo.png": "/static/media/React-Logo.49f6325d.png",
     "static/media/angela_lin.jpg": "/static/media/angela_lin.c6970811.jpg",
@@ -103,6 +103,7 @@
     "static/media/some_show_3.png": "/static/media/some_show_3.11283c75.png",
     "static/media/some_show_4.png": "/static/media/some_show_4.627d6985.png",
     "static/media/some_show_5.png": "/static/media/some_show_5.d3d580a1.png",
+    "static/media/sonal_parab.jpg": "/static/media/sonal_parab.ff39fd9b.jpg",
     "static/media/sophfrosh-sing-2018-0.png": "/static/media/sophfrosh-sing-2018-0.6c9336dc.png",
     "static/media/sophfrosh-sing-2018-1.png": "/static/media/sophfrosh-sing-2018-1.5e397a56.png",
     "static/media/sophfrosh-sing-2018-2.png": "/static/media/sophfrosh-sing-2018-2.4ca20e99.png",
@@ -155,8 +156,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.63b07cbf.js",
-    "static/js/2.355b0bb0.chunk.js",
+    "static/js/2.0ff65751.chunk.js",
     "static/css/main.f03c5978.chunk.css",
-    "static/js/main.a60c45cf.chunk.js"
+    "static/js/main.47d6e3a7.chunk.js"
   ]
 }
