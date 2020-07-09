@@ -92,6 +92,19 @@ const beginAnimation = () => {
     animate();
 };
 
+const nameToMove = {
+    "Static Spin": circle,
+    "Two Petal Inspin": twoPetalInspin,
+    "Three Petal Inspin": threePetalInspin,
+    "Four Petal Inspin": fourPetalInspin,
+    "Three Petal Antispin": threePetalAntispin,
+    "Four Petal Antispin": fourPetalAntispin,
+    "Five Petal Antispin": fivePetalAntispin,
+    "Six Petal Antispin": sixPetalAntispin,
+    "Pentagram": pentagram,
+    "Octagram": octagram,
+};
+
 class PoiAnimation extends Component {
     componentDidMount() {
         beginAnimation();
@@ -102,6 +115,13 @@ class PoiAnimation extends Component {
             <div>
                 <canvas width={600} height={600} className="canvas" id="canvas">
                 </canvas>
+                <select onChange={(e) => {animationFunc = nameToMove[e.target.value]}}>
+                    {Object.keys(nameToMove).map(name => (
+                        <option key={name}>
+                            {name}
+                        </option>
+                    ))}
+                </select>
             </div>
         )
     }
