@@ -2,18 +2,36 @@ import React, { Component } from 'react';
 import './Error.css';
 
 const circle = (t, radius) => {
-    return [radius*Math.cos(t), radius*Math.sin(t)];
+    return [radius/3*Math.cos(t), radius/3*Math.sin(t)];
+}
+
+const threePetalAntispin = (t, radius) => {
+    return [-radius/4.5 * (Math.sin(t) + Math.sin(-2*t)),
+            -radius/4.5 * (Math.cos(t) + Math.cos(-2*t))];
+}
+
+const fourPetalAntispin = (t, radius) => {
+    return [-radius/4.5 * (Math.sin(t) + Math.sin(-3*t)),
+            -radius/4.5 * (Math.cos(t) + Math.cos(-3*t))];
+}
+
+const fivePetalAntispin = (t, radius) => {
+    return [-radius/4.5 * (Math.sin(t) + Math.sin(-4*t)),
+            -radius/4.5 * (Math.cos(t) + Math.cos(-4*t))];
+}
+
+const pentagram = (t, radius) => {
+    return [-radius/4.5 * (Math.sin(2*t) + Math.sin(-3*t)),
+            -radius/4.5 * (Math.cos(2*t) + Math.cos(-3*t))];
 }
 
 let requestId;
 let radius = 15;
-let x = 100;
-let y = 100;
 let t = 0;
-let slowness = 100;
+let slowness = 70;
 let ctx;
-let animationFunc = circle;
-
+let animationFunc = fivePetalAntispin;
+const trailing = 800;
 
 
 const animate = () => {
@@ -21,11 +39,14 @@ const animate = () => {
     const width = ctx.canvas.width;
     const height = ctx.canvas.height;
     ctx.fillStyle = "#AAAADD";
-    ctx.globalAlpha = 0.5;
-    ctx.beginPath();
-    ctx.ellipse(x + (width / 2), y + (height / 2), radius, radius, 0, 0, Math.PI*2);
-    ctx.fill();
-    [x, y] = animationFunc(t, 60);
+    for (let i = 0; i < trailing; i++) {
+        const [x, y] = animationFunc(t - (Math.PI / slowness * i * 0.1), width);
+        ctx.globalAlpha = (trailing - i) / trailing;
+        ctx.beginPath();
+        ctx.ellipse(x + (width / 2), y + (height / 2), radius, radius, 0, 0, Math.PI*2);
+        ctx.fill();
+    }
+
     t += Math.PI/slowness;
     if (t > Math.PI * 10) {
         t = 0;
