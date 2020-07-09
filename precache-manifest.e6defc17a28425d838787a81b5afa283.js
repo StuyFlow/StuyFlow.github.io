@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "7796a7dee6bff257a1a911e78fffae88",
+    "revision": "f4e51e7194458c12a7abf5e22eba8c26",
     "url": "/index.html"
   },
   {
-    "revision": "3bfe35693a5528899f6a",
-    "url": "/static/css/main.f03c5978.chunk.css"
+    "revision": "5d64b2e727807fa00979",
+    "url": "/static/css/main.602520df.chunk.css"
   },
   {
-    "revision": "08233f255a464a11ef5b",
-    "url": "/static/js/2.0ff65751.chunk.js"
+    "revision": "ad9ee3ee0b8d21328267",
+    "url": "/static/js/2.a2c645f8.chunk.js"
   },
   {
     "revision": "c64c486544348f10a6d6c716950bc223",
-    "url": "/static/js/2.0ff65751.chunk.js.LICENSE.txt"
+    "url": "/static/js/2.a2c645f8.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "3bfe35693a5528899f6a",
-    "url": "/static/js/main.47d6e3a7.chunk.js"
+    "revision": "5d64b2e727807fa00979",
+    "url": "/static/js/main.8eddeba7.chunk.js"
   },
   {
     "revision": "0602ed45bc290b296f27",
@@ -96,6 +96,18 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/celeste_cheung.a54130a7.jpg"
   },
   {
+    "revision": "a8eb3b3da60daeab201e62f31e8b1a05",
+    "url": "/static/media/chloe_liu.a8eb3b3d.jpg"
+  },
+  {
+    "revision": "fb407d8a01481a13e944a027f0885370",
+    "url": "/static/media/composite-iso-baton.fb407d8a.png"
+  },
+  {
+    "revision": "a350379dffbeb08543e6071da51c8473",
+    "url": "/static/media/composite-stick.a350379d.png"
+  },
+  {
     "revision": "39bcaecc646d87e435e190526355363f",
     "url": "/static/media/crystal.39bcaecc.jpg"
   },
@@ -122,6 +134,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "175c6cda123e84b2fd85155d7050541f",
     "url": "/static/media/dinner_2020-1.175c6cda.png"
+  },
+  {
+    "revision": "f6df665d346bcc354298e7bffbf9d2c3",
+    "url": "/static/media/dragon-staff.f6df665d.png"
   },
   {
     "revision": "c57d9801ae021d8af534c21daec4b226",
@@ -180,6 +196,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/flowlight.e7ff511f.jpg"
   },
   {
+    "revision": "9e226f54daad16b92a4fe5d49add882b",
+    "url": "/static/media/flowlights-staff.9e226f54.png"
+  },
+  {
     "revision": "c7ccb7072f9f42f9d8718874128914d8",
     "url": "/static/media/flowvid-19.c7ccb707.png"
   },
@@ -226,6 +246,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "12645d69f034adcd07fbaf324f390ffe",
     "url": "/static/media/jason_lin.12645d69.jpg"
+  },
+  {
+    "revision": "aa510edba429c05df7404c8c70e432d4",
+    "url": "/static/media/jenny_liu.aa510edb.jpg"
   },
   {
     "revision": "e2ad6ad48b63c153d62ee7f76e01be8f",
@@ -302,6 +326,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "f831b0f6e2e90d054366ade6a8f045e1",
     "url": "/static/media/lumiere_season1.f831b0f6.png"
+  },
+  {
+    "revision": "9610d954a6b2e7bfcd7fa2510c191835",
+    "url": "/static/media/mcs.9610d954.png"
   },
   {
     "revision": "6481c9894a93c76dfc438cee09eafc31",
