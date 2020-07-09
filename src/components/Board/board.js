@@ -61,7 +61,12 @@ export const board = {
         },
     ],
     "2017-2018": [
-
+        {
+            name: "Sonal Parab",
+            title: "Treasurer",
+            desc: "Hi, I’m Sonal and I was treasurer of StuyFlow during the 2017-2018 school year. I loved StuyFlow because I was able to make amazing friends who I still talk to today and I was able to overcome my fear of performing by performing in the dark. Some of my other hobbies include bowling, programming, and eating in different restaurants around NYC!",
+            imgName: "sonal_parab.jpg"
+        },
     ],
     "2016-2017": [
 
