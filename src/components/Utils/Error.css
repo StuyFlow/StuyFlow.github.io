@@ -13,3 +13,9 @@
 .error-message {
     font-size: 20px;
 }
+
+.move-selector {
+    font-size: 20px;
+    font-family: Gugi;
+    margin: 30px auto;
+}

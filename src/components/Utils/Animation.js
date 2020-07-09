@@ -113,15 +113,19 @@ class PoiAnimation extends Component {
     render() {
         return (
             <div>
-                <canvas width={600} height={600} className="canvas" id="canvas">
-                </canvas>
-                <select onChange={(e) => {animationFunc = nameToMove[e.target.value]}}>
+                <select
+                    className="move-selector"
+                    onChange={(e) => {animationFunc = nameToMove[e.target.value]}}
+                >
                     {Object.keys(nameToMove).map(name => (
                         <option key={name}>
                             {name}
                         </option>
                     ))}
                 </select>
+                <br/>
+                <canvas width={600} height={600} className="canvas" id="canvas">
+                </canvas>
             </div>
         )
     }
