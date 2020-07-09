@@ -74,6 +74,12 @@ export const board = {
     ],
     "2017-2018": [
         {
+            name: "Alan Zhou",
+            title: "President",
+            desc: "Hi all! I'm now at Columbia University studying history and political science. Flow was a place where I became close with and built a community of friends that made my high school experience so much better. In my free time, I like to binge Netflix shows and keep up with politics and the news.",
+            imgName: "alan_zhou.jpg"
+        },
+        {
             name: "Sonal Parab",
             title: "Treasurer",
             desc: "Hi, I’m Sonal and I was treasurer of StuyFlow during the 2017-2018 school year. I loved StuyFlow because I was able to make amazing friends who I still talk to today and I was able to overcome my fear of performing by performing in the dark. Some of my other hobbies include bowling, programming, and eating in different restaurants around NYC!",
@@ -86,6 +92,12 @@ export const board = {
             title: "Vice President",
             desc: "Hey everyone! I graduated Stuy in 2017 and was the VP of StuyFlow in my senior year. I'll graduate Fordham University in 2021 and pursue a career in Human Resources. I enjoy watching anime, kdramas, cdramas, and listening to kpop and EDM in my spare time. I'm also a Highly Sensitive Person (HSP). Feel free to hit me up on Facebook with any questions! You never know where life will take you. Live without regrets!",
             imgName: "alice_chai.jpg"
+        },
+        {
+            name: "Alan Zhou",
+            title: "Vice President",
+            desc: "Hi all! I'm now at Columbia University studying history and political science. Flow was a place where I became close with and built a community of friends that made my high school experience so much better. In my free time, I like to binge Netflix shows and keep up with politics and the news.",
+            imgName: "alan_zhou.jpg"
         },
     ],
     "2015-2016": [
