@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "f4e51e7194458c12a7abf5e22eba8c26",
+    "revision": "a2a87985405068e77fb4f9bfc401598b",
     "url": "/index.html"
   },
   {
-    "revision": "5d64b2e727807fa00979",
+    "revision": "79f96239bbb0f4948da2",
     "url": "/static/css/main.602520df.chunk.css"
   },
   {
-    "revision": "ad9ee3ee0b8d21328267",
-    "url": "/static/js/2.a2c645f8.chunk.js"
+    "revision": "70edf84eaf2fd4c067fb",
+    "url": "/static/js/2.a3a6ac53.chunk.js"
   },
   {
     "revision": "c64c486544348f10a6d6c716950bc223",
-    "url": "/static/js/2.a2c645f8.chunk.js.LICENSE.txt"
+    "url": "/static/js/2.a3a6ac53.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "5d64b2e727807fa00979",
-    "url": "/static/js/main.8eddeba7.chunk.js"
+    "revision": "79f96239bbb0f4948da2",
+    "url": "/static/js/main.7c76c002.chunk.js"
   },
   {
     "revision": "0602ed45bc290b296f27",
@@ -34,6 +34,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "a7c2bafdba1e9b0a72c2ede8c198c75a",
     "url": "/static/media/Timmana-Regular.a7c2bafd.ttf"
+  },
+  {
+    "revision": "f35c2ab4b04ef8b10a2bc838c52e097d",
+    "url": "/static/media/alice_chai.f35c2ab4.jpg"
   },
   {
     "revision": "c6970811c51bb8a1c04736714d3fc080",
