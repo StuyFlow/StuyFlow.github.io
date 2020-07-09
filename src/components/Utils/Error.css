@@ -1,0 +1,21 @@
+.error {
+    text-align: center;
+    color: white;
+    font-family: Gugi;
+    height: 100vh;
+}
+
+.error-header {
+    margin-top: 50px;
+    font-size: 50px;
+}
+
+.error-message {
+    font-size: 20px;
+}
+
+.move-selector {
+    font-size: 20px;
+    font-family: Gugi;
+    margin: 30px auto;
+}
