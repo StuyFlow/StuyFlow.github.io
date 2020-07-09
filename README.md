@@ -85,3 +85,4 @@ Check that it worked by going to [stuyflow.github.io](https://stuyflow.github.io
 - Alvin Chung
 - Aaron Hsu
 - Isabelle Lam
+- Jasmine Xiao
