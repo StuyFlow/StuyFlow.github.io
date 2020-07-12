@@ -16,7 +16,7 @@ export const board = {
         {
             name: "Jenny Liu",
             title: "Secretary",
-            desc: "Hi there! I’m StuyFlow’s version of Diane from Bojack Horseman. You can most likely find me reading, trying to balance a volleyball on my head, or drinking tea (I’m fond of Earl Grey). I joined StuyFlow as a freshman year, and it’s been real great since then. It’s a humbling experience to be part of an overwhelmingly talented and supportive community. Raymond tried to steal my birthday, but we’re such nice people that we decided to share.",
+            desc: "Hi there! I’m StuyFlow’s version of Diane from Bojack Horseman. You can most likely find me reading, trying to balance a volleyball on my head, or drinking tea (I’m fond of Earl Grey). I joined StuyFlow freshman year, and it’s been real great since then. It’s a humbling experience to be part of an overwhelmingly talented and supportive community. Raymond tried to steal my birthday, but we’re such nice people that we decided to share.",
             imgName: "jenny_liu.jpg"
         },
         {
