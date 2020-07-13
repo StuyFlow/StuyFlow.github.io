@@ -80,6 +80,18 @@ export const board = {
             imgName: "alan_zhou.jpg"
         },
         {
+            name: "Carol Chin",
+            title: "Vice President",
+            desc: "Hi everyone! I was VP of flow my senior year and I’m currently a student at NYU studying nursing. Flow was my second home, but also my second family. The people that I’ve met through this club are the people that have shaped the person that I am today. Teaching the new members and learning from my peers encouraged me to seek a profession that would allow me to engage with people. I’m lucky to have been a member of this club and I love how much the community has grown since I joined in my freshman year. In my free time you’ll usually see me ballroom dancing, watching kdramas, or playing animal crossing!",
+            imgName: "carol_chin.jpg"
+        },
+        {
+            name: "Tracy Chang",
+            title: "Vice President",
+            desc: "Hi! My name is Tracy and I’m a current Stuy alum. Since I was drawn in by the pretty lights and joined Stuy Flow in my freshman year, I had the opportunity to meet unique people and truly find a family in the Stuyvesant community. I was able to step out of my comfort zone by performing on stage and by producing a show that I could be proud of. Having now graduated, I’m so proud of what Stuy Flow has since accomplished and how it’s grown. In college, I was able to start a similar Flow club with other Stuy alums, and we hope to be able to introduce others to this new art form. I’m currently a marine science major and visual arts minor, so I enjoy drawing and photography in my free time. I also play badminton and figure skate, depending on the season! 🙂",
+            imgName: "tracy_chang.jpg"
+        },
+        {
             name: "Sonal Parab",
             title: "Treasurer",
             desc: "Hi, I’m Sonal and I was treasurer of StuyFlow during the 2017-2018 school year. I loved StuyFlow because I was able to make amazing friends who I still talk to today and I was able to overcome my fear of performing by performing in the dark. Some of my other hobbies include bowling, programming, and eating in different restaurants around NYC!",
