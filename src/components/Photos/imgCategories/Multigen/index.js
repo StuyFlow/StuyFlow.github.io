@@ -1,13 +1,10 @@
 // Please put date in YYYY-MM-DD format
 export const multigenPhotos = [
     {
-        "name": "Sample",
-        "desc": "Sample Desc",
-        "date": "2019-02-4",
-    },
-    {
-        "name": "Sample",
-        "desc": "Sample Desc",
-        "date": "2019-02-4",
+        name: "Multigen Logo",
+        desc: "Multigen Logo",
+        date: "2018-08-11",
+	imgname: "multigen-logo.png",
+	credits: "Steve",
     },
 ]
