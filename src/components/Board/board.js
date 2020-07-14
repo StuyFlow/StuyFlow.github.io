@@ -45,6 +45,12 @@ export const board = {
             desc: "Aside from my STEM interests, I love fostering environments where people are able to vibe and grow happily as a community. I joined StuyFlow in my sophomore year, and I have to give a shoutout to all the previous leaders of StuyFlow for cultivating a club for me to grow in. Because of this club, I’ve thankfully fallen out of my middle school gaming life as flowing and spending quality time with old and new people have become my new forte. Oh, and did I forget to mention that I like to eat and sleep?",
             imgName: "raymond_xu.jpg"
         },
+        {
+          name: "Steve Wang",
+          title: "Inventory Manager",
+          desc: "Hello friends! Fun fact: During my first ever Flow show (Sophfrosh SING! 2018) I tangled my strings with a friend and tossed a glowstick into a crowd and I now use that incredibly embarassing experience as inspiration that no matter your beginnings you can most definitely find a way to succeed in your passion. Now that that's said and done, outside of Flow I love playing video games and journaling about them (I have my own Instagram blog)! I also love musical theatre, though I tragically do not have an ounce of talent.",
+          imgName: "steve_wang.jpg"
+        },
     ],
     "2018-2019": [
         {
@@ -82,7 +88,7 @@ export const board = {
         {
             name: "Carol Chin",
             title: "Vice President",
-            desc: "Hi everyone! I was VP of flow my senior year and I’m currently a student at NYU studying nursing. Flow was my second home, but also my second family. The people that I’ve met through this club are the people that have shaped the person that I am today. Teaching the new members and learning from my peers encouraged me to seek a profession that would allow me to engage with people. I’m lucky to have been a member of this club and I love how much the community has grown since I joined in my freshman year. In my free time you’ll usually see me ballroom dancing, watching kdramas, or playing animal crossing!",
+            desc: "Hi everyone! I was VP of flow my senior year and I’m currently a student at NYU studying nursing. Flow was my second home, but also my second family. The people that I’ve met through this club are the people that have shaped the person that I am today. Teaching the new members and learning from my peers encouraged me to seek a profession that would allow me to engage with people. I’m lucky to have been a member of this club and I love how much the community has grown since I joined in my freshman year. In my free time you’ll usually see me ballroom dancing, watching kdramas, or playing Animal Crossing!",
             imgName: "carol_chin.jpg"
         },
         {
