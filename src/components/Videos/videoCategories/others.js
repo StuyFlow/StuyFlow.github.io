@@ -1,13 +1,8 @@
 // NOTE: Please format dates like YYYY-MM-DD
 export const otherVideos = [
     {
-        "name": "VideoName",
-        "date": "2020-09-21",
-        "videoLink": "link",
-    },
-    {
-        "name": "VideoName",
-        "date": "2020-09-21",
-        "videoLink": "link",
+        "name": "Dear Shiho",
+        "date": "2019-07-04",
+        "videoLink": "https://www.youtube.com/embed/YA7-cytPZrk",
     },
 ]

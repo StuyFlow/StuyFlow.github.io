@@ -1,13 +1,8 @@
 // NOTE: Please format dates like YYYY-MM-DD
 export const singVideos = [
     {
-        "name": "VideoName",
-        "date": "2020-09-21",
-        "videoLink": "link",
-    },
-    {
-        "name": "VideoName",
-        "date": "2020-09-21",
-        "videoLink": "link",
+        "name": "Stuyvesant SophFrosh SING! 2019 - Flow",
+        "date": "2019-03-17",
+        "videoLink": "https://www.youtube.com/embed/yECyozRVp0c",
     },
 ]

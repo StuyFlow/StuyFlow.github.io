@@ -1,13 +1,13 @@
 // NOTE: Please format dates like YYYY-MM-DD
 export const stuysquadVideos = [
     {
-        "name": "StuySquad 2020",
-        "date": "2020-09-21",
-        "videoLink": "linkfiosfjosj",
+        "name": "Flow B | FRONT ROW | Stuy Squad 18-19",
+        "date": "2019-02-05",
+        "videoLink": "https://www.youtube.com/embed/oRkKHhwfvIo",
     },
     {
-        "name": "VideoName",
-        "date": "2020-09-21",
-        "videoLink": "link",
+        "name": "Flow O | FRONT ROW | Stuy Squad 19-20",
+        "date": "2020-02-06",
+        "videoLink": "https://www.youtube.com/embed/yw9gxQ7aT_k",
     },
 ]
