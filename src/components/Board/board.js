@@ -106,6 +106,12 @@ export const board = {
     ],
     "2016-2017": [
         {
+            name: "Wilson Wong",
+            title: "President",
+            desc: "I'm a pretty chill guy who likes to play a bunch of games and watch anime, and we'll be good friends if we share hobbies. According to other people, I also seem to be a pretty good teacher. It's difficult to get me mad, but you don't want to see when I am.",
+            imgName: "wilson_wong.jpg"
+        },
+        {
             name: "Alice Chai",
             title: "Vice President",
             desc: "Hey everyone! I graduated Stuy in 2017 and was the VP of StuyFlow in my senior year. I'll graduate Fordham University in 2021 and pursue a career in Human Resources. I enjoy watching anime, kdramas, cdramas, and listening to kpop and EDM in my spare time. I'm also a Highly Sensitive Person (HSP). Feel free to hit me up on Facebook with any questions! You never know where life will take you. Live without regrets!",
