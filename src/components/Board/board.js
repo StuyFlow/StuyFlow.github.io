@@ -22,7 +22,7 @@ export const board = {
         {
             name: "Kevin Shaw",
             title: "Inventory Manager",
-            desc: "Constantly caffinated.",
+            desc: "Constantly caffeinated.",
             imgName: "kevin_shaw.jpg"
         },
         {
