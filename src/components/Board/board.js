@@ -20,6 +20,12 @@ export const board = {
             imgName: "jenny_liu.jpg"
         },
         {
+            name: "Kevin Shaw",
+            title: "Inventory Manager",
+            desc: "Constantly caffinated.",
+            imgName: "kevin_shaw.jpg"
+        },
+        {
             name: "Susu Tran",
             title: "Designer",
             desc: "I like skating around and longboard dancing and teaching my friends to skate too. I draw when I have the time or if I’m bored in class, and I think being a tattoo artist would be pretty cool.",
@@ -138,18 +144,16 @@ export const board = {
             imgName: "angela_lin.jpg"
         },
         {
+            name: "Wilson Wong",
+            title: "Vice President",
+            desc: "I'm a pretty chill guy who likes to play a bunch of games and watch anime, and we'll be good friends if we share hobbies. According to other people, I also seem to be a pretty good teacher. It's difficult to get me mad, but you don't want to see when I am.",
+            imgName: "wilson_wong.jpg"
+        },
+        {
             name: "Nicholas Yang",
             title: "Treasurer",
             desc: "Currently student on leave from NYU. Cloudflare intern for fall 2020. Interested in programming languages, movies and cooking.",
             imgName: "nicholas_yang.jpg"
         },
     ],
-    "2014-2015": [
-        {
-            name: "Kevin Yan",
-            title: "President",
-            desc: "I became president of StuyFlow in my junior year, and I was amazed at how much the club expanded by the time I graduated. I could never have imagined reaching our current size, and I am very proud of the generations of Flow members who contributed to that growth. The most memorable performances for me during my years were StuySquad 2015 and Senior SING! 2016. My personal style of flow is mainly glowstringing, specializing in wrap combos and handles.",
-            imgName: "kevin_yan.jpg"
-        },
-    ]
 };
