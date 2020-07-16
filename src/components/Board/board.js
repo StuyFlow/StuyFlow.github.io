@@ -14,6 +14,18 @@ export const board = {
             imgName: "chloe_liu.jpg"
         },
         {
+            name: "Aaron Hsu",
+            title: "Vice President",
+            desc: "Hello my name is Aaron. My favorite vegetables are corn, carrots, and cucumbers. In my free time, I like to spin lights, write code, and play games. Sometimes, I wonder what it would feel like to be a potato.",
+            imgName: "aaron_hsu.jpg"
+        },
+        {
+            name: "Kelly Huang",
+            title: "Treasurer",
+            desc: "I am a very chill and happy person. I like to play games and hang out with friends. I'm always down to get food and I absolutely love Pusheen. I really like talking and meeting new people.",
+            imgName: "kelly_huang.jpg"
+        },
+        {
             name: "Jenny Liu",
             title: "Secretary",
             desc: "Hi there! I’m StuyFlow’s version of Diane from Bojack Horseman. You can most likely find me reading, trying to balance a volleyball on my head, or drinking tea (I’m fond of Earl Grey). I joined StuyFlow freshman year, and it’s been real great since then. It’s a humbling experience to be part of an overwhelmingly talented and supportive community. Raymond tried to steal my birthday, but we’re such nice people that we decided to share.",
@@ -24,6 +36,12 @@ export const board = {
             title: "Inventory Manager",
             desc: "Constantly caffeinated.",
             imgName: "kevin_shaw.jpg"
+        },
+        {
+            name: "Constance Chen",
+            title: "Designer",
+            desc: "I was initially draw to Flow because of how aesthetically pleasing it was and the amazing community surrounding it, and was not disappointed at all when I joined my sophomore year ❤ Other than Flow, I really like baking and drinking bubble tea (my current goal in quarantine is to bake a really pretty and tasty brown sugar milk tea cake hehe) I also like listening to music and meeting new people! Feel free to hit me up anytime to chat 🙂",
+            imgName: "constance_chen.jpg"
         },
         {
             name: "Susu Tran",
@@ -44,6 +62,12 @@ export const board = {
             title: "President",
             desc: "Aloha Flowers! I love learning about different languages and cultures through traveling! I also love taking photos. During my freshman year, I learned about this amazing club called StuyFlow. I loved how unique it was so I decided to join. Through the art of poi spinning and various new styles like Whipping and Flow x HipHop, the 2020 cohort changed Flow for the years to come. I absolutely love leading and being with this beautiful community.",
             imgName: "khandaker_ridwan.jpg"
+        },
+        {
+            name: "Heiley Tai",
+            title: "Vice President",
+            desc: "Contrary to popular belief, my favorite food is NOT vegetables. It’s bread. Before I joined Flow, I spent most of my time eating bread. But after spending three years of my life hitting myself with glowsticks for shows, I think my favorite food is bread with eggs, avocado, and chipotle. In all seriousness though, I’m really grateful I had the chance to join Flow (and be your VP! Still dunno how that happened). I think it’s really shaped my high school experience and I met so many amazing people along the way. I have lots of good memories of Stuy, and it’s mainly because of this club 🙂 yippee!! Oh, and I also like learning about brains. Brains are pretty cool.",
+            imgName: "heiley_tai.jpg"
         },
         {
             name: "Raymond Xu",
