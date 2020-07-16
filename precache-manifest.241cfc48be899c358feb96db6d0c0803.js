@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "93eac887de8b91a4681abda5efdad062",
+    "revision": "cb68eb8ca4d0c13b0ba50a046188ffd8",
     "url": "/index.html"
   },
   {
-    "revision": "4240e056b249cfdc7758",
+    "revision": "ac72892a1088c6c00d5a",
     "url": "/static/css/main.602520df.chunk.css"
   },
   {
-    "revision": "ca35c4c1f7fa2e3656dc",
-    "url": "/static/js/2.eb21730c.chunk.js"
+    "revision": "83c6e9fe80d29c8f50e1",
+    "url": "/static/js/2.47f77acf.chunk.js"
   },
   {
     "revision": "c64c486544348f10a6d6c716950bc223",
-    "url": "/static/js/2.eb21730c.chunk.js.LICENSE.txt"
+    "url": "/static/js/2.47f77acf.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "4240e056b249cfdc7758",
-    "url": "/static/js/main.52bedc7b.chunk.js"
+    "revision": "ac72892a1088c6c00d5a",
+    "url": "/static/js/main.4e538955.chunk.js"
   },
   {
     "revision": "0602ed45bc290b296f27",
@@ -456,6 +456,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/senior_sing_2020.3ded6112.png"
   },
   {
+    "revision": "29645cdc3c99f39ff9884e5098f2f9ed",
+    "url": "/static/media/shoelaces.29645cdc.jpg"
+  },
+  {
     "revision": "8a8bcb4045faa2f28303192936f47790",
     "url": "/static/media/some_exposure.8a8bcb40.png"
   },
@@ -692,8 +696,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/tracy_chang.de1d6281.jpg"
   },
   {
+    "revision": "8ba53db030617c00f3edeb923ff900fd",
+    "url": "/static/media/veil_fan.8ba53db0.jpg"
+  },
+  {
     "revision": "6876c4ea3c3c3eae765f3ccd8ce57da3",
     "url": "/static/media/vivian.6876c4ea.png"
+  },
+  {
+    "revision": "58435663d38bf0aefe85d7ba8701f8ea",
+    "url": "/static/media/wand.58435663.jpg"
   },
   {
     "revision": "49095e61073878064d1ce148ef7b3e2d",
