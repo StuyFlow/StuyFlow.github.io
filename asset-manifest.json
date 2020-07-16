@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/static/css/main.602520df.chunk.css",
-    "main.js": "/static/js/main.fd2bcea5.chunk.js",
-    "main.js.map": "/static/js/main.fd2bcea5.chunk.js.map",
+    "main.js": "/static/js/main.a81d4049.chunk.js",
+    "main.js.map": "/static/js/main.a81d4049.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.63b07cbf.js",
     "runtime-main.js.map": "/static/js/runtime-main.63b07cbf.js.map",
-    "static/js/2.f1b893f1.chunk.js": "/static/js/2.f1b893f1.chunk.js",
-    "static/js/2.f1b893f1.chunk.js.map": "/static/js/2.f1b893f1.chunk.js.map",
+    "static/js/2.663bac21.chunk.js": "/static/js/2.663bac21.chunk.js",
+    "static/js/2.663bac21.chunk.js.map": "/static/js/2.663bac21.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.e411b4438aa5a2fb1f39aec94163e56d.js": "/precache-manifest.e411b4438aa5a2fb1f39aec94163e56d.js",
+    "precache-manifest.e724ab2dda91baa4e2c6d3ed7095d3d4.js": "/precache-manifest.e724ab2dda91baa4e2c6d3ed7095d3d4.js",
     "service-worker.js": "/service-worker.js",
     "static/css/main.602520df.chunk.css.map": "/static/css/main.602520df.chunk.css.map",
-    "static/js/2.f1b893f1.chunk.js.LICENSE.txt": "/static/js/2.f1b893f1.chunk.js.LICENSE.txt",
+    "static/js/2.663bac21.chunk.js.LICENSE.txt": "/static/js/2.663bac21.chunk.js.LICENSE.txt",
     "static/media/index.css": "/static/media/Timmana-Regular.a7c2bafd.ttf",
     "static/media/React-Logo.png": "/static/media/React-Logo.49f6325d.png",
     "static/media/alan_zhou.jpg": "/static/media/alan_zhou.4f723048.jpg",
@@ -153,6 +153,7 @@
     "static/media/staff_exposure2.png": "/static/media/staff_exposure2.6504eb7a.png",
     "static/media/star_exposure.png": "/static/media/star_exposure.ebad4cbd.png",
     "static/media/steve_guide.png": "/static/media/steve_guide.3229eec7.png",
+    "static/media/steve_wang.jpg": "/static/media/steve_wang.6d48ab5b.jpg",
     "static/media/studio-07052019.png": "/static/media/studio-07052019.3b0328ed.png",
     "static/media/studio_2020-0.png": "/static/media/studio_2020-0.425bbd8c.png",
     "static/media/stuyflow-hoodie-0.png": "/static/media/stuyflow-hoodie-0.2bd4f67d.png",
@@ -170,12 +171,13 @@
     "static/media/timmehtek.jpg": "/static/media/timmehtek.89af9eb1.jpg",
     "static/media/tracy_chang.jpg": "/static/media/tracy_chang.de1d6281.jpg",
     "static/media/vivian.png": "/static/media/vivian.6876c4ea.png",
-    "static/media/whip_exposure0.png": "/static/media/whip_exposure0.49095e61.png"
+    "static/media/whip_exposure0.png": "/static/media/whip_exposure0.49095e61.png",
+    "static/media/wilson_wong.jpg": "/static/media/wilson_wong.ada5e848.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.63b07cbf.js",
-    "static/js/2.f1b893f1.chunk.js",
+    "static/js/2.663bac21.chunk.js",
     "static/css/main.602520df.chunk.css",
-    "static/js/main.fd2bcea5.chunk.js"
+    "static/js/main.a81d4049.chunk.js"
   ]
 }
