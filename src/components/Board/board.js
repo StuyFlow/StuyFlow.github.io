@@ -81,6 +81,12 @@ export const board = {
           desc: "Hello friends! Fun fact: During my first ever Flow show (Sophfrosh SING! 2018) I tangled my strings with a friend and tossed a glowstick into a crowd and I now use that incredibly embarassing experience as inspiration that no matter your beginnings you can most definitely find a way to succeed in your passion. Now that that's said and done, outside of Flow I love playing video games and journaling about them (I have my own Instagram blog)! I also love musical theatre, though I tragically do not have an ounce of talent.",
           imgName: "steve_wang.jpg"
         },
+        {
+          name: "Maggie Xu",
+          title: "Social Media Manager",
+          desc: "I like lights ✨👄✨",
+          imgName: "maggie_xu.jpg"
+        },
     ],
     "2018-2019": [
         {
