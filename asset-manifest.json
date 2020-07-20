@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/static/css/main.602520df.chunk.css",
-    "main.js": "/static/js/main.4e538955.chunk.js",
-    "main.js.map": "/static/js/main.4e538955.chunk.js.map",
+    "main.css": "/static/css/main.101b8e16.chunk.css",
+    "main.js": "/static/js/main.322c3294.chunk.js",
+    "main.js.map": "/static/js/main.322c3294.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.63b07cbf.js",
     "runtime-main.js.map": "/static/js/runtime-main.63b07cbf.js.map",
-    "static/js/2.47f77acf.chunk.js": "/static/js/2.47f77acf.chunk.js",
-    "static/js/2.47f77acf.chunk.js.map": "/static/js/2.47f77acf.chunk.js.map",
+    "static/js/2.9f04eb84.chunk.js": "/static/js/2.9f04eb84.chunk.js",
+    "static/js/2.9f04eb84.chunk.js.map": "/static/js/2.9f04eb84.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.241cfc48be899c358feb96db6d0c0803.js": "/precache-manifest.241cfc48be899c358feb96db6d0c0803.js",
+    "precache-manifest.1590a91210b3d903583beb18941a3c8f.js": "/precache-manifest.1590a91210b3d903583beb18941a3c8f.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/main.602520df.chunk.css.map": "/static/css/main.602520df.chunk.css.map",
-    "static/js/2.47f77acf.chunk.js.LICENSE.txt": "/static/js/2.47f77acf.chunk.js.LICENSE.txt",
+    "static/css/main.101b8e16.chunk.css.map": "/static/css/main.101b8e16.chunk.css.map",
+    "static/js/2.9f04eb84.chunk.js.LICENSE.txt": "/static/js/2.9f04eb84.chunk.js.LICENSE.txt",
     "static/media/index.css": "/static/media/Timmana-Regular.a7c2bafd.ttf",
     "static/media/React-Logo.png": "/static/media/React-Logo.49f6325d.png",
     "static/media/aaron_hsu.jpg": "/static/media/aaron_hsu.25a008a6.jpg",
@@ -98,6 +98,7 @@
     "static/media/logo_2019.png": "/static/media/logo_2019.9d15af74.png",
     "static/media/logo_2020.png": "/static/media/logo_2020.f198a44b.png",
     "static/media/lumiere_season1.png": "/static/media/lumiere_season1.f831b0f6.png",
+    "static/media/maggie_xu.jpg": "/static/media/maggie_xu.3e1bfcf0.jpg",
     "static/media/mcs.png": "/static/media/mcs.9610d954.png",
     "static/media/multigen-logo.png": "/static/media/multigen-logo.6481c989.png",
     "static/media/nicholas_yang.jpg": "/static/media/nicholas_yang.c0433f5d.jpg",
@@ -184,8 +185,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.63b07cbf.js",
-    "static/js/2.47f77acf.chunk.js",
-    "static/css/main.602520df.chunk.css",
-    "static/js/main.4e538955.chunk.js"
+    "static/js/2.9f04eb84.chunk.js",
+    "static/css/main.101b8e16.chunk.css",
+    "static/js/main.322c3294.chunk.js"
   ]
 }
