@@ -1,3 +1,5 @@
+import React from 'react';
+
 // NOTE: The year numbers should match the folder name in /imgs
 export const board = {
     "2020-2021": [
