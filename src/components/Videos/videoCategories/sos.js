@@ -1,13 +1,13 @@
 // NOTE: Please format dates like YYYY-MM-DD
 export const sosVideos = [
     {
-        "name": "VideoName",
-        "date": "2020-09-21",
-        "videoLink": "link",
+        "name": '"Onwards" | StuyFlow x Virtual SOS 2020',
+        "date": "2020-06-27",
+        "videoLink": "https://www.youtube.com/embed/QZ8nKRLsdyA",
     },
     {
-        "name": "VideoName",
-        "date": "2020-09-21",
-        "videoLink": "link",
+        "name": 'SOS 2019 Flow',
+        "date": "2019-06-10",
+        "videoLink": "https://www.youtube.com/embed/xLej9FH0PQw&",
     },
 ]

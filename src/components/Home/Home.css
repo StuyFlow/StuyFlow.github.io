@@ -1,0 +1,54 @@
+/* Top Level Home Page*/
+.homepage {
+    height: 100vh;
+    overflow-y: scroll;
+}
+
+/* Dividers */
+.home-div {
+    position: relative;
+}
+
+.home-video {
+    height: 100vh;
+    overflow-y: hidden;
+}
+
+/* Video */
+.backgroundVideo {
+    width: 100%;
+}
+
+/* Text in front of video */
+.frontpage-desc {
+    position: absolute;
+    right: 0;
+    top: 37%;
+    color: white;
+    padding-right: 80px;
+    text-align: right;
+    font-family: Gugi;
+}
+
+.club-name {
+    font-size: 130px;
+    text-shadow: 10px 4px 20px #030303;
+}
+
+.slogan {
+    font-size: 25px;
+    text-shadow: 10px 4px 20px #030303;
+}
+
+/* About */
+.about-page {
+    padding: 150px 80px;
+}
+
+.about-desc {
+    font-family: Timmana;
+    font-size: 30px;
+    color: white;
+    text-indent: 80px;
+    margin-top: 20px;
+}

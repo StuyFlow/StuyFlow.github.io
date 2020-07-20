@@ -19,6 +19,9 @@ const categories = [
     { name: "Other", videos: otherVideos },
 ];
 
+const dateCompare = (a, b) => {
+    return Date.parse(b.date) - Date.parse(a.date);
+}
 
 class Videos extends Component {
     constructor(props) {
@@ -33,13 +36,23 @@ class Videos extends Component {
     }
 
     render() {
+        let videoList = this.state.category.videos;
+        if (this.state.category.name === "All") {
+            videoList = [...stuysquadVideos,
+                         ...singVideos,
+                         ...sosVideos,
+                         ...choreoProjectVideos,
+                         ...lumiereVideos,
+                         ...otherVideos];
+        }
+        videoList.sort(dateCompare);
         return (
             <div className="page">
                 <div className="pageHeader">Videos</div>
                 <div className="categories">
                     {categories.map(category => (
                         <div
-                            className="category"
+                            className={`categories ${this.state.category === category ? 'active-category' : ''}`}
                             key={category.name}
                             onClick={() => this.changeCategory(category)}
                         >
@@ -47,15 +60,17 @@ class Videos extends Component {
                         </div>
                     ))}
                 </div>
-                <div style={{color: "red"}}>
-                    {this.state.category.name}
-                </div>
                 <div>
-                    {this.state.category.videos.map(video => (
-                        <div style={{color: "white"}}>
-                            {video.name}<br/>
-                            {video.date}<br/>
-                            {video.videoLink}
+                    {videoList.map(video => (
+                        <div className="video-div">
+                            <div className="video-title">{video.name}</div>
+                            <iframe
+            					title="Master List Video"
+            					className="video"
+            					src={video.videoLink}
+            					allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+            					allowFullScreen
+            				/>
                         </div>
                     ))}
                 </div>
