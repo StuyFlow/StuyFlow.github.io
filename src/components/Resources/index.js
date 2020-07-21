@@ -33,11 +33,11 @@ class Resources extends Component {
         return (
             <div className="page">
                 <div className="pageHeader">Resources</div>
-                <div className="resource-bar">
+                <div className="section-nav">
                     {Object.keys(sections).map(section => (
                         <div
                             key={section}
-                            className="resource-bar-items"
+                            className={`section ${this.state.section === section ? 'section-active' : ''}`}
                             onClick={() => this.changeSection(section)}
                         >
                             {section}

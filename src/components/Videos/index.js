@@ -49,10 +49,10 @@ class Videos extends Component {
         return (
             <div className="page">
                 <div className="pageHeader">Videos</div>
-                <div className="categories">
+                <div className="section-nav">
                     {categories.map(category => (
                         <div
-                            className={`categories ${this.state.category === category ? 'active-category' : ''}`}
+                            className={`section ${this.state.category.name === category.name ? 'section-active' : ''}`}
                             key={category.name}
                             onClick={() => this.changeCategory(category)}
                         >

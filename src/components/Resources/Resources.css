@@ -1,29 +1,4 @@
-.section-name {
-    color: white;
-}
 
-.resource-bar {
-    display: flex;
-    font-family: "Gugi";
-    padding-left: 0px;
-}
-
-.resource-bar-items {
-    color: white;
-    margin: 20px;
-    margin-right: 40px;
-    margin-left: 0px;
-}
-
-.resource-bar-items:hover {
-    color: #FFF500;
-    text-decoration: underline;
-}
-
-.section-component {
-    color: white;
-    font-size: 30px;
-}
 
 .header {
     color: white;
@@ -100,6 +75,7 @@
 .item-description {
     margin-top: 0px;
     font-size: 24px;
+    color: white;
 }
 
 .item-image {

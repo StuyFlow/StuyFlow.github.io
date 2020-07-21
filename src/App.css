@@ -1,3 +1,4 @@
+/* General Page Styles */
 .background {
     background-color: #120033;
 }
@@ -11,4 +12,46 @@
     font-family: Gugi;
     font-size: 60px;
     border-bottom: 3px solid #fff500;
+}
+
+/* Selector Styles */
+.selector {
+    display: flex;
+    margin: 20px 0 0;
+}
+
+.selector .label {
+    font-family: Gugi;
+    font-size: 20px;
+    color: white;
+    margin-right: 10px;
+}
+
+.selector .dropdown {
+    font-size: 18px;
+    font-family: Gugi;
+}
+
+/* Section Navigation */
+.section-nav {
+    display: flex;
+    margin-bottom: 50px;
+}
+
+.section {
+    color: white;
+    font-size: 20px;
+    font-family: Gugi;
+    margin: 20px 30px 0 0;
+    transition: 0.45s;
+}
+
+.section:hover {
+    color: #FFF500;
+    cursor: pointer;
+}
+
+.section-active {
+    color: #FFF500;
+    text-decoration: underline;
 }

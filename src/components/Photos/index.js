@@ -144,18 +144,18 @@ class Photos extends Component {
         return (
 		<div className="page">
     		<div className="pageHeader">Photos</div>
-    		<div style={{display: "flex"}}>
+    		<div className="section-nav">
         		{Object.keys(categories).map(category => (
         			<div
-                        className={`categories ${this.state.category === category ? 'active-category' : ''}`}
+                        className={`section ${this.state.category === category ? 'section-active' : ''}`}
                         onClick={() => this.changeCategory(category)}
                 	>
                         { category }
                     </div>
         		))}
-        		<div className="sort">
-                    <div className="sort-label">Sort By:</div>
-                    <select className="sort-selector" onChange={this.changeSort}>
+        		<div className="selector sort-selector">
+                    <div className="label">Sort By:</div>
+                    <select className="dropdown" onChange={this.changeSort}>
                         {sorts.map(sort => (
                             <option key={sort}>
                                 {sort}

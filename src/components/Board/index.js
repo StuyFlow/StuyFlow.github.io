@@ -20,15 +20,17 @@ class Board extends Component {
         return (
             <div className="page">
                 <div className="pageHeader">StuyFlow Board Members</div>
-                <div className="year">
-                    <div className="year-label">Year:</div>
-                    <select className="year-selector" onChange={this.changeYear}>
-                        {Object.keys(board).map(term => (
-                            <option key={term}>
-                                {term}
-                            </option>
-                        ))}
-                    </select>
+                <div className="section-nav">
+                    <div className="selector">
+                        <div className="label">Year:</div>
+                        <select className="dropdown" onChange={this.changeYear}>
+                            {Object.keys(board).map(term => (
+                                <option key={term}>
+                                    {term}
+                                </option>
+                            ))}
+                        </select>
+                    </div>
                 </div>
                 <div className="board-members">
                     {members.map(person => (

@@ -1,38 +1,5 @@
-.categories {
-    color: white;
-    margin: 17px 22px 12px 0;
-    font-size: 20px;
-    font-family: Gugi;
-}
-
-.active-category {
-    color: #FFF500;
-    text-decoration: underline;
-}
-
-.categories:hover {
-    color: #FFF500;
-    cursor: pointer;
-}
-
-.sort {
-    display: flex;
-    margin-top: 17px;
-    margin-left: auto;
-}
-
-.sort-label {
-    color: white;
-    font-size: 20px;
-    font-family: Gugi;
-    margin-right: 10px;
-    margin-bottom: 10px;
-}
-
 .sort-selector {
-    font-size: 18px;
-    font-family: Gugi;
-    margin-bottom: 10px;
+    margin-left: auto !important;
 }
 
 .imag {
@@ -126,7 +93,7 @@
     box-sizing: border-box;
     padding: 13px;
     border-radius: 10px;
-    Content-Disposition: attachment; 
+    Content-Disposition: attachment;
 }
 
 .download:hover {
