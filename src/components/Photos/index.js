@@ -66,7 +66,7 @@ class Image extends Component {
     render() {
     	return (
     		<img
-                className="imag"
+                className="image-block"
                 src={require(`./imgCategories/${this.props.category}/${this.props.imgname}`)}
                 onClick={() => this.props.setModalImg(this.props)}
                 alt={this.props.title}
@@ -165,7 +165,7 @@ class Photos extends Component {
                 </div>
        		</div>
     		<div className="images">
-    		{ this.get_photos(this.state.category, this.state.sort) }
+    		      { this.get_photos(this.state.category, this.state.sort) }
     	    </div>
             { this.state.modalImg && <Modal img={this.state.modalImg} setModalImg={this.setModalImg}/> }
         </div>

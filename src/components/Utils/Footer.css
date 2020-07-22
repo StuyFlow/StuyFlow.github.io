@@ -3,9 +3,18 @@
     flex-direction: column;
     align-items: center;
     color: white;
-    font-family: Timmana;
+    font-family: DarkerGrotesque;
+    font-weight: 500;
     padding: 50px 0 30px;
-    background-image: linear-gradient(rgba(0,0,0,0) 0%, rgba(0,0,0,1) 20%);
+}
+
+.footer-light {
+    background: linear-gradient(360deg, rgba(219, 54, 54, 0.295) 53.73%, rgba(255, 37, 7, 0) 100%);
+}
+
+.footer-dark {
+    background: linear-gradient(360deg, rgba(0, 0, 0, 0.25) 53.73%, rgba(0, 0, 0, 0) 100%);
+
 }
 
 .github-logo {
@@ -35,4 +44,5 @@
 
 .created-by {
     font-size: 16px;
+    margin: 5px 0px 10px;
 }

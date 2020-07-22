@@ -12,12 +12,27 @@ import Footer from './components/Utils/Footer';
 import './App.css';
 
 class App extends Component {
+    constructor(props) {
+        super(props);
+        this.state = {
+            theme: "dark",
+        };
+    }
+
+    changeTheme = () => {
+        if (this.state.theme === "dark") {
+            this.setState({ theme: "light" });
+        } else {
+            this.setState({ theme: "dark" });
+        }
+    }
+
     render() {
         return (
-            <div className="background">
-            <Switch>
-                <Nav/>
-            </Switch>
+            <div className={`background background-${this.state.theme}`}>
+                <Switch>
+                    <Nav changeTheme={this.changeTheme}/>
+                </Switch>
                 <Switch>
                     <Route path="/board" component={Board}/>
                     <Route path="/contact" component={Contact}/>
@@ -28,7 +43,7 @@ class App extends Component {
                     <Route path="/" component={Error}/>
                 </Switch>
                 <Switch>
-                    <Footer/>
+                    <Footer theme={this.state.theme}/>
                 </Switch>
             </div>
         );

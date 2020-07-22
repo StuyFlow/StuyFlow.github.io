@@ -1,10 +1,11 @@
-
+/* General Resources */
 
 .header {
-    color: white;
+    color: #E4CA87;
     margin-bottom: 10px;
-    font-family: "Gugi";
-    font-size: 40px;
+    font-family: DarkerGrotesque;
+    font-weight: 500;
+    font-size: 45px;
 }
 
 .desc {
@@ -12,7 +13,7 @@
     margin-top: 7px;
     margin-bottom: 40px;
     font-size: 20px;
-    font-family: "Timmana";
+    font-family: Abel;
 }
 
 .video {
@@ -23,12 +24,14 @@
 }
 
 
+/* Equipment Box */
+
 .equipment-header {
-    color: white;
+    color: #E4CA87;
     margin-bottom: 30px;
-    font-family: "Gugi";
+    font-family: DarkerGrotesque;
+    font-weight: 500;
     font-size: 50px;
-    font-weight: 1;
 }
 
 .item-box {
@@ -36,17 +39,17 @@
 }
 
 .item-text {
-    font-family: "Timmana";
+    font-family: Abel;
 }
 
 .resource-link {
-    color: #FFF500;
+    color: #FFC42E;
     transition: 0.4s;
     text-decoration: none;
 }
 
 .resource-link:visited {
-    color: #FFF500;
+    color: #FFC42E;
 }
 
 .resource-link:hover {
@@ -59,13 +62,13 @@
     font-weight: 1;
     margin-top: 0px;
     margin-bottom: 0px;
-    color: #FFF500;
+    color: #FFC42E;
     transition: 0.4s;
     text-decoration: none;
 }
 
 .item-name:visited {
-    color: #FFF500;
+    color: #FFC42E;
 }
 
 .item-name:hover {

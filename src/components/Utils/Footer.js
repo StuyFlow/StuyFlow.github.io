@@ -37,7 +37,7 @@ class Footer extends Component {
             return <></>;
         }
         return (
-            <div className="footer">
+            <div className={`footer footer-${this.props.theme}`}>
                 <div className="github">
                     <a
                         href="https://github.com/StuyFlow/StuyFlow.github.io"

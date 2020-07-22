@@ -14,7 +14,7 @@
     width: 300px;
     height: 300px;
     border-radius: 100%;
-    border: 3px solid #FFF500;
+    border: 3px solid #FFC42E;
 }
 
 .info {
@@ -22,19 +22,22 @@
 }
 
 .board-name {
-    font-family: Gugi;
+    font-family: DarkerGrotesque;
+    font-weight: 700;
     font-size: 48px;
     color: white;
 }
 
 .board-title {
-    font-family: Timmana;
-    font-size: 30px;
-    color: #FFF500;
+    font-family: Abel;
+    font-size: 25px;
+    color: #FFC42E;
 }
 
 .board-desc {
-    font-family: Gugi;
+    font-family: DarkerGrotesque;
+    font-weight: 400;
     font-size: 24px;
+    margin-top: 20px;
     color: white;
 }

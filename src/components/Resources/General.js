@@ -35,7 +35,7 @@ class General extends Component {
 					allowFullScreen
 				/>
 
-				<h2 className="equipment-header">Equipment</h2>
+				<p className="equipment-header">Equipment</p>
 				{equipment.map(item => (
 					<EquipmentBox
 						key={item.name}

@@ -27,7 +27,7 @@ class Nav extends Component {
         const { pathname } = this.props.location;
         return (
             <div className='navbar'>
-                <div>
+                <div onClick={this.props.changeTheme}>
                     <img
                         className="logo"
                         src={logo}

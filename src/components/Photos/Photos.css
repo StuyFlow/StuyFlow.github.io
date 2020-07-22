@@ -1,8 +1,10 @@
+/* For the sort selector to stay on right */
 .sort-selector {
     margin-left: auto !important;
 }
 
-.imag {
+/* Image Gallery */
+.image-block {
     border: 3px solid #FFFFFF;
     box-sizing: border-box;
     border-radius: 10px;
@@ -18,12 +20,17 @@
     transition: 0.3s;
 }
 
-.imag:hover {opacity: 0.7;}
+.image-block:hover {
+    opacity: 0.7;
+    transform: scale(1.02, 1.02);
+}
 
 .images {
     margin-left: 0px;
     margin-right: 0px;
 }
+
+/* Image Modal Styles */
 
 .modal {
     position: fixed;
@@ -48,8 +55,9 @@
     color:white;
     padding-left: 100px;
     padding-bottom: 100px;
-    font-family: Timmana;
-    font-size: 24px;
+    font-family: DarkerGrotesque;
+    font-weight: 600;
+    font-size: 20px;
 }
 
 .image-title {
@@ -58,9 +66,10 @@
     text-align: left;
     color: white;
     padding: 0px 0 10px 0;
-    font-size: 40px;
-    font-family: Gugi;
-    border-bottom: 3px solid #fff500;
+    font-size: 60px;
+    font-family: DarkerGrotesque;
+    font-weight: 900;
+    border-bottom: 3px solid #FFC42E;
 }
 
 .image-desc {
@@ -70,7 +79,8 @@
     left: 930px;
     top: 204px;
 
-    font-family: Gugi;
+    font-family: DarkerGrotesque;
+    font-weight: 500;
     font-style: normal;
     font-weight: normal;
     font-size: 26px;
@@ -80,24 +90,24 @@
 }
 
 .download {
-    color: #FFF500;
+    color: #FFC42E;
     position: absolute;
     text-decoration: none;
-    font-family: Gugi;
-    font-size: 20px;
+    font-family: DarkerGrotesque;
+    font-size: 25px;
     overflow: auto;
     margin-top: 500px;
     margin-left: 1265px;
     margin-bottom: 250px;
-    border: 3px solid #FFF500;
+    border: 3px solid #FFC42E;
     box-sizing: border-box;
-    padding: 13px;
+    padding: 11px;
     border-radius: 10px;
     Content-Disposition: attachment;
 }
 
 .download:hover {
-    background: #FFF500;
+    background: #FFC42E;
     color: black;
     transition: 0.5s;
     cursor: pointer;

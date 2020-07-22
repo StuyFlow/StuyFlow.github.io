@@ -1,17 +1,26 @@
 /* General Page Styles */
 .background {
-    background-color: #120033;
+    transition-duration: 5s;
+}
+
+.background-dark {
+    background: linear-gradient(180deg, rgba(12, 0, 147, 0.88) 7.29%, rgba(255, 255, 255, 0) 100%), linear-gradient(180deg, rgba(51, 0, 91, 0) 0%, #1B0030 100%), #1F1F1F;
+}
+
+.background-light {
+    background: linear-gradient(180deg, rgba(249, 45, 0, 0.55) 0%, rgba(255, 0, 0, 0) 32.29%), linear-gradient(180deg, rgba(217, 0, 182, 0.5) 0%, rgba(235, 113, 0, 0.5) 100%), linear-gradient(180deg, rgba(0, 0, 204, 0) 16.67%, rgba(248, 12, 224, 0.33) 100%), linear-gradient(180deg, rgba(198, 0, 0, 0.6) 0%, rgba(248, 89, 0, 0.6) 100%), linear-gradient(0deg, #E7E7E7, #E7E7E7);
 }
 
 .page {
-    padding: 150px 80px;
+    padding: 120px 80px;
 }
 
 .pageHeader {
     color: white;
-    font-family: Gugi;
-    font-size: 60px;
-    border-bottom: 3px solid #fff500;
+    font-family: DarkerGrotesque;
+    font-weight: 700;
+    font-size: 90px;
+    border-bottom: 3px solid #FFC42E;
 }
 
 /* Selector Styles */
@@ -21,15 +30,15 @@
 }
 
 .selector .label {
-    font-family: Gugi;
-    font-size: 20px;
+    font-family: Abel;
+    font-size: 28px;
     color: white;
     margin-right: 10px;
 }
 
 .selector .dropdown {
-    font-size: 18px;
-    font-family: Gugi;
+    font-size: 20px;
+    font-family: Abel;
 }
 
 /* Section Navigation */
@@ -40,18 +49,18 @@
 
 .section {
     color: white;
-    font-size: 20px;
-    font-family: Gugi;
+    font-size: 28px;
+    font-family: Abel;
     margin: 20px 30px 0 0;
     transition: 0.45s;
 }
 
 .section:hover {
-    color: #FFF500;
+    color: #FFC42E;
     cursor: pointer;
 }
 
 .section-active {
-    color: #FFF500;
+    color: #FFC42E;
     text-decoration: underline;
 }

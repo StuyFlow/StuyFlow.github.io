@@ -9,9 +9,10 @@
 }
 
 .navlink {
-    font-family: Gugi;
+    font-family: Abel;
     padding: 60px 40px;
-    font-size: 20px;
+    font-size: 28px;
+    font-weight: bold;
 }
 
 .navlink:last-child {
@@ -31,12 +32,12 @@
 .navlink-active a {
     text-decoration: none;
     padding-bottom: 3px;
-    border-bottom: 1px solid #fff500;
-    color: #fff500;
+    border-bottom: 1px solid #FFC42E;
+    color: #FFC42E;
 }
 
 .navlink a:hover {
-    color: #fff500;
+    color: #FFC42E;
 }
 
 .link-div {

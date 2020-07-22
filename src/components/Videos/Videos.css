@@ -1,13 +1,4 @@
-.categories {
-    display: flex;
-}
-
-.category {
-    color: white;
-    font-family: Gugi;
-    font-size: 20px;
-    margin: 10px;
-}
+/* Video Page */
 
 .video-div {
     margin: 20px 0;
@@ -15,7 +6,8 @@
 
 .video-title {
     color: white;
-    font-family: Gugi;
-    font-size: 30px;
+    font-family: DarkerGrotesque;
+    font-weight: 600;
+    font-size: 40px;
     margin-bottom: 20px;
 }
