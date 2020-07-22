@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "89a86aeee9334af3b1ffcd74c8a60295",
+    "revision": "065c93923305a3cf33d810c176b1d863",
     "url": "/index.html"
   },
   {
-    "revision": "2e934e2af6aae5f7b542",
-    "url": "/static/css/main.101b8e16.chunk.css"
+    "revision": "140b70f02cf2298afd04",
+    "url": "/static/css/main.ee943b82.chunk.css"
   },
   {
     "revision": "65a1d31a81b09289810c",
@@ -16,12 +16,44 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/js/2.9f04eb84.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "2e934e2af6aae5f7b542",
-    "url": "/static/js/main.36f7f903.chunk.js"
+    "revision": "140b70f02cf2298afd04",
+    "url": "/static/js/main.bf8b8900.chunk.js"
   },
   {
     "revision": "0602ed45bc290b296f27",
     "url": "/static/js/runtime-main.63b07cbf.js"
+  },
+  {
+    "revision": "1052d6ca3993ae24a932304560a4c8b4",
+    "url": "/static/media/Abel-Regular.1052d6ca.ttf"
+  },
+  {
+    "revision": "aa80abf051435aefd2641a2ec0ab508d",
+    "url": "/static/media/DarkerGrotesque-Black.aa80abf0.ttf"
+  },
+  {
+    "revision": "6bdb91d40d374589dc304be414853da8",
+    "url": "/static/media/DarkerGrotesque-Bold.6bdb91d4.ttf"
+  },
+  {
+    "revision": "36ee938ad4c970fc2823a7c1897c69c6",
+    "url": "/static/media/DarkerGrotesque-ExtraBold.36ee938a.ttf"
+  },
+  {
+    "revision": "9f819a2862dfb2bf609fad7f1da95251",
+    "url": "/static/media/DarkerGrotesque-Light.9f819a28.ttf"
+  },
+  {
+    "revision": "0385c698709eca7927b4a2fdc4e93091",
+    "url": "/static/media/DarkerGrotesque-Medium.0385c698.ttf"
+  },
+  {
+    "revision": "070be1837e50c22918ede2d56682a54b",
+    "url": "/static/media/DarkerGrotesque-Regular.070be183.ttf"
+  },
+  {
+    "revision": "bb7cc99a8f763200a792b955d5930855",
+    "url": "/static/media/DarkerGrotesque-SemiBold.bb7cc99a.ttf"
   },
   {
     "revision": "c9e52a059afc82ec754b631fde8ad987",
