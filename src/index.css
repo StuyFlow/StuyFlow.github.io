@@ -7,16 +7,6 @@ body {
 }
 
 @font-face {
-    font-family: Gugi;
-    src: url(./fonts/Gugi-Regular.ttf);
-}
-
-@font-face {
-    font-family: Timmana;
-    src: url(./fonts/Timmana-Regular.ttf);
-}
-
-@font-face {
     font-family: DarkerGrotesque;
     src: url(./fonts/DarkerGrotesque-Light.ttf);
     font-weight: 300;
@@ -61,4 +51,105 @@ body {
 @font-face {
     font-family: Abel;
     src: url(./fonts/Abel-Regular.ttf);
+}
+
+/* Grid Code */
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+/* Extra Small (No Media Query)*/
+.col-1 {flex: 0 0 8.333333333333332%; max-width: 8.333333333333332%}
+.col-2 {flex: 0 0 16.666666666666664%; max-width: 16.666666666666664%}
+.col-3 {flex: 0 0 25%; max-width: 25%}
+.col-4 {flex: 0 0 33.33333333333333%; max-width: 33.33333333333333%}
+.col-5 {flex: 0 0 41.66666666666667%; max-width: 41.66666666666667%}
+.col-6 {flex: 0 0 50%; max-width: 50%}
+.col-7 {flex: 0 0 58.333333333333336%; max-width: 58.333333333333336%}
+.col-8 {flex: 0 0 66.66666666666666%; max-width: 66.66666666666666%}
+.col-9 {flex: 0 0 75%; max-width: 75%}
+.col-10 {flex: 0 0 83.33333333333334%; max-width: 83.33333333333334%}
+.col-11 {flex: 0 0 91.66666666666666%; max-width: 91.66666666666666%}
+.col-12 {flex: 0 0 100%; max-width: 100%}
+.d-none {display: none}
+.d-block {display: block}
+.d-relative {display: relative}
+
+/* Small Screens */
+@media only screen and (min-width: 576px) {
+    .col-sm-1 {flex: 0 0 8.333333333333332%; max-width: 8.333333333333332%}
+    .col-sm-2 {flex: 0 0 16.666666666666664%; max-width: 16.666666666666664%}
+    .col-sm-3 {flex: 0 0 25%; max-width: 25%}
+    .col-sm-4 {flex: 0 0 33.33333333333333%; max-width: 33.33333333333333%}
+    .col-sm-5 {flex: 0 0 41.66666666666667%; max-width: 41.66666666666667%}
+    .col-sm-6 {flex: 0 0 50%; max-width: 50%}
+    .col-sm-7 {flex: 0 0 58.333333333333336%; max-width: 58.333333333333336%}
+    .col-sm-8 {flex: 0 0 66.66666666666666%; max-width: 66.66666666666666%}
+    .col-sm-9 {flex: 0 0 75%; max-width: 75%}
+    .col-sm-10 {flex: 0 0 83.33333333333334%; max-width: 83.33333333333334%}
+    .col-sm-11 {flex: 0 0 91.66666666666666%; max-width: 91.66666666666666%}
+    .col-sm-12 {flex: 0 0 100%; max-width: 100%}
+    .d-sm-none {display: none}
+    .d-sm-block {display: block}
+    .d-sm-relative {display: relative}
+
+}
+
+/* Medium Screens */
+@media only screen and (min-width: 768px) {
+    .col-md-1 {flex: 0 0 8.333333333333332%; max-width: 8.333333333333332%}
+    .col-md-2 {flex: 0 0 16.666666666666664%; max-width: 16.666666666666664%}
+    .col-md-3 {flex: 0 0 25%; max-width: 25%}
+    .col-md-4 {flex: 0 0 33.33333333333333%; max-width: 33.33333333333333%}
+    .col-md-5 {flex: 0 0 41.66666666666667%; max-width: 41.66666666666667%}
+    .col-md-6 {flex: 0 0 50%; max-width: 50%}
+    .col-md-7 {flex: 0 0 58.333333333333336%; max-width: 58.333333333333336%}
+    .col-md-8 {flex: 0 0 66.66666666666666%; max-width: 66.66666666666666%}
+    .col-md-9 {flex: 0 0 75%; max-width: 75%}
+    .col-md-10 {flex: 0 0 83.33333333333334%; max-width: 83.33333333333334%}
+    .col-md-11 {flex: 0 0 91.66666666666666%; max-width: 91.66666666666666%}
+    .col-md-12 {flex: 0 0 100%; max-width: 100%}
+    .d-md-none {display: none}
+    .d-md-block {display: block}
+    .d-md-relative {display: relative}
+}
+
+/* Large Screens */
+@media only screen and (min-width: 992px) {
+    .col-lg-1 {flex: 0 0 8.333333333333332%; max-width: 8.333333333333332%}
+    .col-lg-2 {flex: 0 0 16.666666666666664%; max-width: 16.666666666666664%}
+    .col-lg-3 {flex: 0 0 25%; max-width: 25%}
+    .col-lg-4 {flex: 0 0 33.33333333333333%; max-width: 33.33333333333333%}
+    .col-lg-5 {flex: 0 0 41.66666666666667%; max-width: 41.66666666666667%}
+    .col-lg-6 {flex: 0 0 50%; max-width: 50%}
+    .col-lg-7 {flex: 0 0 58.333333333333336%; max-width: 58.333333333333336%}
+    .col-lg-8 {flex: 0 0 66.66666666666666%; max-width: 66.66666666666666%}
+    .col-lg-9 {flex: 0 0 75%; max-width: 75%}
+    .col-lg-10 {flex: 0 0 83.33333333333334%; max-width: 83.33333333333334%}
+    .col-lg-11 {flex: 0 0 91.66666666666666%; max-width: 91.66666666666666%}
+    .col-lg-12 {flex: 0 0 100%; max-width: 100%}
+    .d-lg-none {display: none}
+    .d-lg-block {display: block}
+    .d-lg-relative {display: relative}
+}
+
+/* Extra Large Screens */
+@media only screen and (min-width: 1200px) {
+    .col-xl-1 {flex: 0 0 8.333333333333332%; max-width: 8.333333333333332%}
+    .col-xl-2 {flex: 0 0 16.666666666666664%; max-width: 16.666666666666664%}
+    .col-xl-3 {flex: 0 0 25%; max-width: 25%}
+    .col-xl-4 {flex: 0 0 33.33333333333333%; max-width: 33.33333333333333%}
+    .col-xl-5 {flex: 0 0 41.66666666666667%; max-width: 41.66666666666667%}
+    .col-xl-6 {flex: 0 0 50%; max-width: 50%}
+    .col-xl-7 {flex: 0 0 58.333333333333336%; max-width: 58.333333333333336%}
+    .col-xl-8 {flex: 0 0 66.66666666666666%; max-width: 66.66666666666666%}
+    .col-xl-9 {flex: 0 0 75%; max-width: 75%}
+    .col-xl-10 {flex: 0 0 83.33333333333334%; max-width: 83.33333333333334%}
+    .col-xl-11 {flex: 0 0 91.66666666666666%; max-width: 91.66666666666666%}
+    .col-xl-12 {flex: 0 0 100%; max-width: 100%}
+    .d-xl-none {display: none}
+    .d-xl-block {display: block}
+    .d-xl-relative {display: relative}
 }

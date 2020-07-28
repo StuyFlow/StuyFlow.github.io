@@ -9,6 +9,7 @@ import Resources from './components/Resources';
 import Error from './components/Utils/Error';
 import Nav from './components/Utils/Nav';
 import Footer from './components/Utils/Footer';
+import Test from './components/test.js';
 import './App.css';
 
 class App extends Component {
@@ -39,6 +40,7 @@ class App extends Component {
                     <Route path="/photos" component={Photos}/>
                     <Route path="/videos" component={Videos}/>
                     <Route path="/resources" component={Resources}/>
+                    <Route path="/test" component={Test}/>
                     <Route path="/" exact component={Home}/>
                     <Route path="/" component={Error}/>
                 </Switch>
