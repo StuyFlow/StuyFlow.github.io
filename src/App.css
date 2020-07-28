@@ -8,7 +8,7 @@
 }
 
 .background-light {
-    background: linear-gradient(180deg, rgba(249, 45, 0, 0.55) 0%, rgba(255, 0, 0, 0) 32.29%), linear-gradient(180deg, rgba(217, 0, 182, 0.5) 0%, rgba(235, 113, 0, 0.5) 100%), linear-gradient(180deg, rgba(0, 0, 204, 0) 16.67%, rgba(248, 12, 224, 0.33) 100%), linear-gradient(180deg, rgba(198, 0, 0, 0.6) 0%, rgba(248, 89, 0, 0.6) 100%), linear-gradient(0deg, #E7E7E7, #E7E7E7);
+    background: linear-gradient(180deg, #007BAF 0%, rgba(255, 255, 255, 0) 100%), linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, rgba(218, 78, 0, 0.75) 100%), linear-gradient(0deg, #630000, #630000), linear-gradient(0deg, #6300B1, #6300B1), linear-gradient(0deg, #E7E7E7, #E7E7E7);
 }
 
 .page {
