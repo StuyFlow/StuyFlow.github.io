@@ -18,13 +18,13 @@ class Test extends Component {
                         1
                     </div>
                     <div
-                        className="col-12 col-md-6 col-lg-4 d-lg-none"
+                        className="col-12 col-md-6 col-lg-4"
                         style={{background: "pink", textAlign: "center", color: "black", fontSize: "30px"}}
                     >
                         2
                     </div>
                     <div
-                        className="col-12 col-md-6 col-lg-4 d-none d-md-block"
+                        className="col-12 col-md-6 col-lg-4 d-none d-sm-block d-md-none d-lg-block"
                         style={{background: "lightblue",textAlign: "center",  color: "black", fontSize: "30px"}}
                     >
                         3

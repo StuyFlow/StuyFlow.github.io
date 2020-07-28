@@ -132,7 +132,9 @@
 
 .youtube-box p {
     display: none;
-    font-family: "Timmana";
+    font-family: "Abel";
+    font-weight: 600;
+    font-size: 26px;
 }
 
 .youtube-image {
