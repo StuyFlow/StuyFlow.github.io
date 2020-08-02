@@ -38,38 +38,37 @@
     z-index: -1;
     flex-direction: column;
     text-align: center;
-    padding-top: 100px;
+    padding-top: 40px;
 }
 
 .hamburger {
-    margin-top: 40px;
-    margin-right: 30px;
+    margin-top: 50px;
+    margin-right: 20px;
     margin-left: auto;
+    flex-direction: column;
+    transition: 0.5s;
 }
 
 .vert-hamburger {
+    margin-right: 25px;
     margin-top: 40px;
-    margin-right: 30px;
-    margin-left: auto;
-    display: flex;
+    transform: rotate(90deg);
+    transform-origin: center;
 }
 
 .homepage-hamburger {
-    margin-right: 60px !important;
-}
-
-.vert-rect {
-    width: 10px;
-    height: 50px;
-    margin-left: 10px;
-    background-color: white;
+    margin-right: 35px !important;
 }
 
 .rect {
-    width: 50px;
-    height: 10px;
-    margin-bottom: 10px;
+    width: 40px;
+    height: 8px;
+    margin-bottom: 6px;
     background-color: white;
+}
+
+.rect:last-child {
+    margin-bottom: 0px;
 }
 
 
@@ -82,14 +81,14 @@ Responsive CSS
 /* Medium and below */
 .navlink {
     font-family: Abel;
-    padding: 20px 30px;
-    font-size: 30px;
+    padding: 15px 30px;
+    font-size: 20px;
     font-weight: bold;
 }
 
 .logo {
-    padding: 30px 0 0 30px;
-    width: 100px;
+    padding: 30px 0 0 20px;
+    width: 80px;
 }
 
 /* Large */
@@ -111,7 +110,7 @@ Responsive CSS
 
     .logo {
         padding: 20px 0 0 60px;
-        width: 120px;
+        width: 110px;
     }
 }
 

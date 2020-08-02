@@ -56,8 +56,8 @@ class Nav extends Component {
                 })}
                 </div>
                 <div
-                    className={`d-block d-lg-none
-                                ${this.state.openMobileNav ? 'vert-hamburger' : 'hamburger'}
+                    className={`d-flex d-lg-none hamburger
+                                ${this.state.openMobileNav ? 'vert-hamburger' : ''}
                                 ${pathname === "/" ? 'homepage-hamburger' : ''}`}
                     onClick={() => {
                         this.setState({openMobileNav: !this.state.openMobileNav});
@@ -66,7 +66,7 @@ class Nav extends Component {
                     {[0,1,2].map(num => (
                         <div
                             key={num}
-                            className={`${this.state.openMobileNav ? 'vert-rect' : 'rect'}`}
+                            className='rect'
                         />
                     ))}
                 </div>
