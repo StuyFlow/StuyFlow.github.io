@@ -13,6 +13,13 @@ const links = [
 ];
 
 class Nav extends Component {
+    constructor(props) {
+        super(props);
+        this.state = {
+            openMobileNav: false,
+        };
+    }
+
     componentDidMount() {
         document.body.scrollTop = 0; // For Safari
         document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
@@ -34,9 +41,8 @@ class Nav extends Component {
                         alt="StuyFlow Logo"
                     />
                 </div>
-                <div className="link-div">
+                <div className="link-div d-none d-lg-flex">
                 {links.map((link, k) => {
-
                     return (
                         <div
                             className={`navlink ${link.link === pathname ? 'navlink-active' : ''} ${pathname === "/" ? 'homepage-navlink' : ''}`}
@@ -49,6 +55,38 @@ class Nav extends Component {
                     );
                 })}
                 </div>
+                <div
+                    className={`d-block d-lg-none
+                                ${this.state.openMobileNav ? 'vert-hamburger' : 'hamburger'}
+                                ${pathname === "/" ? 'homepage-hamburger' : ''}`}
+                    onClick={() => {
+                        this.setState({openMobileNav: !this.state.openMobileNav});
+                    }}
+                >
+                    {[0,1,2].map(num => (
+                        <div
+                            key={num}
+                            className={`${this.state.openMobileNav ? 'vert-rect' : 'rect'}`}
+                        />
+                    ))}
+                </div>
+                {   this.state.openMobileNav &&
+                    <div className="mobile-link-div d-flex d-lg-none">
+                        {links.map((link, k) => {
+                            return (
+                                <div
+                                    className={`navlink ${link.link === pathname ? 'navlink-active' : ''}`}
+                                    key={k}
+                                >
+                                    <Link to={link.link}>
+                                        {link.name}
+                                    </Link>
+                                </div>
+                            );
+                        })}
+                    </div>
+                }
+
             </div>
         );
     }

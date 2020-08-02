@@ -1,3 +1,4 @@
+/* Non responsive CSS */
 .navbar {
     display: flex;
     z-index: 10;
@@ -6,21 +7,6 @@
     top: 0;
     width: 100%;
     background-image: linear-gradient(rgba(0,0,0,1), rgba(0,0,0,0));
-}
-
-.navlink {
-    font-family: Abel;
-    padding: 60px 40px;
-    font-size: 28px;
-    font-weight: bold;
-}
-
-.navlink:last-child {
-    padding-right: 80px;
-}
-
-.homepage-navlink:last-child {
-    padding-right: 95px !important;
 }
 
 .navlink a {
@@ -41,11 +27,119 @@
 }
 
 .link-div {
-    display: flex;
     margin-left: auto;
 }
 
+/* Stuff for Mobile Navbar*/
+.mobile-link-div {
+    position: fixed;
+    width: 100%;
+    background-color: rgba(79, 63, 122, 0.95);
+    z-index: -1;
+    flex-direction: column;
+    text-align: center;
+    padding-top: 100px;
+}
+
+.hamburger {
+    margin-top: 40px;
+    margin-right: 30px;
+    margin-left: auto;
+}
+
+.vert-hamburger {
+    margin-top: 40px;
+    margin-right: 30px;
+    margin-left: auto;
+    display: flex;
+}
+
+.homepage-hamburger {
+    margin-right: 60px !important;
+}
+
+.vert-rect {
+    width: 10px;
+    height: 50px;
+    margin-left: 10px;
+    background-color: white;
+}
+
+.rect {
+    width: 50px;
+    height: 10px;
+    margin-bottom: 10px;
+    background-color: white;
+}
+
+
+/*
+##############
+Responsive CSS
+##############
+*/
+
+/* Medium and below */
+.navlink {
+    font-family: Abel;
+    padding: 20px 30px;
+    font-size: 30px;
+    font-weight: bold;
+}
+
 .logo {
-    padding: 30px 0 0 80px;
-    width: 130px;
+    padding: 30px 0 0 30px;
+    width: 100px;
+}
+
+/* Large */
+@media only screen and (min-width: 992px) {
+    .navlink {
+        font-family: Abel;
+        padding: 45px 35px;
+        font-size: 20px;
+        font-weight: bold;
+    }
+
+    .navlink:last-child {
+        padding-right: 80px;
+    }
+
+    .homepage-navlink:last-child {
+        padding-right: 95px !important;
+    }
+
+    .logo {
+        padding: 20px 0 0 60px;
+        width: 120px;
+    }
+}
+
+/*
+Extra Large Screens
+
+- Navbar should show up like normal
+- Logo should also be normal
+
+*/
+@media only screen and (min-width: 1200px) {
+    .navlink {
+        font-family: Abel;
+        padding: 60px 40px;
+        font-size: 28px;
+        font-weight: bold;
+    }
+
+    .navlink:last-child {
+        padding-right: 80px;
+    }
+
+    .homepage-navlink:last-child {
+        padding-right: 95px !important;
+    }
+
+    .logo {
+        padding: 30px 0 0 80px;
+        width: 130px;
+    }
 }

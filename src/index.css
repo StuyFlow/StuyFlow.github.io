@@ -76,6 +76,7 @@ body {
 .d-none {display: none}
 .d-block {display: block}
 .d-relative {display: relative}
+.d-flex {display: flex}
 
 /* Small Screens */
 @media only screen and (min-width: 576px) {
@@ -94,7 +95,7 @@ body {
     .d-sm-none {display: none}
     .d-sm-block {display: block}
     .d-sm-relative {display: relative}
-
+    .d-sm-flex {display: flex}
 }
 
 /* Medium Screens */
@@ -114,6 +115,7 @@ body {
     .d-md-none {display: none}
     .d-md-block {display: block}
     .d-md-relative {display: relative}
+    .d-md-flex {display: flex}
 }
 
 /* Large Screens */
@@ -133,6 +135,7 @@ body {
     .d-lg-none {display: none}
     .d-lg-block {display: block}
     .d-lg-relative {display: relative}
+    .d-lg-flex {display: flex}
 }
 
 /* Extra Large Screens */
@@ -152,4 +155,5 @@ body {
     .d-xl-none {display: none}
     .d-xl-block {display: block}
     .d-xl-relative {display: relative}
+    .d-xl-flex {display: flex} 
 }
