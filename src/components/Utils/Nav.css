@@ -42,7 +42,7 @@
 }
 
 .dark-nav {
-    background-color: rgba(79, 63, 122, 0.95);
+    background-color: rgba(19, 0, 73, 0.95);
 }
 
 .light-nav {
@@ -97,6 +97,7 @@ Responsive CSS
 .logo {
     padding: 30px 0 0 20px;
     width: 80px;
+    transition: 0.5s;
 }
 
 /* Large */
@@ -119,6 +120,7 @@ Responsive CSS
     .logo {
         padding: 20px 0 0 60px;
         width: 110px;
+        transition: 0.5s;
     }
 }
 
@@ -148,5 +150,6 @@ Extra Large Screens
     .logo {
         padding: 30px 0 0 80px;
         width: 130px;
+        transition: 0.5s;
     }
 }

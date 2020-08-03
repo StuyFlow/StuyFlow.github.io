@@ -17,29 +17,136 @@
 /* Video */
 .backgroundVideo {
     width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
 
 /* Text in front of video */
+
+/* Extra Small Screens */
 .frontpage-desc {
     position: absolute;
-    right: 0;
     top: 250px;
     color: white;
-    padding-right: 80px;
-    text-align: right;
+    text-align: center;
     font-family: DarkerGrotesque;
+    transition: 0.5s;
+    width: 100%;
 }
 
 .club-name {
-    font-size: 160px;
+    font-size: 70px;
     font-weight: 700;
     text-shadow: 10px 4px 20px #030303;
 }
 
 .slogan {
-    font-size: 35px;
+    font-size: 20px;
     font-weight: 500;
     text-shadow: 10px 4px 20px #030303;
+}
+
+/* Small Screen */
+@media only screen and (min-width: 576px) {
+    .frontpage-desc {
+        position: absolute;
+        top: 250px;
+        color: white;
+        text-align: center;
+        font-family: DarkerGrotesque;
+        transition: 0.5s;
+        width: 100%;
+    }
+
+    .club-name {
+        font-size: 100px;
+        font-weight: 700;
+        text-shadow: 10px 4px 20px #030303;
+    }
+
+    .slogan {
+        font-size: 28px;
+        font-weight: 500;
+        text-shadow: 10px 4px 20px #030303;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .frontpage-desc {
+        position: absolute;
+        top: 200px;
+        color: white;
+        text-align: center;
+        font-family: DarkerGrotesque;
+        transition: 0.5s;
+        width: 100%;
+    }
+
+    .club-name {
+        font-size: 150px;
+        font-weight: 700;
+        text-shadow: 10px 4px 20px #030303;
+    }
+
+    .slogan {
+        font-size: 32px;
+        font-weight: 500;
+        text-shadow: 10px 4px 20px #030303;
+    }
+}
+
+/* Large screen */
+@media only screen and (min-width: 992px) {
+    .frontpage-desc {
+        position: absolute;
+        right: 0;
+        top: 200px;
+        color: white;
+        padding-right: 80px;
+        text-align: right;
+        font-family: DarkerGrotesque;
+        transition: 0.5s;
+        display: block;
+    }
+
+    .club-name {
+        font-size: 150px;
+        font-weight: 700;
+        text-shadow: 10px 4px 20px #030303;
+    }
+
+    .slogan {
+        font-size: 32px;
+        font-weight: 500;
+        text-shadow: 10px 4px 20px #030303;
+    }
+}
+
+/* Extra large screen*/
+@media only screen and (min-width: 1200px) {
+    .frontpage-desc {
+        position: absolute;
+        right: 0;
+        top: 250px;
+        color: white;
+        padding-right: 80px;
+        text-align: right;
+        font-family: DarkerGrotesque;
+        transition: 0.5s;
+        display: block;
+    }
+
+    .club-name {
+        font-size: 160px;
+        font-weight: 700;
+        text-shadow: 10px 4px 20px #030303;
+    }
+
+    .slogan {
+        font-size: 35px;
+        font-weight: 500;
+        text-shadow: 10px 4px 20px #030303;
+    }
 }
 
 /* About */
