@@ -32,7 +32,7 @@ class App extends Component {
         return (
             <div className={`background background-${this.state.theme}`}>
                 <Switch>
-                    <Nav changeTheme={this.changeTheme}/>
+                    <Nav theme={this.state.theme} changeTheme={this.changeTheme}/>
                 </Switch>
                 <Switch>
                     <Route path="/board" component={Board}/>

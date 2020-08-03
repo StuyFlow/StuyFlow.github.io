@@ -48,7 +48,10 @@ class Nav extends Component {
                             className={`navlink ${link.link === pathname ? 'navlink-active' : ''} ${pathname === "/" ? 'homepage-navlink' : ''}`}
                             key={k}
                         >
-                            <Link to={link.link}>
+                            <Link
+                                to={link.link}
+                                onClick={() => { this.setState({ openMobileNav: false }); }}
+                            >
                                 {link.name}
                             </Link>
                         </div>
@@ -71,16 +74,20 @@ class Nav extends Component {
                     ))}
                 </div>
                 {   this.state.openMobileNav &&
-                    <div className="mobile-link-div d-flex d-lg-none">
+                    <div className={`mobile-link-div d-flex d-lg-none
+                                     ${this.props.theme === 'dark' ? 'dark-nav' : 'light-nav'}`}>
                         {links.map((link, k) => {
                             return (
                                 <div
                                     className={`navlink ${link.link === pathname ? 'navlink-active' : ''}`}
                                     key={k}
                                 >
-                                    <Link to={link.link}>
-                                        {link.name}
-                                    </Link>
+                                <Link
+                                    to={link.link}
+                                    onClick={() => { this.setState({ openMobileNav: false }); }}
+                                >
+                                    {link.name}
+                                </Link>
                                 </div>
                             );
                         })}

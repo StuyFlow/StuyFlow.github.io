@@ -34,11 +34,19 @@
 .mobile-link-div {
     position: fixed;
     width: 100%;
-    background-color: rgba(79, 63, 122, 0.95);
     z-index: -1;
     flex-direction: column;
     text-align: center;
     padding-top: 40px;
+    box-shadow: 2px 2px 20px 2px #000000;
+}
+
+.dark-nav {
+    background-color: rgba(79, 63, 122, 0.95);
+}
+
+.light-nav {
+    background-color: rgba(1, 123, 175, 0.95);
 }
 
 .hamburger {
