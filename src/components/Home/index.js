@@ -62,8 +62,9 @@ class Home extends Component {
                         of school to explore Manhattan, eat at restuarants, play games, and other activities to
                         create stronger bonds between our members.
                     </div>
+                    <div style={{height: "120px"}}/>
+                    <Footer />
                 </div>
-                <Footer />
             </div>
         );
     }

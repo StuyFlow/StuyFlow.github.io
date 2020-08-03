@@ -150,14 +150,82 @@
 }
 
 /* About */
+
 .about-page {
-    padding: 150px 80px;
+    padding: 100px 20px 0;
+    transition: 0.5s;
 }
 
 .about-desc {
     font-family: Abel;
-    font-size: 28px;
+    font-size: 20px;
     color: white;
-    text-indent: 80px;
     margin-top: 20px;
+    text-align: center;
+}
+
+/* Small screen*/
+@media only screen and (min-width: 576px) {
+    .about-page {
+        padding: 100px 20px 0;
+        transition: 0.5s;
+    }
+
+    .about-desc {
+        font-family: Abel;
+        font-size: 24px;
+        color: white;
+        margin-top: 20px;
+        text-align: center;
+    }
+}
+
+/* Medium screen*/
+@media only screen and (min-width: 768px) {
+    .about-page {
+        padding: 100px 20px 0;
+        transition: 0.5s;
+    }
+
+    .about-desc {
+        font-family: Abel;
+        font-size: 25px;
+        color: white;
+        margin-top: 20px;
+        text-align: center;
+    }
+}
+
+/* Large screen*/
+@media only screen and (min-width: 992px) {
+    .about-page {
+        padding: 120px 80px 0;
+        transition: 0.5s;
+    }
+
+    .about-desc {
+        font-family: Abel;
+        font-size: 28px;
+        color: white;
+        text-indent: 80px;
+        margin-top: 20px;
+        text-align: left;
+    }
+}
+
+
+/* Extra large screen*/
+@media only screen and (min-width: 1200px) {
+    .about-page {
+        padding: 150px 80px 0;
+    }
+
+    .about-desc {
+        font-family: Abel;
+        font-size: 28px;
+        color: white;
+        text-indent: 80px;
+        margin-top: 20px;
+        text-align: left;
+    }
 }

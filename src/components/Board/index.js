@@ -19,7 +19,7 @@ class Board extends Component {
         const members = board[this.state.year];
         return (
             <div className="page">
-                <div className="pageHeader">StuyFlow Board Members</div>
+                <div className="pageHeader">StuyFlow Board</div>
                 <div className="section-nav">
                     <div className="selector">
                         <div className="label">Year:</div>
