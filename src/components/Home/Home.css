@@ -26,7 +26,7 @@
 /* Extra Small Screens */
 .frontpage-desc {
     position: absolute;
-    top: 250px;
+    top: 30vh;
     color: white;
     text-align: center;
     font-family: DarkerGrotesque;
@@ -50,7 +50,7 @@
 @media only screen and (min-width: 576px) {
     .frontpage-desc {
         position: absolute;
-        top: 250px;
+        top: 20vh;
         color: white;
         text-align: center;
         font-family: DarkerGrotesque;
@@ -74,7 +74,7 @@
 @media only screen and (min-width: 768px) {
     .frontpage-desc {
         position: absolute;
-        top: 200px;
+        top: 25vh;
         color: white;
         text-align: center;
         font-family: DarkerGrotesque;
@@ -83,13 +83,13 @@
     }
 
     .club-name {
-        font-size: 150px;
+        font-size: 140px;
         font-weight: 700;
         text-shadow: 10px 4px 20px #030303;
     }
 
     .slogan {
-        font-size: 32px;
+        font-size: 30px;
         font-weight: 500;
         text-shadow: 10px 4px 20px #030303;
     }
@@ -100,7 +100,7 @@
     .frontpage-desc {
         position: absolute;
         right: 0;
-        top: 200px;
+        top: 25vh;
         color: white;
         padding-right: 80px;
         text-align: right;
@@ -127,7 +127,7 @@
     .frontpage-desc {
         position: absolute;
         right: 0;
-        top: 250px;
+        top: 33vh;
         color: white;
         padding-right: 80px;
         text-align: right;
