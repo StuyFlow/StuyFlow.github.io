@@ -33,7 +33,7 @@ class Resources extends Component {
         return (
             <div className="page">
                 <div className="pageHeader">Resources</div>
-                <div className="section-nav">
+                <div className="section-nav d-none d-lg-flex">
                     {Object.keys(sections).map(section => (
                         <div
                             key={section}

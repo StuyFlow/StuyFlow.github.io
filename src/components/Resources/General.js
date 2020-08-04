@@ -19,6 +19,7 @@ class General extends Component {
 	render() {
 		return (
 			<div>
+
 				{masterList.map(list => (
 					<InfoBox
 						key={list.header}
@@ -32,10 +33,11 @@ class General extends Component {
 					className="video"
 					src="https://www.youtube.com/embed/N4U-1Apvpd8"
 					allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-					allowFullScreen
+					allowFullScreens
 				/>
 
 				<p className="equipment-header">Equipment</p>
+
 				{equipment.map(item => (
 					<EquipmentBox
 						key={item.name}
@@ -46,6 +48,7 @@ class General extends Component {
 						sideimg={item.sideimg}
 					/>
 				))}
+
 			</div>
 		);
 	}
