@@ -34,13 +34,15 @@ class Board extends Component {
                 </div>
                 <div className="board-members">
                     {members.map(person => (
-                        <div className="person">
-                            <img
-                                className="board-photo"
-                                src={require(`./imgs/${this.state.year}/${person.imgName}`)}
-                                alt={person.name}
-                            />
-                            <div className="info">
+                        <div className="person row">
+                            <div className="photo-div col-12 col-lg-4 col-xl-3">
+                                <img
+                                    className="board-photo"
+                                    src={require(`./imgs/${this.state.year}/${person.imgName}`)}
+                                    alt={person.name}
+                                />
+                            </div>
+                            <div className="info col-12 col-lg-7 col-xl-8">
                                 <div className="board-name">
                                     {person.name}
                                 </div>
