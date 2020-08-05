@@ -40,6 +40,7 @@
 
 .item-text {
     font-family: Abel;
+    margin-left: 30px;
 }
 
 .resource-link {
@@ -84,7 +85,7 @@
 .item-image {
     border: 3px white solid;
     border-radius: 20px;
-    width: 350px;
+    width: 100%;
     margin-right: 30px;
     margin-bottom: 60px;
     transition: 0.3s;
@@ -163,7 +164,7 @@
     .col-lg-10 {text-align: left}
     .col-lg-11 {text-align: left}
     .col-lg-12 {text-align: left}
-    
+
 
     .item-text {
         text-align: left;
