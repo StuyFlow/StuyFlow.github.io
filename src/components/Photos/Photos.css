@@ -1,6 +1,30 @@
-/* For the sort selector to stay on right */
 .sort-selector {
-    margin-left: auto !important;
+    margin-left: 20px !important;
+}
+
+@media only screen and (min-width: 992px) {
+    /* For the sort selector to stay on right */
+    .sort-selector {
+        margin-left: auto !important;
+    }
+
+    .photo-nav .section, .label {
+        font-size: 18px !important;
+    }
+
+    .photo-nav .dropdown {
+        font-size: 15px !important;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    .photo-nav .section, .label {
+        font-size: 25px !important;
+    }
+
+    .photo-nav .dropdown {
+        font-size: 18px !important;
+    }
 }
 
 /* Image Gallery */
@@ -95,7 +119,7 @@
     font-family: DarkerGrotesque;
     font-size: 25px;
     overflow: auto;
-    
+
     #margin-top: 30%;
     #margin-left: 85%;
     #margin-bottom: 100%;
@@ -103,7 +127,7 @@
     #height: 900px;
     margin-left: 1000px;
     margin-bottom: 200px;
-    
+
     border: 3px solid #FFC42E;
     box-sizing: border-box;
     padding: 11px;
@@ -147,109 +171,102 @@
 
 @media only screen and (max-width: 700px){
     .big-image {
-	width: 100%;
+    	width: 100%;
     }
 }
 
-
 /* Small Screen */
 @media only screen and (max-width: 576px) {
-    .section-nav {
-	display: none;
-    }
-
     .image-block {
-	border: 3px solid #FFFFFF;
-	box-sizing: border-box;
-	border-radius: 10px;
-	margin-right: 10%;
-	margin-left: 10%;
-	margin-bottom: 20px;
+    	border: 3px solid #FFFFFF;
+    	box-sizing: border-box;
+    	border-radius: 10px;
+    	margin-right: 10%;
+    	margin-left: 10%;
+    	margin-bottom: 20px;
 
-	width: 250px;
-	height: 150px;
-	object-fit: cover;
+    	width: 250px;
+    	height: 150px;
+    	object-fit: cover;
 
-	cursor: pointer;
-	transition: 0.3s;
+    	cursor: pointer;
+    	transition: 0.3s;
     }
 
     .modal {
-	position: fixed;
-	z-index: 20;
-	padding-top: 20px;
-	left: 0;
-	top: 0;
-	width: 100%;
-	height: 100vh;
-	#overflow-x: hidden;
-	background-color: rgba(0,0,0,0.95);
+    	position: fixed;
+    	z-index: 20;
+    	padding-top: 20px;
+    	left: 0;
+    	top: 0;
+    	width: 100%;
+    	height: 100vh;
+    	#overflow-x: hidden;
+    	background-color: rgba(0,0,0,0.95);
     }
 
     .big-image {
-	width: 90%;
-	padding: 10px 20px 0px 18px;
-	#padding-left: auto;
-	#padding-right: auto;
-	float: none;
-	max-width: 570px;
-	display: inline;
+    	width: 90%;
+    	padding: 10px 20px 0px 18px;
+    	#padding-left: auto;
+    	#padding-right: auto;
+    	float: none;
+    	max-width: 570px;
+    	display: inline;
     }
 
     .close {
-	margin: -50px -30px;
+    	margin: -50px -30px;
     }
 
     .image-title {
-	margin: 10px;
-	display: block;
-	text-align: center;
-	color: white;
-	padding: 0px 0 10px 0;
-	font-size: 30px;
-	font-family: DarkerGrotesque;
-	font-weight: 600;
-	border-bottom: 3px solid #FFC42E;
+    	margin: 10px;
+    	display: block;
+    	text-align: center;
+    	color: white;
+    	padding: 0px 0 10px 0;
+    	font-size: 30px;
+    	font-family: DarkerGrotesque;
+    	font-weight: 600;
+    	border-bottom: 3px solid #FFC42E;
     }
 
     .image-credits {
-	color:white;
-	padding-left: 20px;
-	padding-bottom: 100px;
-	margin-top: 0px;
-	font-family: DarkerGrotesque;
-	font-weight: 400;
-	font-size: 20px;
+    	color:white;
+    	padding-left: 20px;
+    	padding-bottom: 100px;
+    	margin-top: 0px;
+    	font-family: DarkerGrotesque;
+    	font-weight: 400;
+    	font-size: 20px;
     }
 
     .image-desc {
-	color:white;
-	padding-left: 20px;
-	padding-bottom: 10px;
-	margin-top: 0px;
-	margin-left: 0%;
-	font-family: DarkerGrotesque;
-	font-weight: 400;
-	font-size: 20px;
-	float: none;
+    	color:white;
+    	padding-left: 20px;
+    	padding-bottom: 10px;
+    	margin-top: 0px;
+    	margin-left: 0%;
+    	font-family: DarkerGrotesque;
+    	font-weight: 400;
+    	font-size: 20px;
+    	float: none;
     }
 
     .download {
-	color: #FFC42E;
-	position: absolute;
-	text-decoration: none;
-	font-family: DarkerGrotesque;
-	text-align: center;
-	font-size: 25px;
-	overflow: auto;
-	margin-top: -30%;
-	margin-left: 35%;
-	border: 3px solid #FFC42E;
-	box-sizing: border-box;
-	padding: 8px;
-	border-radius: 10px;
-	Content-Disposition: attachment;
+    	color: #FFC42E;
+    	position: absolute;
+    	text-decoration: none;
+    	font-family: DarkerGrotesque;
+    	text-align: center;
+    	font-size: 25px;
+    	overflow: auto;
+    	margin-top: -30%;
+    	margin-left: 35%;
+    	border: 3px solid #FFC42E;
+    	box-sizing: border-box;
+    	padding: 8px;
+    	border-radius: 10px;
+    	Content-Disposition: attachment;
     }
-    
-
 }

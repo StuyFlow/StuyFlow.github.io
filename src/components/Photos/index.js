@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 
 import { clubPhotos } from './imgCategories/Club';
-import { logoPhotos } from './imgCategories/Logos';
 import { merchPhotos } from './imgCategories/Merch';
 import { multigenPhotos } from './imgCategories/Multigen';
 import { otherPhotos } from './imgCategories/Others';
@@ -20,7 +19,6 @@ const categories = {
     "Club": clubPhotos,
     "Multigen": multigenPhotos,
     "Wallpapers": wallpaperPhotos,
-    "Logos": logoPhotos,
     "Merch": merchPhotos,
     "Others": otherPhotos,
 };
@@ -55,9 +53,9 @@ class Modal extends Component {
                         Download
                     </a>
                 </div>
-		
+
  	</div>
-        
+
     		</div>
     	);
     }
@@ -145,17 +143,17 @@ class Photos extends Component {
         return (
 		<div className="page">
     		<div className="pageHeader">Photos</div>
-    		<div className="section-nav">
-        		{Object.keys(categories).map(category => (
-        			<div
+    		<div className="section-nav d-none d-lg-flex photo-nav">
+                {Object.keys(categories).map(category => (
+                    <div
                         className={`section ${this.state.category === category ? 'section-active' : ''}`}
                         onClick={() => this.changeCategory(category)}
-                	>
+                    >
                         { category }
                     </div>
-        		))}
-        		<div className="selector sort-selector">
-                    <div className="label">Sort By:</div>
+                ))}
+                <div className="selector sort-selector">
+                    <div className="label ">Sort By:</div>
                     <select className="dropdown" onChange={this.changeSort}>
                         {sorts.map(sort => (
                             <option key={sort}>
@@ -164,7 +162,31 @@ class Photos extends Component {
                         ))}
                     </select>
                 </div>
-       		</div>
+            </div>
+            <div className="section-nav d-flex d-lg-none" style={{justifyContent: "center"}}>
+                <div className="d-block d-lg-none">
+                    <div className="selector">
+                        <div className="label">Category:</div>
+                        <select className="dropdown" onChange={e => this.changeCategory(e.target.value)}>
+                            {Object.keys(categories).map(category => (
+                                <option key={category}>
+                                    {category}
+                                </option>
+                            ))}
+                        </select>
+                    </div>
+                </div>
+                <div className="selector sort-selector">
+                    <div className="label ">Sort By:</div>
+                    <select className="dropdown" onChange={this.changeSort}>
+                        {sorts.map(sort => (
+                            <option key={sort}>
+                                {sort}
+                            </option>
+                        ))}
+                    </select>
+                </div>
+            </div>
     		<div className="images">
     		      { this.get_photos(this.state.category, this.state.sort) }
     	    </div>
