@@ -72,12 +72,6 @@ export const board = {
             imgName: "heiley_tai.jpg"
         },
         {
-            name: "Raymond Xu",
-            title: "Leader In Training",
-            desc: "Aside from my STEM interests, I love fostering environments where people are able to vibe and grow happily as a community. I joined StuyFlow in my sophomore year, and I have to give a shoutout to all the previous leaders of StuyFlow for cultivating a club for me to grow in. Because of this club, I’ve thankfully fallen out of my middle school gaming life as flowing and spending quality time with old and new people have become my new forte. Oh, and did I forget to mention that I like to eat and sleep?",
-            imgName: "raymond_xu.jpg"
-        },
-        {
           name: "Steve Wang",
           title: "Inventory Manager",
           desc: "Hello friends! Fun fact: During my first ever Flow show (Sophfrosh SING! 2018) I tangled my strings with a friend and tossed a glowstick into a crowd and I now use that incredibly embarassing experience as inspiration that no matter your beginnings you can most definitely find a way to succeed in your passion. Now that that's said and done, outside of Flow I love playing video games and journaling about them (I have my own Instagram blog)! I also love musical theatre, though I tragically do not have an ounce of talent.",
@@ -88,6 +82,18 @@ export const board = {
           title: "Social Media Manager",
           desc: "I like lights ✨👄✨",
           imgName: "maggie_xu.jpg"
+        },
+        {
+            name: "Raymond Xu",
+            title: "Leader In Training",
+            desc: "Aside from my STEM interests, I love fostering environments where people are able to vibe and grow happily as a community. I joined StuyFlow in my sophomore year, and I have to give a shoutout to all the previous leaders of StuyFlow for cultivating a club for me to grow in. Because of this club, I’ve thankfully fallen out of my middle school gaming life as flowing and spending quality time with old and new people have become my new forte. Oh, and did I forget to mention that I like to eat and sleep?",
+            imgName: "raymond_xu.jpg"
+        },
+        {
+            name: "Aaron Hsu",
+            title: "Leader In Training",
+            desc: "Hello my name is Aaron. My favorite vegetables are corn, carrots, and cucumbers. In my free time, I like to spin lights, write code, and play games. Sometimes, I wonder what it would feel like to be a potato.",
+            imgName: "aaron_hsu.jpg"
         },
     ],
     "2018-2019": [
