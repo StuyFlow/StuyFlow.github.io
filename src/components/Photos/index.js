@@ -64,12 +64,14 @@ class Modal extends Component {
 class Image extends Component {
     render() {
     	return (
-    		<img
-                className="image-block"
-                src={require(`./imgCategories/${this.props.category}/${this.props.imgname}`)}
-                onClick={() => this.props.setModalImg(this.props)}
-                alt={this.props.title}
-            />
+            <div className="image-block-div col-12 col-md-6 col-xl-4">
+        		<img
+                    className="image-block"
+                    src={require(`./imgCategories/${this.props.category}/${this.props.imgname}`)}
+                    onClick={() => this.props.setModalImg(this.props)}
+                    alt={this.props.title}
+                />
+            </div>
         );
     }
 }
@@ -187,7 +189,7 @@ class Photos extends Component {
                     </select>
                 </div>
             </div>
-    		<div className="images">
+    		<div className="row">
     		      { this.get_photos(this.state.category, this.state.sort) }
     	    </div>
             { this.state.modalImg && <Modal img={this.state.modalImg} setModalImg={this.setModalImg}/> }
