@@ -88,7 +88,7 @@ const PAGE_SIZE = 12;
 class PhotoPagination extends Component {
     render() {
         const currentPage = this.props.page + 1;
-        const maxPage = Math.round(this.props.numImgs / PAGE_SIZE) + 1;
+        const maxPage = Math.floor(this.props.numImgs / PAGE_SIZE) + 1;
         return (
             <div className="photo-pagination">
                 <div
