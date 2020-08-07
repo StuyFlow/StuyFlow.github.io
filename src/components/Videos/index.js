@@ -19,6 +19,15 @@ const categories = [
     { name: "Other", videos: otherVideos },
 ];
 
+const getCategoryWithName = name => {
+    for (let category of categories) {
+        if (name === category.name) {
+            return category;
+        }
+    }
+    return { name: "All", videos: [] };
+};
+
 const dateCompare = (a, b) => {
     return Date.parse(b.date) - Date.parse(a.date);
 }
@@ -49,7 +58,7 @@ class Videos extends Component {
         return (
             <div className="page">
                 <div className="pageHeader">Videos</div>
-                <div className="section-nav">
+                <div className="section-nav d-none d-lg-flex">
                     {categories.map(category => (
                         <div
                             className={`section ${this.state.category.name === category.name ? 'section-active' : ''}`}
@@ -60,13 +69,29 @@ class Videos extends Component {
                         </div>
                     ))}
                 </div>
+                <div className="section-nav d-flex d-lg-none">
+                    <div className="selector">
+                        <div className="label">Category:</div>
+                        <select
+                            className="dropdown"
+                            onChange={e => this.setState({ category: getCategoryWithName(e.target.value) })}
+                            value={this.state.category.name}
+                        >
+                            {categories.map(category => (
+                                <option key={category.name}>
+                                    {category.name}
+                                </option>
+                            ))}
+                        </select>
+                    </div>
+                </div>
                 <div>
                     {videoList.map(video => (
                         <div className="video-div">
                             <div className="video-title">{video.name}</div>
                             <iframe
             					title="Master List Video"
-            					className="video"
+            					className="video-embed"
             					src={video.videoLink}
             					allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
             					allowFullScreen

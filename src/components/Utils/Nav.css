@@ -39,6 +39,14 @@
     text-align: center;
     padding-top: 40px;
     box-shadow: 2px 2px 20px 2px #000000;
+    animation: growDown 0.3s ease-in-out forwards;
+    transform-origin: top;
+}
+
+@keyframes growDown{
+    0% {transform: scaleY(0);}
+    80% {transform: scaleY(1.05);}
+    100% {transform: scaleY(1);}
 }
 
 .dark-nav {
@@ -50,7 +58,7 @@
 }
 
 .hamburger {
-    margin-top: 50px;
+    margin-top: 40px;
     margin-right: 20px;
     margin-left: auto;
     flex-direction: column;
@@ -58,14 +66,10 @@
 }
 
 .vert-hamburger {
-    margin-right: 25px;
-    margin-top: 40px;
+    margin-right: 35px;
+    margin-top: 25px;
     transform: rotate(90deg);
     transform-origin: center;
-}
-
-.homepage-hamburger {
-    margin-right: 35px !important;
 }
 
 .rect {

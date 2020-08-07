@@ -20,27 +20,29 @@ class Board extends Component {
         return (
             <div className="page">
                 <div className="pageHeader">StuyFlow Board</div>
-                <div className="section-nav">
-                    <div className="selector">
-                        <div className="label">Year:</div>
-                        <select className="dropdown" onChange={this.changeYear}>
-                            {Object.keys(board).map(term => (
-                                <option key={term}>
-                                    {term}
-                                </option>
-                            ))}
-                        </select>
-                    </div>
+                <div className="year-selection">
+                <div className="selector">
+                    <div className="label">Year:</div>
+                    <select className="dropdown" onChange={this.changeYear}>
+                        {Object.keys(board).map(term => (
+                            <option key={term}>
+                                {term}
+                            </option>
+                        ))}
+                    </select>
+                </div>
                 </div>
                 <div className="board-members">
                     {members.map(person => (
-                        <div className="person">
-                            <img
-                                className="board-photo"
-                                src={require(`./imgs/${this.state.year}/${person.imgName}`)}
-                                alt={person.name}
-                            />
-                            <div className="info">
+                        <div className="person row">
+                            <div className="photo-div col-12 col-lg-4 col-xl-3">
+                                <img
+                                    className="board-photo"
+                                    src={require(`./imgs/${this.state.year}/${person.imgName}`)}
+                                    alt={person.name}
+                                />
+                            </div>
+                            <div className="info col-12 col-lg-7 col-xl-8">
                                 <div className="board-name">
                                     {person.name}
                                 </div>

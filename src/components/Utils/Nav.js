@@ -60,8 +60,7 @@ class Nav extends Component {
                 </div>
                 <div
                     className={`d-flex d-lg-none hamburger
-                                ${this.state.openMobileNav ? 'vert-hamburger' : ''}
-                                ${pathname === "/" ? 'homepage-hamburger' : ''}`}
+                                ${this.state.openMobileNav ? 'vert-hamburger' : ''}`}
                     onClick={() => {
                         this.setState({openMobileNav: !this.state.openMobileNav});
                     }}
