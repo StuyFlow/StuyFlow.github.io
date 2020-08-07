@@ -1,5 +1,28 @@
 .sort-selector {
-    margin-left: 20px !important;
+    margin-left: 7px !important;
+}
+
+.photo-nav .section, .label {
+    font-size: 15px !important;
+}
+
+.photo-nav .dropdown {
+    font-size: 13px !important;
+}
+
+@media only screen and (min-width: 576px) {
+    /* For the sort selector to stay on right */
+    .sort-selector {
+        margin-left: 20px !important;
+    }
+
+    .photo-nav .section, .label {
+        font-size: 20px !important;
+    }
+
+    .photo-nav .dropdown {
+        font-size: 16px !important;
+    }
 }
 
 @media only screen and (min-width: 992px) {
@@ -40,13 +63,19 @@
     cursor: pointer;
     transition: 0.3s;
 
-    height: 350px;
-    width: 90%;
+    height: 250px;
+    width: 95%;
 }
 
 .image-block:hover {
     opacity: 0.7;
     transform: scale(1.02, 1.02);
+}
+
+@media only screen and (min-width: 576px) {
+    .image-block {
+        height: 350px;
+    }
 }
 
 @media only screen and (min-width: 768px) {
@@ -115,7 +144,7 @@
 }
 
 .big-image {
-    width: 80%;
+    width: 90%;
 }
 
 .big-image-div {
@@ -228,4 +257,50 @@
         margin: 50px 80px 50px;
         text-align: left;
     }
+}
+
+/* Photo Pagination */
+.photo-pagination {
+    font-family: DarkerGrotesque;
+    font-weight: 500;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    user-select: none;
+
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+
+@media only screen and (min-width: 576px) {
+    .photo-pagination {
+        margin-bottom: 20px;
+        font-size: 30px;
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    .photo-pagination {
+        font-size: 35px;
+    }
+}
+
+.page-button {
+    cursor: pointer;
+}
+
+.page-button:hover {
+    transform: scale(1.03, 1.02);
+    transition: 0.4s;
+    color: #FFC42E;
+}
+
+.button-disable {
+    color: #838383;
+    cursor: not-allowed;
+}
+
+.button-disable:hover {
+    transform: none !important;
+    color: #838383;
 }

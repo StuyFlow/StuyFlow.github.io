@@ -83,6 +83,34 @@ const processImages = (imgs, category) => {
     });
 };
 
+const PAGE_SIZE = 12;
+
+class PhotoPagination extends Component {
+    render() {
+        const currentPage = this.props.page + 1;
+        const maxPage = Math.round(this.props.numImgs / PAGE_SIZE) + 1;
+        return (
+            <div className="photo-pagination">
+                <div
+                    className={`page-button ${currentPage > 1 ? '' : 'button-disable'}`}
+                    onClick={this.props.prevPage}
+                >
+                    ← Prev
+                </div>
+                <div>
+                    Page {currentPage} / {maxPage}
+                </div>
+                <div
+                    className={`page-button ${currentPage < maxPage ? '' : 'button-disable'}`}
+                    onClick={() => this.props.nextPage(this.props.numImgs)}
+                >
+                    Next →
+                </div>
+            </div>
+        )
+    }
+}
+
 class Photos extends Component {
     constructor(props) {
         super(props);
@@ -90,7 +118,28 @@ class Photos extends Component {
             category: "All",
 	        sort: "Date Asc.",
             modalImg: null,
+            page: 0,
+            numImgs: 0
         };
+    }
+
+    nextPage = (numImgs) => {
+        if ((this.state.page + 1) * PAGE_SIZE < numImgs) {
+            document.body.scrollTop = 0; // For Safari
+            document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+            this.setState({ page: this.state.page + 1 });
+        }
+    }
+
+    prevPage = () => {
+        if (this.state.page > 0) {
+            document.body.scrollTop = 0; // For Safari
+            document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+            this.setState({ page: this.state.page - 1 });
+        }
+        else {
+            this.setState({ page: 0 });
+        }
     }
 
     get_photos = (category, sort) => {
@@ -131,7 +180,7 @@ class Photos extends Component {
     };
 
     changeCategory = category => {
-        this.setState({ category });
+        this.setState({ category, page: 0 });
     };
 
     changeSort = e => {
@@ -139,6 +188,7 @@ class Photos extends Component {
     };
 
     render() {
+        const photos = this.get_photos(this.state.category, this.state.sort);
         return (
 		<div className="page">
     		<div className="pageHeader">Photos</div>
@@ -162,7 +212,7 @@ class Photos extends Component {
                     </select>
                 </div>
             </div>
-            <div className="section-nav d-flex d-lg-none" style={{justifyContent: "center"}}>
+            <div className="section-nav d-flex d-lg-none photo-nav" style={{justifyContent: "center"}}>
                 <div className="d-block d-lg-none">
                     <div className="selector">
                         <div className="label">Category:</div>
@@ -186,9 +236,21 @@ class Photos extends Component {
                     </select>
                 </div>
             </div>
+            <PhotoPagination
+                page={this.state.page}
+                numImgs={photos.length}
+                nextPage={this.nextPage}
+                prevPage={this.prevPage}
+            />
     		<div className="row">
-    		      { this.get_photos(this.state.category, this.state.sort) }
+    		      { photos.slice(PAGE_SIZE * this.state.page, PAGE_SIZE * (this.state.page +  1)) }
     	    </div>
+            <PhotoPagination
+                page={this.state.page}
+                numImgs={photos.length}
+                nextPage={this.nextPage}
+                prevPage={this.prevPage}
+            />
             { this.state.modalImg && <Modal img={this.state.modalImg} setModalImg={this.setModalImg}/> }
         </div>
         );
