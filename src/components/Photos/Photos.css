@@ -6,6 +6,10 @@
     font-size: 15px !important;
 }
 
+.photo-nav .label {
+    margin-right: 5px !important;
+}
+
 .photo-nav .dropdown {
     font-size: 13px !important;
 }

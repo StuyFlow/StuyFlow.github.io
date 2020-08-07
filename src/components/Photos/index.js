@@ -23,7 +23,7 @@ const categories = {
     "Others": otherPhotos,
 };
 
-const sorts = [ "Date Asc.", "Date Desc." ];
+const sorts = [ "New → Old", "Old → New" ];
 
 class Modal extends Component {
     render () {
@@ -40,7 +40,7 @@ class Modal extends Component {
                     <div className="big-image-div col-12 col-lg-6">
                 		<img
                             className="big-image"
-                            src={require(`./imgCategories/${this.props.img.category}/${this.props.img.imgname}`)}
+                            src={require(`./imgCategories/${this.props.img.category}/imgs/${this.props.img.imgname}`)}
                             alt={this.props.img.title}
                         />
                         <div className="image-credits">
@@ -64,7 +64,7 @@ class Image extends Component {
             <div className="image-block-div col-12 col-md-6 col-xl-4">
         		<img
                     className="image-block"
-                    src={require(`./imgCategories/${this.props.category}/${this.props.imgname}`)}
+                    src={require(`./imgCategories/${this.props.category}/imgs/${this.props.imgname}`)}
                     onClick={() => this.props.setModalImg(this.props)}
                     alt={this.props.title}
                 />
@@ -116,7 +116,7 @@ class Photos extends Component {
         super(props);
         this.state = {
             category: "All",
-	        sort: "Date Asc.",
+	        sort: "New → Old",
             modalImg: null,
             page: 0,
             numImgs: 0
@@ -153,7 +153,7 @@ class Photos extends Component {
         } else {
         	dates = [...processImages(categories[category], category)];
         }
-        if (sort === "Date Desc.") {
+        if (sort === "Old → New") {
             dates.sort((a, b) => a.date - b.date);
         } else {
             dates.sort((a, b) => b.date - a.date);
