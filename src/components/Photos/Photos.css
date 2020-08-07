@@ -85,8 +85,6 @@
     .image-block-div:nth-child(3n+3) {
         text-align: right;
     }
-
-
 }
 
 
@@ -95,93 +93,47 @@
 .modal {
     position: fixed;
     z-index: 20;
-    padding-top: 100px;
+    padding: 50px 80px;
     left: 0;
     top: 0;
-    width: 100%;
     height: 100vh;
     overflow: auto;
     background-color: rgba(0,0,0,0.95);
 }
 
+.image-title {
+    color: white;
+    font-size: 60px;
+    font-family: DarkerGrotesque;
+    font-weight: 800;
+    border-bottom: 3px solid #FFC42E;
+    margin-bottom: 50px;
+}
+
 .big-image {
     width: 100%;
-    padding: 100px 100px 0;
-    max-width: 750px;
-    display: inline;
-    float: left;
 }
 
 .image-credits {
-    color:white;
-    padding-left: 100px;
-    padding-bottom: 100px;
+    color: white;
     font-family: DarkerGrotesque;
     font-weight: 600;
-    font-size: 20px;
-}
-
-.image-title {
-    margin: 1px 100px -70px 100px;
-    display: block;
-    text-align: left;
-    color: white;
-    padding: 0px 0 10px 0;
-    font-size: 60px;
-    font-family: DarkerGrotesque;
-    font-weight: 900;
-    border-bottom: 3px solid #FFC42E;
+    font-size: 25px;
+    padding-top: 10px;
 }
 
 .image-desc {
-    margin-left: 100%;
-    margin-top: 10%;
-    width: 50%;
-
     font-family: DarkerGrotesque;
     font-weight: 500;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 26px;
-    line-height: 32px;
-
+    font-size: 30px;
     color: white;
+    padding-left: 30px;
 }
 
-.download {
-    color: #FFC42E;
-    #position: absolute;
-    text-decoration: none;
-    font-family: DarkerGrotesque;
-    font-size: 25px;
-    overflow: auto;
-
-    #margin-top: 30%;
-    #margin-left: 85%;
-    #margin-bottom: 100%;
-    #width: 100px;
-    #height: 900px;
-    margin-left: 1000px;
-    margin-bottom: 200px;
-
-    border: 3px solid #FFC42E;
-    box-sizing: border-box;
-    padding: 11px;
-    border-radius: 10px;
-    Content-Disposition: attachment;
-}
-
-.download:hover {
-    background: #FFC42E;
-    color: black;
-    transition: 0.5s;
-    cursor: pointer;
-
-}
-
-.big-image, .image-title, .image-desc, .image-credits, .download {
+.big-image, .image-title, .image-desc, .image-credits {
     animation-name: zoom;
     animation-duration: 0.6s;
+    animation-fill-mode: forwards;
 }
 
 @keyframes zoom {
@@ -192,11 +144,12 @@
 .close {
     position: absolute;
     top: 50px;
-    right: 50px;
+    right: 80px;
     color: #f1f1f1;
     font-size: 40px;
     font-weight: bold;
     transition: 0.3s;
+    z-index: 30;
 }
 
 .close:hover{
@@ -204,105 +157,3 @@
     text-decoration: none;
     cursor: pointer;
 }
-
-/* @media only screen and (max-width: 700px){
-    .big-image {
-    	width: 100%;
-    }
-}*/
-
-/* Small Screen */
-/*@media only screen and (max-width: 576px) {
-    .image-block {
-    	border: 3px solid #FFFFFF;
-    	box-sizing: border-box;
-    	border-radius: 10px;
-    	margin-right: 10%;
-    	margin-left: 10%;
-    	margin-bottom: 20px;
-
-    	width: 250px;
-    	height: 150px;
-    	object-fit: cover;
-
-    	cursor: pointer;
-    	transition: 0.3s;
-    }
-
-    .modal {
-    	position: fixed;
-    	z-index: 20;
-    	padding-top: 20px;
-    	left: 0;
-    	top: 0;
-    	width: 100%;
-    	height: 100vh;
-    	#overflow-x: hidden;
-    	background-color: rgba(0,0,0,0.95);
-    }
-
-    .big-image {
-    	width: 90%;
-    	padding: 10px 20px 0px 18px;
-    	#padding-left: auto;
-    	#padding-right: auto;
-    	float: none;
-    	max-width: 570px;
-    	display: inline;
-    }
-
-    .close {
-    	margin: -50px -30px;
-    }
-
-    .image-title {
-    	margin: 10px;
-    	display: block;
-    	text-align: center;
-    	color: white;
-    	padding: 0px 0 10px 0;
-    	font-size: 30px;
-    	font-family: DarkerGrotesque;
-    	font-weight: 600;
-    	border-bottom: 3px solid #FFC42E;
-    }
-
-    .image-credits {
-    	color:white;
-    	padding-left: 20px;
-    	padding-bottom: 100px;
-    	margin-top: 0px;
-    	font-family: DarkerGrotesque;
-    	font-weight: 400;
-    	font-size: 20px;
-    }
-
-    .image-desc {
-    	color:white;
-    	padding-left: 20px;
-    	padding-bottom: 10px;
-    	margin-top: 0px;
-    	margin-left: 0%;
-    	font-family: DarkerGrotesque;
-    	font-weight: 400;
-    	font-size: 20px;
-    	float: none;
-    }
-
-    .download {
-    	color: #FFC42E;
-    	position: absolute;
-    	text-decoration: none;
-    	font-family: DarkerGrotesque;
-    	text-align: center;
-    	font-size: 25px;
-    	overflow: auto;
-    	margin-top: -30%;
-    	margin-left: 35%;
-    	border: 3px solid #FFC42E;
-    	box-sizing: border-box;
-    	padding: 8px;
-    	border-radius: 10px;
-    	Content-Disposition: attachment;
-    }
-} */

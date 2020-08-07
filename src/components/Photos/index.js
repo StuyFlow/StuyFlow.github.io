@@ -36,26 +36,23 @@ class Modal extends Component {
                     &times;
                 </span>
         		<div className="image-title">{this.props.img.title}</div>
-        		<div style={{display: "flex"}}>
-                    <div>
+        		<div className="row" style={{display: "flex"}}>
+                    <div className="big-image-div col-12 col-lg-6">
                 		<img
                             className="big-image"
                             src={require(`./imgCategories/${this.props.img.category}/${this.props.img.imgname}`)}
                             alt={this.props.img.title}
-                />
-		<div className="image-desc">{this.props.img.desc}</div>
-                <p className="image-credits">Photo Credits: {this.props.img.credits}</p>
-		<a
-                        className="download"
-                        href={require(`./imgCategories/${this.props.img.category}/${this.props.img.imgname}`)}
-                        download={this.props.img.imgname}
-                    >
-                        Download
-                    </a>
+                        />
+                        <div className="image-credits">
+                            Photo Credits: {this.props.img.credits}
+                        </div>
+                    </div>
+    		        <div className="image-desc col-12 col-lg-5">
+                        <div>
+                            {this.props.img.desc}
+                        </div>
+                    </div>
                 </div>
-
- 	</div>
-
     		</div>
     	);
     }
