@@ -44,19 +44,20 @@ class Modal extends Component {
                             className="big-image"
                             src={require(`./imgCategories/${this.props.img.category}/${this.props.img.imgname}`)}
                             alt={this.props.img.title}
-                        />
-                        <p className="image-credits">Photo Credits: {this.props.img.credits}</p>
-
-                    </div>
-            		<div className="image-desc">{this.props.img.desc}</div>
-            		<a
+                />
+		<div className="image-desc">{this.props.img.desc}</div>
+                <p className="image-credits">Photo Credits: {this.props.img.credits}</p>
+		<a
                         className="download"
                         href={require(`./imgCategories/${this.props.img.category}/${this.props.img.imgname}`)}
                         download={this.props.img.imgname}
                     >
                         Download
                     </a>
-        		</div>
+                </div>
+		
+ 	</div>
+        
     		</div>
     	);
     }
