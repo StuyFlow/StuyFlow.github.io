@@ -47,7 +47,7 @@ class Modal extends Component {
                             Photo Credits: {this.props.img.credits}
                         </div>
                     </div>
-    		        <div className="image-desc col-12 col-lg-5">
+    		        <div className="image-desc col-12 col-lg-4">
                         <div>
                             {this.props.img.desc}
                         </div>
