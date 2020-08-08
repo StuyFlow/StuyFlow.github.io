@@ -15,7 +15,14 @@ class EquipmentBox extends Component {
 					</a>
                 </div>
                 <div className="item-text col-12 col-lg-7 col-xl-8">
-                    {this.props.name}
+					<a
+						rel="noopener noreferrer"
+						className="item-name"
+						href={this.props.link}
+						target="_blank"
+					>
+						{this.props.name}
+					</a>
                     <div className="item-description">
                     {this.props.desc.map((details, i) => (
                         <div key={i}>

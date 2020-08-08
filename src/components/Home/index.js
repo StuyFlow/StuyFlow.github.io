@@ -42,7 +42,7 @@ class Home extends Component {
                     <img
                         className="backgroundVideo"
                         src={backgroundPhoto}
-                        alt="StuyFlow Background Photo"
+                        alt="StuyFlow Background From SOS"
                     />
                     <div className="frontpage-desc">
                         <div className="club-name">StuyFlow</div>
