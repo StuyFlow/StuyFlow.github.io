@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import Footer from '../Utils/Footer';
 
 import backgroundVideo from './background_video.mp4';
+import backgroundPhoto from './background_photo.jpg';
 import './Home.css';
 
 import ScrollSnap from 'scroll-snap';
@@ -28,10 +29,21 @@ class Home extends Component {
     render() {
         return (
             <div className="homepage" ref={this.homeRef}>
-                <div className="home-div home-video">
+                <div className="home-div home-video d-none d-lg-block">
                     <video autoPlay muted loop className="backgroundVideo">
                         <source src={backgroundVideo} type="video/mp4"/>
                     </video>
+                    <div className="frontpage-desc">
+                        <div className="club-name">StuyFlow</div>
+                        <div className="slogan">Stars Shine Brightest in the Dark</div>
+                    </div>
+                </div>
+                <div className="home-div home-video d-block d-lg-none">
+                    <img
+                        className="backgroundVideo"
+                        src={backgroundPhoto}
+                        alt="StuyFlow Background Photo"
+                    />
                     <div className="frontpage-desc">
                         <div className="club-name">StuyFlow</div>
                         <div className="slogan">Stars Shine Brightest in the Dark</div>

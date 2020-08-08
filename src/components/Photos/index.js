@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 
 import { clubPhotos } from './imgCategories/Club';
-import { logoPhotos } from './imgCategories/Logos';
 import { merchPhotos } from './imgCategories/Merch';
 import { multigenPhotos } from './imgCategories/Multigen';
 import { otherPhotos } from './imgCategories/Others';
@@ -20,12 +19,11 @@ const categories = {
     "Club": clubPhotos,
     "Multigen": multigenPhotos,
     "Wallpapers": wallpaperPhotos,
-    "Logos": logoPhotos,
     "Merch": merchPhotos,
     "Others": otherPhotos,
 };
 
-const sorts = [ "Date Asc.", "Date Desc." ];
+const sorts = [ "New → Old", "Old → New" ];
 
 class Modal extends Component {
     render () {
@@ -38,25 +36,23 @@ class Modal extends Component {
                     &times;
                 </span>
         		<div className="image-title">{this.props.img.title}</div>
-        		<div style={{display: "flex"}}>
-                    <div>
+        		<div className="row" style={{display: "flex"}}>
+                    <div className="big-image-div col-12 col-lg-6">
                 		<img
                             className="big-image"
-                            src={require(`./imgCategories/${this.props.img.category}/${this.props.img.imgname}`)}
+                            src={require(`./imgCategories/${this.props.img.category}/imgs/${this.props.img.imgname}`)}
                             alt={this.props.img.title}
                         />
-                        <p className="image-credits">Photo Credits: {this.props.img.credits}</p>
-
+                        <div className="image-credits">
+                            Photo Credits: {this.props.img.credits}
+                        </div>
                     </div>
-            		<div className="image-desc">{this.props.img.desc}</div>
-            		<a
-                        className="download"
-                        href={require(`./imgCategories/${this.props.img.category}/${this.props.img.imgname}`)}
-                        download={this.props.img.imgname}
-                    >
-                        Download
-                    </a>
-        		</div>
+    		        <div className="image-desc col-12 col-lg-4">
+                        <div>
+                            {this.props.img.desc}
+                        </div>
+                    </div>
+                </div>
     		</div>
     	);
     }
@@ -65,12 +61,14 @@ class Modal extends Component {
 class Image extends Component {
     render() {
     	return (
-    		<img
-                className="image-block"
-                src={require(`./imgCategories/${this.props.category}/${this.props.imgname}`)}
-                onClick={() => this.props.setModalImg(this.props)}
-                alt={this.props.title}
-            />
+            <div className="image-block-div col-12 col-md-6 col-xl-4">
+        		<img
+                    className="image-block"
+                    src={require(`./imgCategories/${this.props.category}/imgs/${this.props.imgname}`)}
+                    onClick={() => this.props.setModalImg(this.props)}
+                    alt={this.props.title}
+                />
+            </div>
         );
     }
 }
@@ -85,14 +83,63 @@ const processImages = (imgs, category) => {
     });
 };
 
+const PAGE_SIZE = 12;
+
+class PhotoPagination extends Component {
+    render() {
+        const currentPage = this.props.page + 1;
+        const maxPage = Math.floor(this.props.numImgs / PAGE_SIZE) + 1;
+        return (
+            <div className="photo-pagination">
+                <div
+                    className={`page-button ${currentPage > 1 ? '' : 'button-disable'}`}
+                    onClick={this.props.prevPage}
+                >
+                    ← Prev
+                </div>
+                <div>
+                    Page {currentPage} / {maxPage}
+                </div>
+                <div
+                    className={`page-button ${currentPage < maxPage ? '' : 'button-disable'}`}
+                    onClick={() => this.props.nextPage(this.props.numImgs)}
+                >
+                    Next →
+                </div>
+            </div>
+        )
+    }
+}
+
 class Photos extends Component {
     constructor(props) {
         super(props);
         this.state = {
             category: "All",
-	        sort: "Date Asc.",
+	        sort: "New → Old",
             modalImg: null,
+            page: 0,
+            numImgs: 0
         };
+    }
+
+    nextPage = (numImgs) => {
+        if ((this.state.page + 1) * PAGE_SIZE < numImgs) {
+            document.body.scrollTop = 0; // For Safari
+            document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+            this.setState({ page: this.state.page + 1 });
+        }
+    }
+
+    prevPage = () => {
+        if (this.state.page > 0) {
+            document.body.scrollTop = 0; // For Safari
+            document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+            this.setState({ page: this.state.page - 1 });
+        }
+        else {
+            this.setState({ page: 0 });
+        }
     }
 
     get_photos = (category, sort) => {
@@ -106,7 +153,7 @@ class Photos extends Component {
         } else {
         	dates = [...processImages(categories[category], category)];
         }
-        if (sort === "Date Desc.") {
+        if (sort === "Old → New") {
             dates.sort((a, b) => a.date - b.date);
         } else {
             dates.sort((a, b) => b.date - a.date);
@@ -133,7 +180,7 @@ class Photos extends Component {
     };
 
     changeCategory = category => {
-        this.setState({ category });
+        this.setState({ category, page: 0 });
     };
 
     changeSort = e => {
@@ -141,20 +188,21 @@ class Photos extends Component {
     };
 
     render() {
+        const photos = this.get_photos(this.state.category, this.state.sort);
         return (
 		<div className="page">
     		<div className="pageHeader">Photos</div>
-    		<div className="section-nav">
-        		{Object.keys(categories).map(category => (
-        			<div
+    		<div className="section-nav d-none d-lg-flex photo-nav">
+                {Object.keys(categories).map(category => (
+                    <div
                         className={`section ${this.state.category === category ? 'section-active' : ''}`}
                         onClick={() => this.changeCategory(category)}
-                	>
+                    >
                         { category }
                     </div>
-        		))}
-        		<div className="selector sort-selector">
-                    <div className="label">Sort By:</div>
+                ))}
+                <div className="selector sort-selector">
+                    <div className="label ">Sort By:</div>
                     <select className="dropdown" onChange={this.changeSort}>
                         {sorts.map(sort => (
                             <option key={sort}>
@@ -163,10 +211,46 @@ class Photos extends Component {
                         ))}
                     </select>
                 </div>
-       		</div>
-    		<div className="images">
-    		      { this.get_photos(this.state.category, this.state.sort) }
+            </div>
+            <div className="section-nav d-flex d-lg-none photo-nav" style={{justifyContent: "center"}}>
+                <div className="d-block d-lg-none">
+                    <div className="selector">
+                        <div className="label">Category:</div>
+                        <select className="dropdown" onChange={e => this.changeCategory(e.target.value)}>
+                            {Object.keys(categories).map(category => (
+                                <option key={category}>
+                                    {category}
+                                </option>
+                            ))}
+                        </select>
+                    </div>
+                </div>
+                <div className="selector sort-selector">
+                    <div className="label ">Sort By:</div>
+                    <select className="dropdown" onChange={this.changeSort}>
+                        {sorts.map(sort => (
+                            <option key={sort}>
+                                {sort}
+                            </option>
+                        ))}
+                    </select>
+                </div>
+            </div>
+            <PhotoPagination
+                page={this.state.page}
+                numImgs={photos.length}
+                nextPage={this.nextPage}
+                prevPage={this.prevPage}
+            />
+    		<div className="row">
+    		      { photos.slice(PAGE_SIZE * this.state.page, PAGE_SIZE * (this.state.page +  1)) }
     	    </div>
+            <PhotoPagination
+                page={this.state.page}
+                numImgs={photos.length}
+                nextPage={this.nextPage}
+                prevPage={this.prevPage}
+            />
             { this.state.modalImg && <Modal img={this.state.modalImg} setModalImg={this.setModalImg}/> }
         </div>
         );
