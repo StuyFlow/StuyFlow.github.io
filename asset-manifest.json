@@ -1,23 +1,24 @@
 {
   "files": {
     "main.css": "/static/css/main.1c1a2bd1.chunk.css",
-    "main.js": "/static/js/main.4b356667.chunk.js",
-    "main.js.map": "/static/js/main.4b356667.chunk.js.map",
+    "main.js": "/static/js/main.b61c6272.chunk.js",
+    "main.js.map": "/static/js/main.b61c6272.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.63b07cbf.js",
     "runtime-main.js.map": "/static/js/runtime-main.63b07cbf.js.map",
-    "static/js/2.6ce04d80.chunk.js": "/static/js/2.6ce04d80.chunk.js",
-    "static/js/2.6ce04d80.chunk.js.map": "/static/js/2.6ce04d80.chunk.js.map",
+    "static/js/2.d87bfa46.chunk.js": "/static/js/2.d87bfa46.chunk.js",
+    "static/js/2.d87bfa46.chunk.js.map": "/static/js/2.d87bfa46.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.9fe0ced43e525c9b580cc2591edcc7d3.js": "/precache-manifest.9fe0ced43e525c9b580cc2591edcc7d3.js",
+    "precache-manifest.dd40f680c286083bd8660791fbeadf4c.js": "/precache-manifest.dd40f680c286083bd8660791fbeadf4c.js",
     "service-worker.js": "/service-worker.js",
     "static/css/main.1c1a2bd1.chunk.css.map": "/static/css/main.1c1a2bd1.chunk.css.map",
-    "static/js/2.6ce04d80.chunk.js.LICENSE.txt": "/static/js/2.6ce04d80.chunk.js.LICENSE.txt",
+    "static/js/2.d87bfa46.chunk.js.LICENSE.txt": "/static/js/2.d87bfa46.chunk.js.LICENSE.txt",
     "static/media/index.css": "/static/media/DarkerGrotesque-SemiBold.bb7cc99a.ttf",
     "static/media/React-Logo.png": "/static/media/React-Logo.49f6325d.png",
     "static/media/aaron_hsu.jpg": "/static/media/aaron_hsu.25a008a6.jpg",
     "static/media/alan_zhou.jpg": "/static/media/alan_zhou.4f723048.jpg",
     "static/media/alice_chai.jpg": "/static/media/alice_chai.f35c2ab4.jpg",
     "static/media/angela_lin.jpg": "/static/media/angela_lin.c6970811.jpg",
+    "static/media/background_photo.jpg": "/static/media/background_photo.beac2245.jpg",
     "static/media/background_video.mp4": "/static/media/background_video.fdf3ec52.mp4",
     "static/media/bigsib-littlesib-dance.png": "/static/media/bigsib-littlesib-dance.f6a7dfc4.png",
     "static/media/board-2019-2.png": "/static/media/board-2019-2.e587725f.png",
@@ -185,8 +186,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.63b07cbf.js",
-    "static/js/2.6ce04d80.chunk.js",
+    "static/js/2.d87bfa46.chunk.js",
     "static/css/main.1c1a2bd1.chunk.css",
-    "static/js/main.4b356667.chunk.js"
+    "static/js/main.b61c6272.chunk.js"
   ]
 }
