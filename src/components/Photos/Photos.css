@@ -2,11 +2,12 @@
     margin-left: 7px !important;
 }
 
-.photo-nav .section, .label {
+.photo-nav .section {
     font-size: 15px !important;
 }
 
 .photo-nav .label {
+    font-size: 15px !important;
     margin-right: 5px !important;
 }
 
@@ -20,7 +21,11 @@
         margin-left: 20px !important;
     }
 
-    .photo-nav .section, .label {
+    .photo-nav .section {
+        font-size: 20px !important;
+    }
+
+    .photo-nav .label {
         font-size: 20px !important;
     }
 
@@ -35,7 +40,11 @@
         margin-left: auto !important;
     }
 
-    .photo-nav .section, .label {
+    .photo-nav .section {
+        font-size: 18px !important;
+    }
+
+    .photo-nav .label {
         font-size: 18px !important;
     }
 
@@ -45,7 +54,11 @@
 }
 
 @media only screen and (min-width: 1200px) {
-    .photo-nav .section, .label {
+    .photo-nav .section {
+        font-size: 25px !important;
+    }
+
+    .photo-nav .label {
         font-size: 25px !important;
     }
 

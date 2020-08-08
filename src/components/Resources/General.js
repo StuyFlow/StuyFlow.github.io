@@ -28,13 +28,15 @@ class General extends Component {
 					/>
 				))}
 
-				<iframe
-					title="Master List Video"
-					className="video"
-					src="https://www.youtube.com/embed/N4U-1Apvpd8"
-					allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-					allowFullScreens
-				/>
+				<div className="resource-video-div">
+					<iframe
+						title="Master List Video"
+						className="video"
+						src="https://www.youtube.com/embed/N4U-1Apvpd8"
+						allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+						allowFullScreens
+					/>
+				</div>
 
 				<p className="equipment-header">Equipment</p>
 

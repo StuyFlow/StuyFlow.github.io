@@ -119,6 +119,10 @@
     font-family: Abel;
 }
 
+.mobile-dropdown {
+    justify-content: center;
+}
+
 @media only screen and (min-width: 576px) {
     .selector {
         display: flex;

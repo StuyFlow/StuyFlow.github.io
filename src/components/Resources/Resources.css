@@ -1,46 +1,103 @@
-/* General Resources */
+/* Info Box */
 
+.infobox {
+    text-align: center;
+    margin-bottom: 35px;
+}
+
+@media only screen and (min-width: 992px) {
+    .infobox {
+        text-align: left;
+        margin-bottom: 50px;
+    }
+}
+
+/* General Resources */
 .header {
     color: #E4CA87;
-    margin-bottom: 10px;
     font-family: DarkerGrotesque;
     font-weight: 500;
-    font-size: 45px;
+
+    line-height: 0.8em;
+    font-size: 30px;
+    margin-bottom: 20px;
 }
+
 
 .desc {
     color: white;
-    margin-top: 7px;
-    margin-bottom: 40px;
-    font-size: 20px;
     font-family: Abel;
+
+    font-size: 17px;
+}
+
+.resource-video-div {
+    display: flex;
+    justify-content: center;
 }
 
 .video {
     margin: 0 auto;
-    height: 60vh;
-    width: 106.7vh;
     border: 2px white solid;
+
+    height: 200px;
+    width: 100%;
 }
 
-.pageSelector {
-    display: none;
+@media only screen and (min-width: 568px) {
+    .video {
+        height: 350px;
+        width: 100%;
+    }
 }
 
-/* Info Box */
+@media only screen and (min-width: 768px) {
+    .header {
+        font-size: 28px;
+        margin-bottom: 17px;
+    }
 
-.infobox-text {
-    text-align: left;
+    .desc {
+        font-size: 15px;
+    }
+
+    .video {
+        margin: 0 auto;
+        height: 420px;
+        width: 700px;
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    .header {
+        font-size: 45px;
+        margin-bottom: 17px;
+    }
+
+    .desc {
+        font-size: 20px;
+    }
+
+    .resource-video-div {
+        display: block;
+    }
+
+    .video {
+        height: 500px;
+        width: 890px;
+    }
 }
 
 /* Equipment Box */
 
 .equipment-header {
     color: #E4CA87;
-    margin-bottom: 30px;
     font-family: DarkerGrotesque;
     font-weight: 500;
-    font-size: 50px;
+
+    font-size: 40px;
+    margin-bottom: 20px;
+    text-align: center;
 }
 
 .item-box {
@@ -111,6 +168,13 @@
     border-radius: 10px;
 }
 
+@media only screen and (min-width: 992px) {
+    .equipment-header {
+        margin-bottom: 30px;
+        font-size: 50px;
+    }
+}
+
 /* Youtube Box */
 .youtube-channels {
     display: flex;
@@ -160,80 +224,4 @@
     opacity: .6;
     transition: 0.2s;
     transform: scale(1.03, 1.03);
-}
-
-@media only screen and (min-width: 992px) {
-    .col-lg-1 {text-align: left}
-    .col-lg-2 {text-align: left}
-    .col-lg-3 {text-align: left}
-    .col-lg-4 {text-align: left}
-    .col-lg-5 {text-align: left}
-    .col-lg-6 {text-align: left}
-    .col-lg-7 {text-align: left}
-    .col-lg-8 {text-align: left}
-    .col-lg-9 {text-align: left}
-    .col-lg-10 {text-align: left}
-    .col-lg-11 {text-align: left}
-    .col-lg-12 {text-align: left}
-
-
-    .item-text {
-        text-align: left;
-    }
-}
-
-@media only screen and (max-width: 992px) {
-    .col-lg-1 {text-align: center}
-    .col-lg-2 {text-align: center}
-    .col-lg-3 {text-align: center}
-    .col-lg-4 {text-align: center}
-    .col-lg-5 {text-align: center}
-    .col-lg-6 {text-align: center}
-    .col-lg-7 {text-align: center}
-    .col-lg-8 {text-align: center}
-    .col-lg-9 {text-align: center}
-    .col-lg-10 {text-align: center}
-    .col-lg-11 {text-align: center}
-    .col-lg-12 {text-align: center}
-
-    .pageSelector {
-        display: block;
-        scale: 1.1;
-        margin-top: 30px;
-    }
-
-    .item-image {
-        width: 60%;
-        margin-right: 0px;
-        margin-bottom: 20px;
-    }
-
-    .item-description {
-        padding-left: 0px;
-        padding-bottom: 50px;
-    }
-
-    .video {
-        width: 100%;
-    }
-
-    .header.infobox-header {
-        margin-top: 15px;
-    }
-    
-    .infobox-text {
-        text-align: center;
-    }
-
-    .infobox-header {
-        font-size: 40px;
-    }
-
-    .infobox-description {
-        font-size: smaller;
-    }
-
-    .equipment-header {
-        text-align: center;
-    }
 }

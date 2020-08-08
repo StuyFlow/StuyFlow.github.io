@@ -28,10 +28,6 @@ class Resources extends Component {
         this.setState({ section: section });
     }
 
-    changeSectionDropdown = section => {
-        this.setState({section: section.target.value});
-    }
-
     render() {
         const SectionComponent = sections[this.state.section]; // Needs to be capitalized
         return (
@@ -49,29 +45,23 @@ class Resources extends Component {
                     ))}
                 </div>
 
-                <center>
-                    <select className="pageSelector" onChange={this.changeSectionDropdown}>
-                        <option key="General">
-                            General
-                        </option>
+                <div className="section-nav mobile-dropdown d-flex d-lg-none">
+                    <div className="selector">
+                        <div className="label">Section:</div>
+                        <select
+                            className="dropdown"
+                            onChange={e => this.setState({ section: e.target.value })}
+                            value={this.state.section}
+                        >
+                            {Object.keys(sections).map(section => (
+                                <option key={section}>
+                                    {section}
+                                </option>
+                            ))}
+                        </select>
+                    </div>
+                </div>
 
-                        <option key="Poi">
-                            Poi
-                        </option>
-
-                        <option key="Staff">
-                            Staff
-                        </option>
-
-                        <option key="Whips">
-                            Whips
-                        </option>
-
-                        <option key="Others">
-                            Others
-                        </option>
-                    </select>
-                </center>
                 <div className="section-component">
                     <SectionComponent />
                 </div>
