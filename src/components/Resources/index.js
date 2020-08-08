@@ -25,7 +25,11 @@ class Resources extends Component {
     }
 
     changeSection = section => {
-        this.setState({ section: section })
+        this.setState({ section: section });
+    }
+
+    changeSectionDropdown = section => {
+        this.setState({section: section.target.value});
     }
 
     render() {
@@ -45,6 +49,29 @@ class Resources extends Component {
                     ))}
                 </div>
 
+                <center>
+                    <select className="pageSelector" onChange={this.changeSectionDropdown}>
+                        <option key="General">
+                            General
+                        </option>
+
+                        <option key="Poi">
+                            Poi
+                        </option>
+
+                        <option key="Staff">
+                            Staff
+                        </option>
+
+                        <option key="Whips">
+                            Whips
+                        </option>
+
+                        <option key="Others">
+                            Others
+                        </option>
+                    </select>
+                </center>
                 <div className="section-component">
                     <SectionComponent />
                 </div>

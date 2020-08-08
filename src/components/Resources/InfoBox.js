@@ -5,9 +5,9 @@ class InfoBox extends Component {
 	render() {
 		return (
             <div>
-                <div>
-                    <p className="header">{this.props.header}</p>
-                    <p className="desc">{this.props.desc}</p>
+                <div className="infobox-text">
+                    <p className="header infobox-header">{this.props.header}</p>
+                    <p className="desc infobox-desc">{this.props.desc}</p>
                 </div>
             </div>
 		);

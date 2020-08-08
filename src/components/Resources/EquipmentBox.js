@@ -14,7 +14,7 @@ class EquipmentBox extends Component {
 						/>
 					</a>
                 </div>
-                <div className="item-text col-12 col-lg-6 col-xl-8">
+                <div className="item-text col-11 col-lg-5 col-xl-8">
                     {this.props.name}
                     <ul className="item-description">
                     {this.props.desc.map((details, i) => (
