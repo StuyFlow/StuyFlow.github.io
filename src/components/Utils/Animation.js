@@ -52,43 +52,51 @@ const octagram = (t, radius) => {
 }
 
 let requestId;
-let radius = 15;
 let t = 0;
 let slowness = 70;
-let ctx;
+let ctxs = [];
 let animationFunc = circle;
 const trailing = 800;
 
 
 const animate = () => {
     clear();
-    const width = ctx.canvas.width;
-    const height = ctx.canvas.height;
-    ctx.fillStyle = "#AAAADD";
-    for (let i = 0; i < trailing; i++) {
-        const [x, y] = animationFunc(t - (Math.PI / slowness * i * 0.1), width);
-        ctx.globalAlpha = (trailing - i) / trailing;
-        ctx.beginPath();
-        ctx.ellipse(x + (width / 2), y + (height / 2), radius, radius, 0, 0, Math.PI*2);
-        ctx.fill();
-    }
+    for (let ctx_obj of ctxs) {
+        const ctx = ctx_obj["ctx"];
+        const radius = ctx_obj["radius"];
+        const width = ctx.canvas.width;
+        const height = ctx.canvas.height;
+        ctx.fillStyle = "#AAAADD";
+        for (let i = 0; i < trailing; i++) {
+            const [x, y] = animationFunc(t - (Math.PI / slowness * i * 0.1), width);
+            ctx.globalAlpha = (trailing - i) / trailing;
+            ctx.beginPath();
+            ctx.ellipse(x + (width / 2), y + (height / 2), radius, radius, 0, 0, Math.PI*2);
+            ctx.fill();
+        }
 
-    t += Math.PI/slowness;
-    if (t > Math.PI * 10) {
-        t = 0;
+        t += Math.PI/slowness;
+        if (t > Math.PI * 10) {
+            t = 0;
+        }
     }
-    requestId = window.requestAnimationFrame(animate);
+    window.requestAnimationFrame(animate);
 };
 
 const clear = () => {
-    ctx.clearRect(0, 0, ctx.canvas.width, ctx.canvas.height);
-    ctx.fillStyle = "#000";
-    ctx.fillRect(0, 0, ctx.canvas.width, ctx.canvas.height)
+    for (let ctx_obj of ctxs) {
+        const ctx = ctx_obj["ctx"];
+        ctx.clearRect(0, 0, ctx.canvas.width, ctx.canvas.height);
+        ctx.fillStyle = "#000";
+        ctx.fillRect(0, 0, ctx.canvas.width, ctx.canvas.height);
+    }
 }
 
 const beginAnimation = () => {
     const c = document.getElementById('canvas');
-    ctx = c.getContext("2d");
+    ctxs.push({"ctx": c.getContext("2d"), "radius": 15});
+    const c2 = document.getElementById('canvas2');
+    ctxs.push({"ctx": c2.getContext("2d"), "radius": 10});
     animate();
 };
 
@@ -112,7 +120,7 @@ class PoiAnimation extends Component {
 
     render() {
         return (
-            <div>
+            <div className="poi-div">
                 <select
                     className="move-selector"
                     onChange={(e) => {animationFunc = nameToMove[e.target.value]}}
@@ -124,8 +132,18 @@ class PoiAnimation extends Component {
                     ))}
                 </select>
                 <br/>
-                <canvas width={600} height={600} className="canvas" id="canvas">
-                </canvas>
+                <canvas
+                    width={600}
+                    height={600}
+                    className="canvas d-none d-lg-block"
+                    id="canvas"
+                ></canvas>
+                <canvas
+                    width={300}
+                    height={300}
+                    className="canvas d-block d-lg-none"
+                    id="canvas2"
+                ></canvas>
             </div>
         )
     }
