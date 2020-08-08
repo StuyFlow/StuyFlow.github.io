@@ -33,20 +33,6 @@ class Others extends Component {
 					/>
 				))}
 
-
-				{/* <center>
-					<div className="youtube-channels">
-						{youtube.map(channel => (
-							<YoutubeBox
-								key={channel.name}
-								name={channel.name}
-								img={channel.img}
-								link={channel.link}
-							/>
-						))}
-					</div>
-				</center> */}
-				
 				<h2 className="equipment-header">Equipment</h2>
 				{equipment.map(item => (
 					<EquipmentBox

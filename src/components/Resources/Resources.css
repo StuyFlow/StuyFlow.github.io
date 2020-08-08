@@ -230,11 +230,10 @@
 }
 
 .youtube-box {
-    margin-left: 15px;
-    margin-right: 15px;
     position: relative;
     text-align: center;
     transition: 0.2s;
+    margin-bottom: 20px;
 }
 
 .youtube-box:hover p {
@@ -263,14 +262,31 @@
 }
 
 .youtube-image {
-    height: 200px;
     border-radius: 20px;
     border: 3px white solid;
     transition: 0.2s;
+    object-fit: cover;
+
+    width: 80%;
+    height: 200px;
 }
 
 .youtube-image:hover {
     opacity: .6;
     transition: 0.2s;
     transform: scale(1.03, 1.03);
+}
+
+@media only screen and (min-width: 576px) {
+    .youtube-image {
+        width: 80%;
+        height: 300px;
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    .youtube-image {
+        width: 90%;
+        height: 200px;
+    }
 }

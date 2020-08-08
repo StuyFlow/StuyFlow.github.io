@@ -39,19 +39,16 @@ class Poi extends Component {
 				<center>
 					<div className="youtube-channels row">
 						{youtube.map(channel => (
-
-							<div className="col-12 col-md-6 col-lg-6 col-xl-4">
-								<YoutubeBox
-									key={channel.name}
-									name={channel.name}
-									img={channel.img}
-									link={channel.link}
-								/>
-							</div>
+							<YoutubeBox
+								key={channel.name}
+								name={channel.name}
+								img={channel.img}
+								link={channel.link}
+							/>
 						))}
 					</div>
 				</center>
-				
+
 				<h2 className="equipment-header">Equipment</h2>
 				{equipment.map(item => (
 					<EquipmentBox
