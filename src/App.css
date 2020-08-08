@@ -21,45 +21,24 @@
     color: white;
     font-family: DarkerGrotesque;
     font-weight: 700;
-    font-size: 40px;
     border-bottom: 3px solid #FFC42E;
     transition: 0.5s;
     text-align: center;
+
+    font-size: 40px;
 }
 
 /* Small */
 @media only screen and (min-width: 576px) {
-    .page {
-        padding: 100px 20px;
-        transition: 0.5s;
-    }
-
     .pageHeader {
-        color: white;
-        font-family: DarkerGrotesque;
-        font-weight: 700;
         font-size: 70px;
-        border-bottom: 3px solid #FFC42E;
-        transition: 0.6s;
-        text-align: center;
     }
 }
 
 /* Medium (Start of Mobile) */
 @media only screen and (min-width: 768px) {
-    .page {
-        padding: 100px 20px;
-        transition: 0.5s;
-    }
-
     .pageHeader {
-        color: white;
-        font-family: DarkerGrotesque;
-        font-weight: 700;
         font-size: 70px;
-        border-bottom: 3px solid #FFC42E;
-        transition: 0.5s;
-        text-align: center;
     }
 }
 
@@ -67,18 +46,11 @@
 @media only screen and (min-width: 992px) {
     .page {
         padding: 110px 80px;
-        transition: 0.5s;
     }
 
     .pageHeader {
-        color: white;
-        font-family: DarkerGrotesque;
-        font-weight: 700;
         font-size: 80px;
-        border-bottom: 3px solid #FFC42E;
-        transition: 0.5s;
         text-align: left;
-
     }
 }
 
@@ -86,17 +58,10 @@
 @media only screen and (min-width: 1200px) {
     .page {
         padding: 120px 80px;
-        transition: 0.5s;
     }
 
     .pageHeader {
-        color: white;
-        font-family: DarkerGrotesque;
-        font-weight: 700;
         font-size: 90px;
-        border-bottom: 3px solid #FFC42E;
-        transition: 0.5s;
-        text-align: left;
     }
 }
 
@@ -109,14 +74,16 @@
 
 .selector .label {
     font-family: Abel;
-    font-size: 20px;
     color: white;
     margin-right: 10px;
+
+    font-size: 20px;
 }
 
 .selector .dropdown {
-    font-size: 16px;
     font-family: Abel;
+
+    font-size: 16px;
 }
 
 .mobile-dropdown {
@@ -124,40 +91,26 @@
 }
 
 @media only screen and (min-width: 576px) {
-    .selector {
-        display: flex;
-        margin: 10px 0;
-    }
-
     .selector .label {
-        font-family: Abel;
         font-size: 24px;
-        color: white;
-        margin-right: 10px;
     }
 
     .selector .dropdown {
         font-size: 18px;
-        font-family: Abel;
     }
 }
 
 @media only screen and (min-width: 992px) {
     .selector {
-        display: flex;
         margin: 20px 0 0;
     }
 
     .selector .label {
-        font-family: Abel;
         font-size: 28px;
-        color: white;
-        margin-right: 10px;
     }
 
     .selector .dropdown {
         font-size: 20px;
-        font-family: Abel;
     }
 }
 

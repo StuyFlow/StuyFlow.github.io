@@ -69,7 +69,7 @@ class Videos extends Component {
                         </div>
                     ))}
                 </div>
-                <div className="section-nav d-flex d-lg-none">
+                <div className="section-nav d-flex d-lg-none" style={{justifyContent: "center"}}>
                     <div className="selector">
                         <div className="label">Category:</div>
                         <select

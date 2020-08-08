@@ -21,16 +21,16 @@ class Board extends Component {
             <div className="page">
                 <div className="pageHeader">StuyFlow Board</div>
                 <div className="year-selection">
-                <div className="selector">
-                    <div className="label">Year:</div>
-                    <select className="dropdown" onChange={this.changeYear}>
-                        {Object.keys(board).map(term => (
-                            <option key={term}>
-                                {term}
-                            </option>
-                        ))}
-                    </select>
-                </div>
+                    <div className="selector">
+                        <div className="label">Year:</div>
+                        <select className="dropdown" onChange={this.changeYear}>
+                            {Object.keys(board).map(term => (
+                                <option key={term}>
+                                    {term}
+                                </option>
+                            ))}
+                        </select>
+                    </div>
                 </div>
                 <div className="board-members">
                     {members.map(person => (
