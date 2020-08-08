@@ -5,7 +5,7 @@ class EquipmentBox extends Component {
 	render() {
 		return (
             <div className="item-box row">
-                <div className="photo-div col-12 col-lg-6 col-xl-3">
+                <div className="photo-div col-12 col-lg-4 col-xl-3">
                     <a rel="noopener noreferrer" href={this.props.link} target="_blank">
 						<img
 							className="item-image"
@@ -14,13 +14,18 @@ class EquipmentBox extends Component {
 						/>
 					</a>
                 </div>
-                <div className="item-text col-11 col-lg-5 col-xl-8">
+                <div className="item-text col-12 col-lg-7 col-xl-8">
                     {this.props.name}
-                    <ul className="item-description">
+                    <div className="item-description">
                     {this.props.desc.map((details, i) => (
-                        <li key={i}><span className="item-description">{details}</span></li>
+                        <div key={i}>
+							<span style={{marginRight: "10px", fontSize: '0.8em'}}>
+								❉
+							</span>
+							{details}
+						</div>
                     ))}
-                    </ul>
+                    </div>
                 </div>
                 <div className="item-side-image">
                     {this.props.sideimg}
