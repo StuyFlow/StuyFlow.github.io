@@ -64,6 +64,13 @@ website after it has been converted into a static site.
 
 4.) Place the image in the correct year folder and add an entry to the `/src/Board/board.js` file.
 
+### Adding Videos
+1.) Get the YouTube link (make sure to remove timestamps if you want to start at the beginning or add in timestamps into the URL if you want to start at a specific time), video title, and date. You may modify the title if it makes the year more clear.
+
+2.) Go to `/src/Videos/videoCategories` and go into the correct video category. Follow the format to add the video into the list. Make sure to change the YouTube URL to have `/embed/` and not `/watch?v=`.
+
+3.) Check that the video worked.
+
 ## Instructions for Owners
 Let's say that you just finished merging the developers' changes to the `main` branch.
 To deploy the changes, go to the `main` branch and pull in the new changes:
