@@ -4,7 +4,7 @@ import InfoBox from './InfoBox.js';
 import './Resources.css';
 
 const masterList = [
-	{ header: "Master List of Flow Moves Spreadsheet", desc: (<> <a rel="noopener noreferrer" className="resource-link" href="https://stuyflow.github.io/flow-masterlist" target="_blank">A website</a> for learning poi, staffs, whips, and other props. Each move is assigned a difficulty and most of them have links to tutorials!</>) },
+	{ header: "Master List of Flow Moves Website", desc: (<> <a rel="noopener noreferrer" className="resource-link" href="https://stuyflow.github.io/flow-masterlist" target="_blank">A website</a> for learning poi, staffs, whips, and other props. Each move is assigned a difficulty and most of them have links to tutorials!</>) },
 	{ header: "Master List of Flow Moves Video", desc: "A video that goes with the master move list. There are timestamps to all the moves in the comments (thank you Alvin)." }
 ];
 
