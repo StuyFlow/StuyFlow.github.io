@@ -18,7 +18,7 @@ export const board = {
         {
             name: "Aaron Hsu",
             title: "Vice President",
-            desc: "Hello my name is Aaron. My favorite vegetables are corn, carrots, and cucumbers. In my free time, I like to spin lights, write code, and play games. Sometimes, I wonder what it would feel like to be a potato.",
+            desc: "I never thought that I would join a dance club, much less lead or direct a crew of dancers, yet here I am. StuyFlow has become a place where I can express myself through light manipulation and help others \“find their flow.\” Outside of Flow, I like to build keyboards and code.",
             imgName: "aaron_hsu.jpg"
         },
         {
