@@ -100,7 +100,7 @@ export const board = {
         {
             name: "Jason Lin",
             title: "President",
-            desc: "I like fried chicken. I like fried chicken. But not large fries. But not large fries.",
+            desc: "I love spinning lights and fire! I also love Quantum Chicken Soup Grass Big Chungus!",
             imgName: "jason_lin.jpg"
         },
         {
