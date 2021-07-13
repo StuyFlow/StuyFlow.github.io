@@ -18,7 +18,7 @@ export const board = {
         {
             name: "Aaron Hsu",
             title: "Vice President",
-            desc: "I never thought that I would join a dance club, much less lead or direct a crew of dancers, yet here I am. StuyFlow has become a place where I can express myself through light manipulation and help others \“find their flow.\” Outside of Flow, I like to build keyboards and code.",
+            desc: "I never thought that I would join a dance club, much less lead or direct a crew of dancers, yet here I am. StuyFlow has become a place where I can express myself through light manipulation and help others \“find their flow.\” Outside of Flow, I like to build keyboards, code, and rock climb.",
             imgName: "aaron_hsu.jpg"
         },
         {
