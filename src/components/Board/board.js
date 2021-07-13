@@ -92,7 +92,7 @@ export const board = {
         {
             name: "Aaron Hsu",
             title: "Leader In Training",
-            desc: "Hello my name is Aaron. My favorite vegetables are corn, carrots, and cucumbers. In my free time, I like to spin lights, write code, and play games. Sometimes, I wonder what it would feel like to be a potato.",
+            desc: "Hello my name is Aaron. My favorite vegetables are corn. In my free time, I like to spin lights, write code, and play games. Sometimes, I wonder what it would feel like to be a potato.",
             imgName: "aaron_hsu.jpg"
         },
     ],
