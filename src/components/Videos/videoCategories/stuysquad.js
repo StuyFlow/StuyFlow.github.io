@@ -11,7 +11,7 @@ export const stuysquadVideos = [
         videoLink: "https://www.youtube.com/embed/BpDb9-_3pS8",
     },
     {
-        name: "StuySquad 2017-2018 Flow",
+        name: "Flow | StuySquad 2017-2018",
         date: "2018-01-15",
         videoLink: "https://www.youtube.com/embed/AM7C4NcFhIM",
     },

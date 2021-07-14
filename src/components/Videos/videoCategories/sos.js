@@ -6,12 +6,12 @@ export const sosVideos = [
         videoLink: "https://www.youtube.com/embed/NW8-z9STpsk",
     },
     {
-        name: 'SOS Flow 2016',
+        name: 'Flow | SOS 2016',
         date: "2016-06-12",
         videoLink: "https://www.youtube.com/embed/Pc8mqPh6ETM",
     },
     {
-        name: 'SOS Flip Flop 2018',
+        name: 'Flip Flop | SOS 2018',
         date: "2018-06-09",
         videoLink: "https://www.youtube.com/embed/PU3K9p09oEE",
     },
@@ -21,7 +21,7 @@ export const sosVideos = [
         videoLink: "https://www.youtube.com/embed/QZ8nKRLsdyA",
     },
     {
-        name: 'SOS 2019 Flow',
+        name: 'Flow | SOS 2019',
         date: "2019-06-10",
         videoLink: "https://www.youtube.com/embed/xLej9FH0PQw?start=1",
     },

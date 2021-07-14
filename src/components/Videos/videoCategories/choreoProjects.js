@@ -1,17 +1,17 @@
 // NOTE: Please format dates like YYYY-MM-DD
 export const choreoProjectVideos = [
     {
-        name: "Stuy Flow Choreo Projects #3",
+        name: "StuyFlow Choreo Projects #3",
         date: "2018-04-15",
         videoLink: "https://www.youtube.com/embed/1bEaHE27dqs",
     },
     {
-        name: "Stuy Flow Choreo Projects #2",
+        name: "StuyFlow Choreo Projects #2",
         date: "2018-04-15",
         videoLink: "https://www.youtube.com/embed/PvH2ePItLeY",
     },
     {
-        name: "Stuy Flow Choreo Projects #1",
+        name: "StuyFlow Choreo Projects #1",
         date: "2018-04-15",
         videoLink: "https://www.youtube.com/embed/ot82MzWmKig",
     },
