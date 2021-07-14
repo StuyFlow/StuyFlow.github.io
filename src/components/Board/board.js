@@ -2,6 +2,14 @@ import React from 'react';
 
 // NOTE: The year numbers should match the folder name in /imgs
 export const board = {
+    "2021-2022": [
+        {
+            name: "Aaron Hsu",
+            title: "President",
+            desc: "There's something special about spinning lights with friends. I never thought that I would join a dance club, much less lead a crew of dancers, yet here I am. StuyFlow has become a place where I can express myself through pretty lights and help others \“find their flow.\” Outside of Flow, I like to build keyboards, code, and rock climb. 🥦",
+            imgName: "aaron_hsu.jpg"
+        }
+    ],
     "2020-2021": [
         {
             name: "Raymond Xu",
