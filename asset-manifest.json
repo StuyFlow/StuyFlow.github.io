@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/static/css/main.df7a54cf.chunk.css",
-    "main.js": "/static/js/main.4c9986fb.chunk.js",
-    "main.js.map": "/static/js/main.4c9986fb.chunk.js.map",
+    "main.js": "/static/js/main.bc7cf492.chunk.js",
+    "main.js.map": "/static/js/main.bc7cf492.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.63b07cbf.js",
     "runtime-main.js.map": "/static/js/runtime-main.63b07cbf.js.map",
-    "static/js/2.3a36315c.chunk.js": "/static/js/2.3a36315c.chunk.js",
-    "static/js/2.3a36315c.chunk.js.map": "/static/js/2.3a36315c.chunk.js.map",
+    "static/js/2.28e6f817.chunk.js": "/static/js/2.28e6f817.chunk.js",
+    "static/js/2.28e6f817.chunk.js.map": "/static/js/2.28e6f817.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.08a828da3f34129ea9711a4aa55ab655.js": "/precache-manifest.08a828da3f34129ea9711a4aa55ab655.js",
+    "precache-manifest.07109e3e6bf44bd38da1345cfc3f6ab1.js": "/precache-manifest.07109e3e6bf44bd38da1345cfc3f6ab1.js",
     "service-worker.js": "/service-worker.js",
     "static/css/main.df7a54cf.chunk.css.map": "/static/css/main.df7a54cf.chunk.css.map",
-    "static/js/2.3a36315c.chunk.js.LICENSE.txt": "/static/js/2.3a36315c.chunk.js.LICENSE.txt",
+    "static/js/2.28e6f817.chunk.js.LICENSE.txt": "/static/js/2.28e6f817.chunk.js.LICENSE.txt",
     "static/media/index.css": "/static/media/DarkerGrotesque-SemiBold.bb7cc99a.ttf",
     "static/media/React-Logo.png": "/static/media/React-Logo.49f6325d.png",
     "static/media/aaron_hsu.jpg": "/static/media/aaron_hsu.6e8d290b.jpg",
@@ -65,6 +65,7 @@
     "static/media/flowlights-staff.png": "/static/media/flowlights-staff.9e226f54.png",
     "static/media/flowmi.jpg": "/static/media/flowmi.fdcaa6ce.jpg",
     "static/media/flowvid-19.png": "/static/media/flowvid-19.c7ccb707.png",
+    "static/media/freda_dong.jpg": "/static/media/freda_dong.c890b917.jpg",
     "static/media/fuzzy.jpg": "/static/media/fuzzy.6c095d73.jpg",
     "static/media/glow_products.jpg": "/static/media/glow_products.840299db.jpg",
     "static/media/glowstick-0.png": "/static/media/glowstick-0.93b042e6.png",
@@ -186,8 +187,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.63b07cbf.js",
-    "static/js/2.3a36315c.chunk.js",
+    "static/js/2.28e6f817.chunk.js",
     "static/css/main.df7a54cf.chunk.css",
-    "static/js/main.4c9986fb.chunk.js"
+    "static/js/main.bc7cf492.chunk.js"
   ]
 }
