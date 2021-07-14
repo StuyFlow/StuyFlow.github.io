@@ -16,7 +16,7 @@ export const stuysquadVideos = [
         videoLink: "https://www.youtube.com/embed/AM7C4NcFhIM",
     },
     {
-        name: "Flow B | Stuy Squad 18-19",
+        name: "Flow B | Stuy Squad 2018-2019",
         date: "2018-12-15",
         videoLink: "https://www.youtube.com/embed/oRkKHhwfvIo",
     },
@@ -31,8 +31,18 @@ export const stuysquadVideos = [
         videoLink: "https://www.youtube.com/embed/RfybWeXABdY",
     },
     {
-        name: "Flow A | FRONT ROW | Stuy Squad 18-19",
+        name: "Flow A | FRONT ROW | Stuy Squad 2018-2019",
         date: "2018-12-15",
         videoLink: "https://www.youtube.com/embed/bN_SI8HDiHA?start=326",
     },
+    {
+        name: "Flow Dusk | Stuysquad 2020-2021",
+        date: "2021-02-02",
+        videoLink: "https://www.youtube.com/embed/yYDeWRLmZh0",
+    },
+    {
+        name: "Flow Dawn | Stuysquad 2020-2021",
+        date: "2021-02-02",
+        videoLink: "https://www.youtube.com/embed/6PcSCCnVYHU",
+    },  
 ]
