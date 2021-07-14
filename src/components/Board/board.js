@@ -8,6 +8,12 @@ export const board = {
             title: "President",
             desc: "There's something special about spinning lights with friends. I never thought that I would join a dance club, much less lead a crew of dancers, yet here I am. StuyFlow has become a place where I can express myself through pretty lights and help others \“find their flow.\” Outside of Flow, I like to build keyboards, code, and rock climb. 🥦",
             imgName: "aaron_hsu.jpg"
+        },
+        {
+            name: "Freda Dong",
+            title: "Leader In Training",
+            desc: "Heyja! Sorry in advance if I bumped into you in the hallway because I was reading a book or trying to do some last minute studying. I want to be a writer or an astronomer when I grow up. I also have a strange talent for folding stars. Frappes are great. Phoenixes are amazing. Pokemon are the best. And I want to be a dolphin for a day.",
+            imgName: "freda_dong.jpg"
         }
     ],
     "2020-2021": [
