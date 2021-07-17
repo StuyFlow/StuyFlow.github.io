@@ -10,6 +10,24 @@ export const board = {
             imgName: "aaron_hsu.jpg"
         },
         {
+            name: "Johanna Lin",
+            title: "Vice President",
+            desc: "Did someone say boba?", 
+            imgName: "johanna_lin.jpg"
+        }, 
+        {
+            name: "Sarah Ibrahim",
+            title: "Vice President",
+            desc: "My passions are watching overly dramatic shows that make me emotional and dancing to spine-breaking Kpop choreos. I play various instruments but my coolest one is the bassoon. Being a part of Flow is a dream come true since I stopped performing on stage when I was younger due to personal issues. Flow became my outlet to express myself and my home. I love hanging out with people but be warned, my clumsiness makes me a walking safety hazard!", 
+            imgName: "sarah_ibrahim.jpg"
+        },
+        {
+            name: "Tyler Zhou",
+            title: "Designer", 
+            desc: "Hello, I'm one of your designers this year :D I've been drawing since I was little, and I've been doing digital art since middle school. When I'm not drawing or doing flow, I'm usually playing some silly gacha game cuz I have no life and I need that listening comprehension practice for my Japanese class. Besides all that, I'm just like any other stuy student, just trying to not fail my classes.", 
+            imgName: "tyler_zhou.jpg"
+        },
+        {
             name: "Freda Dong",
             title: "Leader In Training",
             desc: "Heyja! Sorry in advance if I bumped into you in the hallway because I was reading a book or trying to do some last minute studying. I want to be a writer or an astronomer when I grow up. I also have a strange talent for folding stars. Frappes are great. Phoenixes are amazing. Pokemon are the best. And I want to be a dolphin for a day.",
