@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 
+import Pagination from '../Utils/Pagination';
+
 import { clubPhotos } from './imgCategories/Club';
 import { merchPhotos } from './imgCategories/Merch';
 import { multigenPhotos } from './imgCategories/Multigen';
@@ -84,32 +86,6 @@ const processImages = (imgs, category) => {
 };
 
 const PAGE_SIZE = 12;
-
-class PhotoPagination extends Component {
-    render() {
-        const currentPage = this.props.page + 1;
-        const maxPage = Math.floor(this.props.numImgs / PAGE_SIZE) + 1;
-        return (
-            <div className="photo-pagination">
-                <div
-                    className={`page-button ${currentPage > 1 ? '' : 'button-disable'}`}
-                    onClick={this.props.prevPage}
-                >
-                    ← Prev
-                </div>
-                <div>
-                    Page {currentPage} / {maxPage}
-                </div>
-                <div
-                    className={`page-button ${currentPage < maxPage ? '' : 'button-disable'}`}
-                    onClick={() => this.props.nextPage(this.props.numImgs)}
-                >
-                    Next →
-                </div>
-            </div>
-        )
-    }
-}
 
 class Photos extends Component {
     constructor(props) {
@@ -236,20 +212,22 @@ class Photos extends Component {
                     </select>
                 </div>
             </div>
-            <PhotoPagination
+            <Pagination
                 page={this.state.page}
                 numImgs={photos.length}
                 nextPage={this.nextPage}
                 prevPage={this.prevPage}
+                pageSize={PAGE_SIZE}
             />
     		<div className="row">
     		      { photos.slice(PAGE_SIZE * this.state.page, PAGE_SIZE * (this.state.page +  1)) }
     	    </div>
-            <PhotoPagination
+            <Pagination
                 page={this.state.page}
                 numImgs={photos.length}
                 nextPage={this.nextPage}
                 prevPage={this.prevPage}
+                pageSize={PAGE_SIZE}
             />
             { this.state.modalImg && <Modal img={this.state.modalImg} setModalImg={this.setModalImg}/> }
         </div>

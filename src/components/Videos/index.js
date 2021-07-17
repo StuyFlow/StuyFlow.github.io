@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 
+import Pagination from '../Utils/Pagination';
+
 import { choreoProjectVideos } from './videoCategories/choreoProjects';
 import { lumiereVideos } from './videoCategories/lumiere';
 import { otherVideos } from './videoCategories/others';
@@ -32,16 +34,27 @@ const dateCompare = (a, b) => {
     return Date.parse(b.date) - Date.parse(a.date);
 }
 
+const VIDEOS_PER_PAGE = 5;
+
 class Videos extends Component {
     constructor(props) {
         super(props);
         this.state = {
             category: { name: "All", videos: [] },
+            page: 0,
         };
     }
 
     changeCategory = category => {
-        this.setState({ category: category })
+        this.setState({ category: category, page: 0 })
+    }
+
+    nextPage = () => {
+        this.setState((state) => ({ page: state.page + 1 }));
+    }
+
+    prevPage = () => {
+        this.setState((state) => ({ page: state.page - 1 }));
     }
 
     render() {
@@ -85,12 +98,19 @@ class Videos extends Component {
                         </select>
                     </div>
                 </div>
+                <Pagination
+                    page={this.state.page}
+                    numImgs={videoList.length}
+                    nextPage={this.nextPage}
+                    prevPage={this.prevPage}
+                    pageSize={VIDEOS_PER_PAGE}
+                />
                 <div>
-                    {videoList.map(video => (
-                        <div className="video-div">
+                    {videoList.slice(VIDEOS_PER_PAGE * this.state.page, VIDEOS_PER_PAGE * (this.state.page +  1)).map(video => (
+                        <div className="video-div" key={video.name}>
                             <div className="video-title">{video.name}</div>
                             <iframe
-            					title="Master List Video"
+            					title={video.name}
             					className="video-embed"
             					src={video.videoLink}
             					allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
@@ -99,6 +119,13 @@ class Videos extends Component {
                         </div>
                     ))}
                 </div>
+                <Pagination
+                    page={this.state.page}
+                    numImgs={videoList.length}
+                    nextPage={this.nextPage}
+                    prevPage={this.prevPage}
+                    pageSize={VIDEOS_PER_PAGE}
+                />
             </div>
         );
     }
