@@ -51,7 +51,6 @@ const octagram = (t, radius) => {
             -radius/4.5 * (Math.cos(3*t) + Math.cos(-5*t))];
 }
 
-let requestId;
 let t = 0;
 let slowness = 70;
 let ctxs = [];

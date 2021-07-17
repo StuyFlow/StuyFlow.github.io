@@ -1,13 +1,29 @@
-import React from 'react';
-
 // NOTE: The year numbers should match the folder name in /imgs
 export const board = {
     "2021-2022": [
         {
             name: "Aaron Hsu",
             title: "President",
-            desc: "There's something special about spinning lights with friends. I never thought that I would join a dance club, much less lead a crew of dancers, yet here I am. StuyFlow has become a place where I can express myself through pretty lights and help others \“find their flow.\” Outside of Flow, I like to build keyboards, code, and rock climb. 🥦",
+            desc: `There's something special about spinning lights with friends. I never thought that I would join a dance club, much less lead a crew of dancers, yet here I am. StuyFlow has become a place where I can express myself through pretty lights and help others “find their flow.” Outside of Flow, I like to build keyboards, code, and rock climb. 🥦`,
             imgName: "aaron_hsu.jpg"
+        },
+        {
+            name: "Johanna Lin",
+            title: "Vice President",
+            desc: "Did someone say boba?", 
+            imgName: "johanna_lin.jpg"
+        }, 
+        {
+            name: "Sarah Ibrahim",
+            title: "Vice President",
+            desc: "My passions are watching overly dramatic shows that make me emotional and dancing to spine-breaking Kpop choreos. I play various instruments but my coolest one is the bassoon. Being a part of Flow is a dream come true since I stopped performing on stage when I was younger due to personal issues. Flow became my outlet to express myself and my home. I love hanging out with people but be warned, my clumsiness makes me a walking safety hazard!", 
+            imgName: "sarah_ibrahim.jpg"
+        },
+        {
+            name: "Tyler Zhou",
+            title: "Designer", 
+            desc: "Hello, I'm one of your designers this year :D I've been drawing since I was little, and I've been doing digital art since middle school. When I'm not drawing or doing flow, I'm usually playing some silly gacha game cuz I have no life and I need that listening comprehension practice for my Japanese class. Besides all that, I'm just like any other stuy student, just trying to not fail my classes.", 
+            imgName: "tyler_zhou.jpg"
         },
         {
             name: "Freda Dong",
@@ -32,7 +48,7 @@ export const board = {
         {
             name: "Aaron Hsu",
             title: "Vice President",
-            desc: "I never thought that I would join a dance club, much less lead or direct a crew of dancers, yet here I am. StuyFlow has become a place where I can express myself through light manipulation and help others \“find their flow.\” Outside of Flow, I like to build keyboards, code, and rock climb.",
+            desc: `I never thought that I would join a dance club, much less lead or direct a crew of dancers, yet here I am. StuyFlow has become a place where I can express myself through light manipulation and help others “find their flow.” Outside of Flow, I like to build keyboards, code, and rock climb.`,
             imgName: "aaron_hsu.jpg"
         },
         {
