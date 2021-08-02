@@ -54,7 +54,7 @@ class Home extends Component {
                     <div className="about-desc">
                         StuyFlow is a highschool club based in New York City
                         focused on learning how to use light up props to create
-                        visually aesthetic performances
+                        visually aesthetic performances.
                         We teach members how to use a variety of props
                         like poi, whips, staffs, and fans to perform in our annual shows -
                         StuySquad, SING!, SOS while also performing in a variety of other events.
