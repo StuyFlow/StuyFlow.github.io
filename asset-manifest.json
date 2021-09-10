@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/static/css/main.8336af9f.chunk.css",
-    "main.js": "/static/js/main.239f9ab1.chunk.js",
-    "main.js.map": "/static/js/main.239f9ab1.chunk.js.map",
+    "main.css": "/static/css/main.d6c698ad.chunk.css",
+    "main.js": "/static/js/main.3984db41.chunk.js",
+    "main.js.map": "/static/js/main.3984db41.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.63b07cbf.js",
     "runtime-main.js.map": "/static/js/runtime-main.63b07cbf.js.map",
     "static/js/2.3a507637.chunk.js": "/static/js/2.3a507637.chunk.js",
     "static/js/2.3a507637.chunk.js.map": "/static/js/2.3a507637.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.667e38371b479366d34690871952b7a4.js": "/precache-manifest.667e38371b479366d34690871952b7a4.js",
+    "precache-manifest.68dd7ef0fb0dfd570e2c9c9915cb03b7.js": "/precache-manifest.68dd7ef0fb0dfd570e2c9c9915cb03b7.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/main.8336af9f.chunk.css.map": "/static/css/main.8336af9f.chunk.css.map",
+    "static/css/main.d6c698ad.chunk.css.map": "/static/css/main.d6c698ad.chunk.css.map",
     "static/js/2.3a507637.chunk.js.LICENSE.txt": "/static/js/2.3a507637.chunk.js.LICENSE.txt",
     "static/media/index.css": "/static/media/DarkerGrotesque-SemiBold.bb7cc99a.ttf",
     "static/media/React-Logo.png": "/static/media/React-Logo.49f6325d.png",
@@ -190,7 +190,7 @@
   "entrypoints": [
     "static/js/runtime-main.63b07cbf.js",
     "static/js/2.3a507637.chunk.js",
-    "static/css/main.8336af9f.chunk.css",
-    "static/js/main.239f9ab1.chunk.js"
+    "static/css/main.d6c698ad.chunk.css",
+    "static/js/main.3984db41.chunk.js"
   ]
 }
