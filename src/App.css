@@ -4,7 +4,7 @@
 }
 
 .background-dark {
-    background: linear-gradient(180deg, rgba(12, 0, 147, 0.88) 7.29%, rgba(255, 255, 255, 0) 100%), linear-gradient(180deg, rgba(51, 0, 91, 0) 0%, #1B0030 100%), #1F1F1F;
+    background: linear-gradient(180deg, rgba(3, 0, 36, 0.88) 7.29%, rgba(5, 1, 44, 0) 100%), linear-gradient(180deg, rgba(18, 0, 32, 0) 0%, #17002b 100%), #000000;
 }
 
 .background-light {
@@ -21,7 +21,7 @@
     color: white;
     font-family: DarkerGrotesque;
     font-weight: 700;
-    border-bottom: 3px solid #FFC42E;
+    border-bottom: 3px solid white;
     transition: 0.5s;
     text-align: center;
 
@@ -134,11 +134,11 @@
 }
 
 .section:hover {
-    color: #FFC42E;
+    color: #9D8DF1;
     cursor: pointer;
 }
 
 .section-active {
-    color: #FFC42E;
+    color: #9D8DF1;
     text-decoration: underline;
 }

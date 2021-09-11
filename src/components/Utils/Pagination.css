@@ -26,12 +26,12 @@
 
 .page-button {
     cursor: pointer;
+    transition: 0.2s;
 }
 
 .page-button:hover {
-    transform: scale(1.03, 1.02);
     transition: 0.4s;
-    color: #FFC42E;
+    color: #9D8DF1;
 }
 
 .button-disable {

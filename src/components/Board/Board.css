@@ -24,7 +24,7 @@
 
 .board-photo {
     border-radius: 100%;
-    border: 3px solid #FFC42E;
+    border: 3px solid #9D8DF1;
 
     width: 70%;
 }
@@ -43,7 +43,7 @@
 
 .board-title {
     font-family: Abel;
-    color: #FFC42E;
+    color: #9D8DF1;
 
     font-size: 20px;
 }

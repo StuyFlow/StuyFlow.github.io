@@ -18,12 +18,12 @@
 .navlink-active a {
     text-decoration: none;
     padding-bottom: 3px;
-    border-bottom: 1px solid #FFC42E;
-    color: #FFC42E;
+    border-bottom: 1px solid #9D8DF1;
+    color: #9D8DF1;
 }
 
 .navlink a:hover {
-    color: #FFC42E;
+    color: #9D8DF1;
 }
 
 .link-div {
