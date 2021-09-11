@@ -24,7 +24,7 @@
 
 .board-photo {
     border-radius: 100%;
-    border: 3px solid white;
+    border: 3px solid rgb(31, 18, 18);
 
     width: 70%;
 }

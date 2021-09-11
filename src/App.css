@@ -4,11 +4,11 @@
 }
 
 .background-dark {
-    background: linear-gradient(180deg, rgba(3, 0, 36, 0.88) 7.29%, rgba(5, 1, 44, 0) 100%), linear-gradient(180deg, rgba(18, 0, 32, 0) 0%, #17002b 100%), #000000;
+    background: linear-gradient(180deg, rgba(10, 5, 70, 0.88) 7.29%, rgba(5, 1, 44, 0) 100%), linear-gradient(180deg, rgba(18, 0, 32, 0) 0%, #17002b 100%), #000000;
 }
 
 .background-light {
-    background: linear-gradient(180deg, #007BAF 0%, rgba(255, 255, 255, 0) 100%), linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, rgba(218, 78, 0, 0.75) 100%), linear-gradient(0deg, #630000, #630000), linear-gradient(0deg, #6300B1, #6300B1), linear-gradient(0deg, #E7E7E7, #E7E7E7);
+    background: linear-gradient(180deg, rgb(11, 139, 194) 0%, rgba(255, 255, 255, 0) 100%), linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, rgba(202, 161, 255, 0.75) 100%), linear-gradient(0deg, #630000, #630000), linear-gradient(0deg, #6300B1, #6300B1), linear-gradient(0deg, #E7E7E7, #E7E7E7);
 }
 
 /* Extra Small */
