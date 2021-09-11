@@ -49,12 +49,15 @@ class Videos extends Component {
         this.setState({ category: category, page: 0 })
     }
 
-    nextPage = () => {
+    nextPage = (numVideos) => {
+      if ((this.state.page + 1) * VIDEOS_PER_PAGE < numVideos)
         this.setState((state) => ({ page: state.page + 1 }));
     }
 
     prevPage = () => {
+      if (this.state.page > 0) {
         this.setState((state) => ({ page: state.page - 1 }));
+      }
     }
 
     render() {
