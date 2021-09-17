@@ -15,7 +15,7 @@ class Home extends Component {
 
 
     // snaps video/description 
-    
+
     // bindScrollSnap() {
     //     const element = this.homeRef.current;
     //     const snapElement = new ScrollSnap(element, {
@@ -55,28 +55,13 @@ class Home extends Component {
                 <div className="about-page home-div" id="about">
                     <div className="pageHeader">What is StuyFlow?</div>
                     <div className="about-desc">
-                        StuyFlow is a highschool club based in New York City
-                        focused on learning how to use light up props to create
-                        visually aesthetic performances.
-                        We teach members how to use a variety of props
-                        like poi, whips, staffs, and fans to perform in our annual shows -
-                        StuySquad, SING!, SOS while also performing in a variety of other events.
-                        We operate on a set of principles known as PLURR,
-                        partly due to the large culmulative effort needed to
-                        run shows smoothly. This motto stands for “Peace,
-                        Love, Unity, Respect, and Responsibility”.
+                        StuyFlow is a high school club based at Stuyvesant in New York City that practices the art of Flow with light-up equipment! We teach members how to handle a variety of props such as poi, whips, staffs, glow sticks, fans, and much more. We operate on a set of principles known as PLURR, partly due to the large cumulative effort needed to run shows smoothly. This motto stands for "Peace, Love, Unity, Respect, and Responsibility".
                     </div>
                     <div className="about-desc">
-                        During off-seasons, a.k.a. times when we don’t
-                        have shows, we meet on Wednesdays and Fridays,
-                        usually in rooms 736 or 738. In these meetings, we learn new
-                        moves, get to know each other better, create choreography projects, etc.
-                        We use choreography projects as stress-free creative outlets,
-                        as they are not for shows, and they are displayed at a
-                        studio, typically during July or August. As a club, we also like to meet outside
-                        of school to explore Manhattan, eat at restuarants, play games, and other activities to
-                        create stronger bonds between our members.
+                        We perform at Stuyvesant's 3 annual shows (StuySquad, SING!, and SOS) as well as a variety of other events outside of school. During the show season, we hold practices daily. When we aren't preparing for a show, meetings are held twice a week, usually on Wednesdays and Fridays. We also host fun events outside of school! We frequently go to dance studios, eat at restaurants, play games, and do a variety of other activities to explore the city.
                     </div>
+                    <div className="about-desc">
+                        If you currently attend Stuyvesant High School and find any of this interesting, we highly recommend you to join. No experience is necessary-- just show up to one of our meetings!                    </div>
                     <div style={{height: "120px"}}/>
                     <Footer />
                 </div>
