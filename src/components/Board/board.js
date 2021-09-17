@@ -10,7 +10,7 @@ export const board = {
         {
             name: "Johanna Lin",
             title: "Vice President",
-            desc: "Did someone say boba?", 
+            desc: "Aloha! I joined Flow because spinny lights are cool, but I stayed for all the nice people I met. After a massive headache over formations, I found that being a leader is worth all the stress. Now I'm here and I hope I can maintain the safe space that StuyFlow provided me. Other than throwing around a stick, I like sleeping, playing games, and hanging out. Did someone say boba?", 
             imgName: "johanna_lin.jpg"
         }, 
         {
@@ -18,6 +18,12 @@ export const board = {
             title: "Vice President",
             desc: "My passions are watching overly dramatic shows that make me emotional and dancing to spine-breaking Kpop choreos. I play various instruments but my coolest one is the bassoon. Being a part of Flow is a dream come true since I stopped performing on stage when I was younger due to personal issues. Flow became my outlet to express myself and my home. I love hanging out with people but be warned, my clumsiness makes me a walking safety hazard!", 
             imgName: "sarah_ibrahim.jpg"
+        },
+        {
+            name: "Jennifer Sun",
+            title: "Designer", 
+            desc: "Hi I’m Jennifer! I joined Flow my freshman year because I heard there would be cookies, and stayed after I saw how cool SING! was. Outside of Flow, I like to draw, play Tetris with friends, and sleep a lot! (Challenge me in Tetris :sunglasses::sunglasses::sunglasses:) Drawing has always been something that made me happy, and I’m super excited to be able to share that with Flow.", 
+            imgName: "jennifer_sun.jpg"
         },
         {
             name: "Tyler Zhou",
