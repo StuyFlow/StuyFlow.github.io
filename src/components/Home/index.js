@@ -13,18 +13,21 @@ class Home extends Component {
         this.homeRef = React.createRef();
     }
 
-    bindScrollSnap() {
-        const element = this.homeRef.current;
-        const snapElement = new ScrollSnap(element, {
-            snapDestinationY: '100%',
-        });
 
-        snapElement.bind();
-    }
+    // snaps video/description 
+    
+    // bindScrollSnap() {
+    //     const element = this.homeRef.current;
+    //     const snapElement = new ScrollSnap(element, {
+    //         snapDestinationY: '100%',
+    //     });
 
-    componentDidMount() {
-        this.bindScrollSnap();
-    }
+    //     snapElement.bind();
+    // }
+
+    // componentDidMount() {
+    //     this.bindScrollSnap();
+    // }
 
     render() {
         return (
