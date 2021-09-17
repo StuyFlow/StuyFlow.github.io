@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/static/css/main.acce0ca0.chunk.css",
-    "main.js": "/static/js/main.70a6bb16.chunk.js",
-    "main.js.map": "/static/js/main.70a6bb16.chunk.js.map",
+    "main.css": "/static/css/main.bff3f799.chunk.css",
+    "main.js": "/static/js/main.1f165bf8.chunk.js",
+    "main.js.map": "/static/js/main.1f165bf8.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.63b07cbf.js",
     "runtime-main.js.map": "/static/js/runtime-main.63b07cbf.js.map",
-    "static/js/2.3a507637.chunk.js": "/static/js/2.3a507637.chunk.js",
-    "static/js/2.3a507637.chunk.js.map": "/static/js/2.3a507637.chunk.js.map",
+    "static/js/2.77680567.chunk.js": "/static/js/2.77680567.chunk.js",
+    "static/js/2.77680567.chunk.js.map": "/static/js/2.77680567.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.d6a42b81a0da3953f3e540e7f22e0809.js": "/precache-manifest.d6a42b81a0da3953f3e540e7f22e0809.js",
+    "precache-manifest.679e3b7630bce78103c71b6b1f8d54ae.js": "/precache-manifest.679e3b7630bce78103c71b6b1f8d54ae.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/main.acce0ca0.chunk.css.map": "/static/css/main.acce0ca0.chunk.css.map",
-    "static/js/2.3a507637.chunk.js.LICENSE.txt": "/static/js/2.3a507637.chunk.js.LICENSE.txt",
+    "static/css/main.bff3f799.chunk.css.map": "/static/css/main.bff3f799.chunk.css.map",
+    "static/js/2.77680567.chunk.js.LICENSE.txt": "/static/js/2.77680567.chunk.js.LICENSE.txt",
     "static/media/index.css": "/static/media/DarkerGrotesque-SemiBold.bb7cc99a.ttf",
     "static/media/React-Logo.png": "/static/media/React-Logo.49f6325d.png",
     "static/media/aaron_hsu.jpg": "/static/media/aaron_hsu.6e8d290b.jpg",
@@ -78,6 +78,7 @@
     "static/media/heiley_tai.jpg": "/static/media/heiley_tai.1423c8eb.jpg",
     "static/media/hi.png": "/static/media/hi.c3ea1383.png",
     "static/media/jason_lin.jpg": "/static/media/jason_lin.12645d69.jpg",
+    "static/media/jennifer_sun.jpg": "/static/media/jennifer_sun.5ea95aea.jpg",
     "static/media/jenny_liu.jpg": "/static/media/jenny_liu.aa510edb.jpg",
     "static/media/johanna_lin.jpg": "/static/media/johanna_lin.65b45b4d.jpg",
     "static/media/join-senior-flow.png": "/static/media/join-senior-flow.e2ad6ad4.png",
@@ -189,8 +190,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.63b07cbf.js",
-    "static/js/2.3a507637.chunk.js",
-    "static/css/main.acce0ca0.chunk.css",
-    "static/js/main.70a6bb16.chunk.js"
+    "static/js/2.77680567.chunk.js",
+    "static/css/main.bff3f799.chunk.css",
+    "static/js/main.1f165bf8.chunk.js"
   ]
 }
