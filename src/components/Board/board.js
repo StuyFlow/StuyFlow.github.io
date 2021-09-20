@@ -20,6 +20,12 @@ export const board = {
             imgName: "sarah_ibrahim.jpg"
         },
         {
+            name: "Aiden Chao",
+            title: "Treasurer/Inventory Manager",
+            desc: "What does Flow mean to me? I remember being drawn to spinning lights as a socially anxious 14 year old as if it were magic. And against all the expectations I had for myself at the time, I started to find a sense of passion and security in Flow. In other words, it's insane how much we can accomplish in a welcoming envornment that allows us to drown out our old inhibitions. Lately, I've been learning to use that optimism to bond with new and old friends, and to continue to learn new skills (my current favorites being biking and speedcubing!). I'd like to be able to provide the same community I had for new members of StuyFlow.", 
+            imgName: "aiden_chao.jpg"
+        },
+        {
             name: "Jennifer Sun",
             title: "Designer", 
             desc: "Hi I’m Jennifer! I joined Flow my freshman year because I heard there would be cookies, and stayed after I saw how cool SING! was. Outside of Flow, I like to draw, play Tetris with friends, and sleep a lot! (Challenge me in Tetris :sunglasses::sunglasses::sunglasses:) Drawing has always been something that made me happy, and I’m super excited to be able to share that with Flow.", 
