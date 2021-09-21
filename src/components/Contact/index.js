@@ -38,7 +38,7 @@ class Contact extends Component {
                 <div className="col-xl-3 col-sm-6 col-12 col-md-6 fab-container"> <SocialMediaIcon url="https://www.facebook.com/StuyFl0w" iconClass="fa-facebook justify-content-center"/> </div>
                 <div className="col-xl-3 col-sm-6 col-12 col-md-6 fab-container"> <SocialMediaIcon url="https://www.youtube.com/channel/UCsWvNNE26HT40Tk7O9afkSA" iconClass="fa-youtube justify-content-center"/> </div>
                 <div className="col-xl-3 col-sm-6 col-12 col-md-6 fab-container"> <SocialMediaIcon url="https://www.instagram.com/stuyflow/" iconClass="fa-instagram justify-content-center"/> </div>
-                <div className="col-xl-3 col-sm-6 col-12 col-md-6 fab-container"> <SocialMediaIcon url="https://www.tiktok.com/@stuyflow/" iconClass="fa-tiktok justify-content-center"/></div>
+                {/* <div className="col-xl-3 col-sm-6 col-12 col-md-6 fab-container"> <SocialMediaIcon url="https://www.tiktok.com/@stuyflow/" iconClass="fa-tiktok justify-content-center"/></div> */}
                 </div>
 
                 <div className="sentence row">
