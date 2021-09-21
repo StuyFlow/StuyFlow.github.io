@@ -49,9 +49,9 @@ class Contact extends Component {
                 </div>
                 <div className="sentence row">
                 <div className="col">
-                    For more information about our club, visit us at&nbsp;
-                    <a href="https://www.stuyactivities.org/club/stuyflow" target='_blank' rel="noopener noreferrer" className="contact-link">
-                          StuyActivities
+                    If you are interested in joining Flow, please join us at&nbsp;
+                    <a href="https://stuyactivities.org/StuyFlow" target='_blank' rel="noopener noreferrer" className="contact-link">
+                          StuyActivities!
                     </a>.
                     </div>
                 </div>
