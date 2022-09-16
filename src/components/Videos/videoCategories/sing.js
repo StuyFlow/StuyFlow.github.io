@@ -40,5 +40,35 @@ export const singVideos = [
         date: "2021-07-13",
         videoLink: "https://www.youtube.com/embed/s-OzmPEvrjw",
     },
-    
+    {
+        name: "Senior Flow | Wide View | SING! 2022",
+        date: "2022-03-20",
+        videoLink: "https://www.youtube.com/embed/XwZ3T2_fAME",
+    },
+    {
+        name: "Senior Flow | Stabilizer View | SING! 2022",
+        date: "2022-03-20",
+        videoLink: "https://www.youtube.com/embed/UmhM3lyfTu8",
+    },
+    {
+        name: "Junior Flow | Wide View | SING! 2022",
+        date: "2022-03-20",
+        videoLink: "https://www.youtube.com/embed/5G9PKX1ktWc",
+    },
+    {
+        name: "Junior Flow | Stabilizer View | SING! 2022",
+        date: "2022-03-20",
+        videoLink: "https://www.youtube.com/embed/J1U0xVId7Ek",
+    },
+    {
+        name: "SophFrosh Flow | Wide View | SING! 2022",
+        date: "2022-03-20",
+        videoLink: "https://www.youtube.com/embed/hqmJbN4a0Lc",
+    },
+    {
+        name: "SophFrosh Flow | Stabilizer View | SING! 2022",
+        date: "2022-03-20",
+        videoLink: "https://www.youtube.com/embed/YunYVsRfuJQ",
+    },
+   
 ]

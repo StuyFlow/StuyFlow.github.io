@@ -45,4 +45,14 @@ export const stuysquadVideos = [
         date: "2021-02-02",
         videoLink: "https://www.youtube.com/embed/6PcSCCnVYHU",
     },  
+    {
+        name: "Flow Aki | StuySquad 2021 - 2022",
+        date: "2022-02-11",
+        videoLink: "https://www.youtube.com/embed/JxPvCdrCfd0"
+    },
+    {
+        name: "Flow Haru | StuySquad 2021 - 2022",
+        date: "2022-02-11",
+        videoLink: "https://www.youtube.com/embed/uOPaCLHcroQ"
+    }
 ]

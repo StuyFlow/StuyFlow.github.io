@@ -1,5 +1,53 @@
 // NOTE: The year numbers should match the folder name in /imgs
 export const board = {
+    "2022-2023": [
+        {
+            name: "Aiden Chao",
+            title: "President",
+            desc: "Here's a story I don't tell often - my first memory of flow is from watching SophFrosh SING 2018 in 7th grade, and while funny in hindsight, it convinced me to want to go to Stuy. The same people that I saw perform that night became my first StuySquad directors, and eventually, my close friends. I found confidence from being around the people I've met over the past three years and it sometimes feels weird to think that I'm now in the same position as they were back then. There's so much love and effort put into running this massive community and I hope I can pass that onto future flow generations as well. I'm so proud of everything we've done and if you're reading this bio and thinking of joining, I hope you do! We'll do our best to teach you.",
+            imgName: "aiden_pic.jpg",
+        },
+        {
+            name: 'Sarah Ibrahim',
+            title: 'Vice President',
+            desc: "It's about to be my fourth year in Flow and I still can't believe it. I joined Flow on a whim without any expectations but now I can't imagine my life without Flow. Flow became my home where I could express myself without judgment. In my time with Flow, I've sprained my ankles too many times to count and caused many injuries to people's knees (sorry y'all). I've gotten hit by glowsticks and gone crazy trying to make the perfect choreo. And I would do it all over again in a heartbeat, just maybe with less injuries this time.",
+            imgName: 'sarah_ibrahim.jpg'
+        },
+        {
+            name: "Freda Dong",
+            title: "Vice President",
+            desc: "I remember being drawn into Flow for the pretty lights and the promise of no dancing involved! Spoilers: I started dancing. Throughout my time in Flow, I got to know so many amazing people and made so many friends, laughing as we bond over dropped staffs and video games. It's been a blast, and I can't wait for more. Heyja! I'm Freda, and it's an honor to serve as one of your vice presidents this year!",
+            imgName: "freda_dong.jpg"
+           
+        },
+        {
+            name: "Rachel Gao",
+            title: "Inventory Manager",
+            desc: "Hello! I'm Rachel and I joined Flow because I fell in love with it at first sight (cliche, I know)! It's become a place of relaxation and a community that I can always turn to in times of stress, in which we practice for shows, meet new people, and have the occasional banter. I love music of any genre and also play video games! I'm excited to have another year of Flow and tons of staff dropping, see you there!",
+            imgName: "rachel_gao.jpg"
+ 
+        },
+        {
+            name: 'Tyler Zhou',
+            title: "Designer",
+            desc: "Hello everyone! I'm Tyler, your Flow senior designer for this year. I've been eyeing this club ever since one of our upperclassmen performed during Camp Stuy my freshman year. I've seen videos of flow arts performance online since before then but I thought it was so cool that this school had a club like this so I just had to join. Fast forward three years and I have the pleasure of contributing my art and designs for this beloved club's use. I look forward to my last year together with StuyFlow <333",
+            imgName: "tyler_zhou.png"
+ 
+        },
+        {
+            name: "Tiffany Leong",
+            title: 'Designer',
+            desc: "Hiya! I'm Tiffany and I”m so excited to be able to design for flow this year <3  I'm a stringer and I'd say spinning lights is probably the coolest thing I do, even though I've gotten many bruises from wrapping and the number of hours I've spent learning choreography is a little embarrassing. I joined at first because you can mess up without anyone knowing it's you, but I've grown to love Flow for the community and so much more! I love listening to music and I literally need it to do any basic task. I'm also a sucker for anything animated and always down for museum trips!",
+            imgName: "tiffany_leong.jpg"
+        },
+        {
+            name: "Alejandra Yau-Smith",
+            title: "Leader In Training",
+            desc: "Hi my name is Alejandra, but don't worry about mispronouncing it, I'm very used to alternate ways of saying it. I joined Flow after pressure from my parents to join a club, thinking I had deceived them by joining a club that spins lights. A year later, I'm now down a rabbit hole known as StuyFlow. I'm very excited to spend another year hitting myself (and spinning) with glow sticks :)",
+            imgName: "alejandra.jpg"
+        }
+    ],
+
     "2021-2022": [
         {
             name: "Aaron Hsu",
@@ -28,7 +76,7 @@ export const board = {
         {
             name: "Jennifer Sun",
             title: "Designer", 
-            desc: "Hi I’m Jennifer! I joined Flow my freshman year because I heard there would be cookies, and stayed after I saw how cool SING! was. Outside of Flow, I like to draw, play Tetris with friends, and sleep a lot! (Challenge me in Tetris :sunglasses::sunglasses::sunglasses:) Drawing has always been something that made me happy, and I’m super excited to be able to share that with Flow.", 
+            desc: "Hi I'm Jennifer! I joined Flow my freshman year because I heard there would be cookies, and stayed after I saw how cool SING! was. Outside of Flow, I like to draw, play Tetris with friends, and sleep a lot! (Challenge me in Tetris :sunglasses::sunglasses::sunglasses:) Drawing has always been something that made me happy, and I'm super excited to be able to share that with Flow.", 
             imgName: "jennifer_sun.jpg"
         },
         {
@@ -48,7 +96,7 @@ export const board = {
         {
             name: "Raymond Xu",
             title: "President",
-            desc: "Aside from my STEM interests, I love fostering environments where people are able to vibe and grow happily as a community. I joined StuyFlow in my sophomore year, and I have to give a shoutout to all the previous leaders of StuyFlow for cultivating a club for me to grow in. Because of this club, I’ve thankfully fallen out of my middle school gaming life as flowing and spending quality time with old and new people have become my new forte. Oh, and did I forget to mention that I have the same birthday as Jenny?",
+            desc: "Aside from my STEM interests, I love fostering environments where people are able to vibe and grow happily as a community. I joined StuyFlow in my sophomore year, and I have to give a shoutout to all the previous leaders of StuyFlow for cultivating a club for me to grow in. Because of this club, I've thankfully fallen out of my middle school gaming life as flowing and spending quality time with old and new people have become my new forte. Oh, and did I forget to mention that I have the same birthday as Jenny?",
             imgName: "raymond_xu.jpg"
         },
         {
@@ -72,7 +120,7 @@ export const board = {
         {
             name: "Jenny Liu",
             title: "Secretary",
-            desc: "Hi there! I’m StuyFlow’s version of Diane from Bojack Horseman. You can most likely find me reading, trying to balance a volleyball on my head, or drinking tea (I’m fond of Earl Grey). I joined StuyFlow freshman year, and it’s been real great since then. It’s a humbling experience to be part of an overwhelmingly talented and supportive community. Raymond tried to steal my birthday, but we’re such nice people that we decided to share.",
+            desc: "Hi there! I'm StuyFlow's version of Diane from Bojack Horseman. You can most likely find me reading, trying to balance a volleyball on my head, or drinking tea (I'm fond of Earl Grey). I joined StuyFlow freshman year, and it's been real great since then. It's a humbling experience to be part of an overwhelmingly talented and supportive community. Raymond tried to steal my birthday, but we're such nice people that we decided to share.",
             imgName: "jenny_liu.jpg"
         },
         {
@@ -90,7 +138,7 @@ export const board = {
         {
             name: "Susu Tran",
             title: "Designer",
-            desc: "I like skating around and longboard dancing and teaching my friends to skate too. I draw when I have the time or if I’m bored in class, and I think being a tattoo artist would be pretty cool.",
+            desc: "I like skating around and longboard dancing and teaching my friends to skate too. I draw when I have the time or if I'm bored in class, and I think being a tattoo artist would be pretty cool.",
             imgName: "susu_tran.jpg"
         },
         {
@@ -110,7 +158,7 @@ export const board = {
         {
             name: "Heiley Tai",
             title: "Vice President",
-            desc: "Contrary to popular belief, my favorite food is NOT vegetables. It’s bread. Before I joined Flow, I spent most of my time eating bread. But after spending three years of my life hitting myself with glowsticks for shows, I think my favorite food is bread with eggs, avocado, and chipotle. In all seriousness though, I’m really grateful I had the chance to join Flow (and be your VP! Still dunno how that happened). I think it’s really shaped my high school experience and I met so many amazing people along the way. I have lots of good memories of Stuy, and it’s mainly because of this club 🙂 yippee!! Oh, and I also like learning about brains. Brains are pretty cool.",
+            desc: "Contrary to popular belief, my favorite food is NOT vegetables. It's bread. Before I joined Flow, I spent most of my time eating bread. But after spending three years of my life hitting myself with glowsticks for shows, I think my favorite food is bread with eggs, avocado, and chipotle. In all seriousness though, I'm really grateful I had the chance to join Flow (and be your VP! Still dunno how that happened). I think it's really shaped my high school experience and I met so many amazing people along the way. I have lots of good memories of Stuy, and it's mainly because of this club 🙂 yippee!! Oh, and I also like learning about brains. Brains are pretty cool.",
             imgName: "heiley_tai.jpg"
         },
         {
@@ -128,7 +176,7 @@ export const board = {
         {
             name: "Raymond Xu",
             title: "Leader In Training",
-            desc: "Aside from my STEM interests, I love fostering environments where people are able to vibe and grow happily as a community. I joined StuyFlow in my sophomore year, and I have to give a shoutout to all the previous leaders of StuyFlow for cultivating a club for me to grow in. Because of this club, I’ve thankfully fallen out of my middle school gaming life as flowing and spending quality time with old and new people have become my new forte. Oh, and did I forget to mention that I like to eat and sleep?",
+            desc: "Aside from my STEM interests, I love fostering environments where people are able to vibe and grow happily as a community. I joined StuyFlow in my sophomore year, and I have to give a shoutout to all the previous leaders of StuyFlow for cultivating a club for me to grow in. Because of this club, I've thankfully fallen out of my middle school gaming life as flowing and spending quality time with old and new people have become my new forte. Oh, and did I forget to mention that I like to eat and sleep?",
             imgName: "raymond_xu.jpg"
         },
         {
@@ -174,19 +222,19 @@ export const board = {
         {
             name: "Carol Chin",
             title: "Vice President",
-            desc: "Hi everyone! I was VP of flow my senior year and I’m currently a student at NYU studying nursing. Flow was my second home, but also my second family. The people that I’ve met through this club are the people that have shaped the person that I am today. Teaching the new members and learning from my peers encouraged me to seek a profession that would allow me to engage with people. I’m lucky to have been a member of this club and I love how much the community has grown since I joined in my freshman year. In my free time you’ll usually see me ballroom dancing, watching kdramas, or playing Animal Crossing!",
+            desc: "Hi everyone! I was VP of flow my senior year and I'm currently a student at NYU studying nursing. Flow was my second home, but also my second family. The people that I've met through this club are the people that have shaped the person that I am today. Teaching the new members and learning from my peers encouraged me to seek a profession that would allow me to engage with people. I'm lucky to have been a member of this club and I love how much the community has grown since I joined in my freshman year. In my free time you'll usually see me ballroom dancing, watching kdramas, or playing Animal Crossing!",
             imgName: "carol_chin.jpg"
         },
         {
             name: "Tracy Chang",
             title: "Vice President",
-            desc: "Hi! My name is Tracy and I’m a current Stuy alum. Since I was drawn in by the pretty lights and joined Stuy Flow in my freshman year, I had the opportunity to meet unique people and truly find a family in the Stuyvesant community. I was able to step out of my comfort zone by performing on stage and by producing a show that I could be proud of. Having now graduated, I’m so proud of what Stuy Flow has since accomplished and how it’s grown. In college, I was able to start a similar Flow club with other Stuy alums, and we hope to be able to introduce others to this new art form. I’m currently a marine science major and visual arts minor, so I enjoy drawing and photography in my free time. I also play badminton and figure skate, depending on the season! 🙂",
+            desc: "Hi! My name is Tracy and I'm a current Stuy alum. Since I was drawn in by the pretty lights and joined Stuy Flow in my freshman year, I had the opportunity to meet unique people and truly find a family in the Stuyvesant community. I was able to step out of my comfort zone by performing on stage and by producing a show that I could be proud of. Having now graduated, I'm so proud of what Stuy Flow has since accomplished and how it's grown. In college, I was able to start a similar Flow club with other Stuy alums, and we hope to be able to introduce others to this new art form. I'm currently a marine science major and visual arts minor, so I enjoy drawing and photography in my free time. I also play badminton and figure skate, depending on the season! 🙂",
             imgName: "tracy_chang.jpg"
         },
         {
             name: "Sonal Parab",
             title: "Treasurer",
-            desc: "Hi, I’m Sonal and I was treasurer of StuyFlow during the 2017-2018 school year. I loved StuyFlow because I was able to make amazing friends who I still talk to today and I was able to overcome my fear of performing by performing in the dark. Some of my other hobbies include bowling, programming, and eating in different restaurants around NYC!",
+            desc: "Hi, I'm Sonal and I was treasurer of StuyFlow during the 2017-2018 school year. I loved StuyFlow because I was able to make amazing friends who I still talk to today and I was able to overcome my fear of performing by performing in the dark. Some of my other hobbies include bowling, programming, and eating in different restaurants around NYC!",
             imgName: "sonal_parab.jpg"
         },
     ],
