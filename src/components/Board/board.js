@@ -1,5 +1,57 @@
 // NOTE: The year numbers should match the folder name in /imgs
 export const board = {
+
+    "2023-2024": [
+        {
+            name: "Ankki Dong", 
+            title: "Co-President", 
+            desc: "Hi everyone! My name is Ankki and I'm so excited to be this years co-prez. When I'm not spinning lights you can catch me painting or watching dramas, or layouting The Spectator. You may also see me get boba after practice (the original is the superior flavor). I am also a certified onion hater.", 
+            imgName: "annki_dong.jpg"
+        },
+
+        {
+            name: "Freda Dong", 
+            title: "Co-President", 
+            desc: "Not gonna lie, I never thought I'd be one of the co-presidents of a semi-dance club, but here I am! Flow has been a place where I made many wonderful friends and memories, even when times are hard. Besides Flow, I like to write poetry and short stories, play video games, code a little, and geek out about the stars. I look forward to spending my last year at Stuy with y’all. Heyja! I’m Freda, and I’m honored to be one of your co-presidents this year!", 
+            imgName: "freda.jpg"
+        },
+
+        {
+            name: "Rachel Gao",
+            title: "Inventory Manager",
+            desc: "Hello! I'm Rachel and I joined Flow because I fell in love with it at first sight (cliche, I know)! It's become a place of relaxation and a community that I can always turn to in times of stress, in which we practice for shows, meet new people, and have the occasional banter. I love music of any genre and also play video games! I'm excited to have another year of Flow and tons of staff dropping, see you there!",
+            imgName: "rachel.jpg"
+        }, 
+
+        {
+            name: "Sarah Lin", 
+            title: "Treasurer", 
+            desc: "Hello! I joined Flow my freshman year and now I’m about to start my junior year. Time really does fly when you’re having fun. I’m unsure about a lot of things, but trust me there is something special about dancing and spinning lights in the dark. And did I mention all the cool people I got to meet?", 
+            imgName: "sarah_lin.jpg"
+        }, 
+
+        { 
+            name: "Tiffany Leong", 
+            title: "Designer", 
+            desc: "Hi everyone! I’m Tiffany and this will be my 3rd year with Flow! My main prop is Flip Flop, but I’ve dabbled in stringing, whipping, and silk fans. I love making Spotify playlists only to loop the same song for hours on end and going to cafes!  I’m super excited to have the opportunity to continue designing for Flow my senior year ❤", 
+            imgName: "tiffany.jpg", 
+        }, 
+
+        { 
+            name: "Annie Chen", 
+            title: "Designer", 
+            desc: "Hi yall!! I’m Annie and I’m so excited to have the opportunity to design for Flow this year! I remember being mesmerized by all the pretty lights, and I’m honestly so grateful I got to meet so many people and I can’t wait to meet even more this year. Flow has meant so much to me and I’m so glad I can be a part of its amazing community and give back to it with my art : )", 
+            imgName: "annie_chen.jpg", 
+        }, 
+
+        {
+            name: "Adam Oh", 
+            title: "Leader In Training", 
+            desc: "Hi, I'm Adam and I'm glad to be on the board this year! Flow has been special to me as I've felt really connected to the people within the club. I remember when I first saw SING! in 2020 when supporting my brother in Senior SING and watching flow for the first time, it seemed magical. Joining last year was the most fun I've had in a while. I'm glad I found this club and I'm really excited to be leader in training this year. I can't wait to see the future of Flow unfold.", 
+            imgName: "adam_oh.jpg",
+        },
+    ], 
+
     "2022-2023": [
         {
             name: "Aiden Chao",
