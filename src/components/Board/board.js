@@ -1,6 +1,57 @@
 // NOTE: The year numbers should match the folder name in /imgs
 export const board = {
 
+    "2024-2025": [
+        {
+            name: "Sarah Lin", 
+            title: "Co-President", 
+            desc: "Hello! I'm Sarah, one of your co-pres this year and I'm super excited to help Flow continue to grow in the Stuy community and beyond. My main prop is Flip Flop and I'll never forget when I learned that the name was a combination of Flow and Hip Hop, or when I found out Flow spelled backward is wolf, which is our logo. I met a lot of cool people and friends here so I'm sure you will too! It's about to be my fourth and last year in Flow and I know it'll be a good one! Also, I love food 😋", 
+            imgName: "sarah.jpg"
+        },
+
+        {
+            name: "Alejandra Yau-Smith", 
+            title: "Co-President", 
+            desc: "Hi! I'm Alejandra, a co-pres this year! I've been in flow since freshman year and I've had a lot of fun spinning props and learning new tricks. I'm excited to meet our new members this year! I like museums and parks a lot too :))", 
+            imgName: "alejandra_yau-smith.jpg"
+        },
+
+        {
+            name: "Leo Ye",
+            title: "Inventory Manager",
+            desc: "Hi! I'm Leo and I'll be one of your inventory managers this year. I spend an unhealthy amount of time on Valorant. I'm mostly doing something random when I'm not busy losing my mind over the stuff I have to do. My sleep schedule is also pretty nonexistent so I'm probably awake if you need me.",
+            imgName: "leo_ye.jpg"
+        }, 
+
+        {
+            name: "Adam Oh",
+            title: "Inventory Manager",
+            desc: "Hi, I'm Adam and I'm glad to be inventory manager this year! I am a dancer, an avid anime watcher, and am a depressed silver in valorant. I am both a flip flopper and whipper and have some ideas for future shows. I hope that this community continues to grow!",
+            imgName: "adam.jpg"
+        }, 
+
+        {
+            name: "Emerie Ngai", 
+            title: "Treasurer", 
+            desc: "Hi guys! I'm Emerie and I am super excited to be your treasurer this year! I can't wait to ask for money and make Flow super rich. I love to listen to music, bake, and crochet! I also have a really small smiski obsession (my wallet is crying 😅)", 
+            imgName: "emerie_ngai.jpg"
+        }, 
+
+        { 
+            name: "Phoebe Lu", 
+            title: "Designer", 
+            desc: "Hey chat, I'm Phoebe, your other designer! This is my last year in flow and I'm hoping I actually learn Levi this time :') You can catch me yapping about things at the back of first :3c I'm looking forward to drawing creatures for y'all!", 
+            imgName: "phoebe_lu.jpg", 
+        }, 
+
+        { 
+            name: "Annie Chen", 
+            title: "Designer", 
+            desc: "Hi y'all!! I'm Annie and this is my second year designing for Flow. I'm so excited to have the opportunity to share my art with this amazing community again. I love to draw, watch horror movies, and listen to music in my freetime (although my earbuds break almost every month..) and I'm always down to yap about anything   : ) ", 
+            imgName: "annie.jpg", 
+        }, 
+    ],
+
     "2023-2024": [
         {
             name: "Ankki Dong", 

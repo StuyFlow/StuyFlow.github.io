@@ -1,6 +1,16 @@
 // NOTE: Please format dates like YYYY-MM-DD
 export const stuysquadVideos = [
     {
+        name: "Flow Ame | StuySquad 2023 - 2024",
+        date: "2024-01-19",
+        videoLink: "https://www.youtube.com/embed/HnlHGhm8T18",
+    },
+    {
+        name: "Flow Yuki | StuySquad 2023 - 2024",
+        date: "2024-01-19",
+        videoLink: "https://www.youtube.com/embed/iME4BInKNvM",
+    },
+    {
         name: "Flow | Stuy Squad 2014-2015",
         date: "2015-01-24",
         videoLink: "https://www.youtube.com/embed/cdZCq2OsH4Q",
@@ -55,4 +65,5 @@ export const stuysquadVideos = [
         date: "2022-02-11",
         videoLink: "https://www.youtube.com/embed/uOPaCLHcroQ"
     }
+    
 ]

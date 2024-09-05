@@ -1,6 +1,11 @@
 // NOTE: Please format dates like YYYY-MM-DD
 export const lumiereVideos = [
     {
+        name: "FLASH DT IMPULSE: Fortitude | StuyLumière",
+        date: "2024-04-28",
+        videoLink: "https://www.youtube.com/embed/siiiBAaj5Vg"
+    },
+    {
         name: "StuyFlow | POHSHOW XVI | Virtual",
         date: "2022-04-28",
         videoLink: "https://www.youtube.com/embed/TtpG6uR1cdM"
