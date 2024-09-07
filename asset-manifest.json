@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.b8dceec9.css",
-    "main.js": "/static/js/main.b5fa1380.js",
+    "main.js": "/static/js/main.ef4174b7.js",
     "static/media/board-2019-2.png": "/static/media/board-2019-2.18145b06e459159dea33.png",
     "static/media/background_video.mp4": "/static/media/background_video.a1ed5dcca86683c486a8.mp4",
     "static/media/board_2019-0.png": "/static/media/board_2019-0.946196f826e1edcb6f29.png",
@@ -97,6 +97,7 @@
     "static/media/podpoi_handles.jpg": "/static/media/podpoi_handles.986edc7f8a67d4b07f53.jpg",
     "static/media/flower_exposure1.png": "/static/media/flower_exposure1.4fbc4cd42eb604cdb4d3.png",
     "static/media/some_exposure.png": "/static/media/some_exposure.1f764f001c684174029b.png",
+    "static/media/sarah.jpg": "/static/media/sarah.ac28b6a50e9528b94d19.jpg",
     "static/media/some_show_0.png": "/static/media/some_show_0.ab94692d65cd74d1c057.png",
     "static/media/random_exposure1.png": "/static/media/random_exposure1.4ddf843ee2d8375d53ba.png",
     "static/media/aiden_chao.jpg": "/static/media/aiden_chao.b1ea8b2918306d32f939.jpg",
@@ -112,6 +113,7 @@
     "static/media/star_exposure.png": "/static/media/star_exposure.fe94078755bc87c7cde2.png",
     "static/media/composite-stick.png": "/static/media/composite-stick.599549401ee50a7a78ae.png",
     "static/media/bowtie.png": "/static/media/bowtie.52514d0eed57015310db.png",
+    "static/media/emerie_ngai.jpg": "/static/media/emerie_ngai.ec2153475da750dd0d0f.jpg",
     "static/media/sos-2020-0.png": "/static/media/sos-2020-0.93c449b4fe44ce892db5.png",
     "static/media/composite-iso-baton.png": "/static/media/composite-iso-baton.703e8caa6227090bc52c.png",
     "static/media/some_show_3.png": "/static/media/some_show_3.77266f6fd5a687eadb77.png",
@@ -139,6 +141,7 @@
     "static/media/freda.jpg": "/static/media/freda.472c838a638f46097e6e.jpg",
     "static/media/freda_dong.jpg": "/static/media/freda_dong.20f8444a11009d0a6b14.jpg",
     "static/media/sophfrosh-sing-2020-1.png": "/static/media/sophfrosh-sing-2020-1.96ce3ab18ea41c9d55f2.png",
+    "static/media/phoebe_lu.jpg": "/static/media/phoebe_lu.7a49aa323a909f0f4527.jpg",
     "static/media/DarkerGrotesque-ExtraBold.ttf": "/static/media/DarkerGrotesque-ExtraBold.c0e10220246356a55eab.ttf",
     "static/media/DarkerGrotesque-Black.ttf": "/static/media/DarkerGrotesque-Black.cc7e86f69e6a3f78ef44.ttf",
     "static/media/DarkerGrotesque-SemiBold.ttf": "/static/media/DarkerGrotesque-SemiBold.5b2d5305530945d9233d.ttf",
@@ -173,9 +176,12 @@
     "static/media/alan_zhou.jpg": "/static/media/alan_zhou.0c7d0f06a01847a00fa3.jpg",
     "static/media/celeste_cheung.jpg": "/static/media/celeste_cheung.01c39adeab95335529d8.jpg",
     "static/media/stuysquad_2019-back.png": "/static/media/stuysquad_2019-back.72e2f9536b287bc6fdc6.png",
+    "static/media/annie.jpg": "/static/media/annie.c49c5a1e3bd40706c315.jpg",
     "static/media/stuysquad_2019-front.png": "/static/media/stuysquad_2019-front.b3555f1b3d55340877aa.png",
     "static/media/alice_chai.jpg": "/static/media/alice_chai.10b0f4261241641174ac.jpg",
+    "static/media/alejandra_yau-smith.jpg": "/static/media/alejandra_yau-smith.af61531c6d9ae0de0b5b.jpg",
     "static/media/kelly_huang.jpg": "/static/media/kelly_huang.3d890f90401bc2fa1f1a.jpg",
+    "static/media/leo_ye.jpg": "/static/media/leo_ye.857a915261b8eba5325b.jpg",
     "static/media/johanna_lin.jpg": "/static/media/johanna_lin.242619a9b81c621414ca.jpg",
     "static/media/sarah_lin.jpg": "/static/media/sarah_lin.93a02bf22dea45e53c2c.jpg",
     "static/media/adam_oh.jpg": "/static/media/adam_oh.02fdf567f5c848639f01.jpg",
@@ -190,6 +196,7 @@
     "static/media/sophfrosh-sing-2019-2.png": "/static/media/sophfrosh-sing-2019-2.b08c3aaa921f04f77ee0.png",
     "static/media/raymond_xu.jpg": "/static/media/raymond_xu.b39789618000ae7741ef.jpg",
     "static/media/brightness_chart.jpg": "/static/media/brightness_chart.c2a50f135f99f6a41390.jpg",
+    "static/media/adam.jpg": "/static/media/adam.4b00dbba6686aeefb8d3.jpg",
     "static/media/kayli_matsuyoshi.jpg": "/static/media/kayli_matsuyoshi.cbb9c212a123f1139fe9.jpg",
     "static/media/tyler_zhou.jpg": "/static/media/tyler_zhou.2c9508e9f19810ec4d92.jpg",
     "static/media/extreme_glow.jpg": "/static/media/extreme_glow.72dc443f5b81ce9c4c75.jpg",
@@ -199,10 +206,10 @@
     "static/media/playpoi.jpg": "/static/media/playpoi.54670ace74dff5702068.jpg",
     "index.html": "/index.html",
     "main.b8dceec9.css.map": "/static/css/main.b8dceec9.css.map",
-    "main.b5fa1380.js.map": "/static/js/main.b5fa1380.js.map"
+    "main.ef4174b7.js.map": "/static/js/main.ef4174b7.js.map"
   },
   "entrypoints": [
     "static/css/main.b8dceec9.css",
-    "static/js/main.b5fa1380.js"
+    "static/js/main.ef4174b7.js"
   ]
 }
