@@ -1,5 +1,55 @@
 // NOTE: The year numbers should match the folder name in /imgs
 export const board = {
+    "2025-2026":[
+        {
+            name: "Sonya Cisse",
+            title: "Co-President",
+            desc: "Hi! My name is Sonya and I’ve been in Flow since my freshman year. It’s where I’ve made most of my close friends and it’s given me some incredible memories that I’ll have for a long time. When I’m not spinning POI, I’m running or sketching random objects. I love this club and I’m excited to see what we can do this year!",
+            imgName: "sonya.png"
+        },
+        {
+            name: "Emerie Ngai",
+            title: "Co-President",
+            desc: "Hiii! My name is Emerie and I'm a co-pres this year! I've been in Flow since I was a tiny freshman and it has been a huge part of my time at Stuyvesant. I'm super excited to give back to this community and allow new members to have the same amazing experience that I did! My main prop is stringing and outside of flow, I love to dance, bake, and crochet. I'm looking forward to an awesome year :)))",
+            imgName: "emerie.jpg"
+        },
+        {
+            name: "Kayla Wang",
+            title: "Inventory Manager",
+            desc: "hi flowers! My name is Kayla and I'm one of your inventory managers this year!! Ever since I joined Flow in my freshman year, I've loved my time learning new moves and props! Outside of Flow, I like to create and listen to music! Thank you to all the flowers that have made our community as welcoming and amazing as it has been! Flow really means a lot to us and I look forward to what we'll achieve in this next year!",
+            imgName: "kayla.png"
+        },
+        {
+            name: "Iree Zheng",
+            title: "Inventory Manager",
+            desc: "Hello! I’m Iree, one of your inventory managers this year. I joined Flow freshman year as a stringer and I’m looking forward to meeting new people!",
+            imgName: "iree.png"
+        },
+        {
+            name: "Annie Chen",
+            title: "Designer",
+            desc: "Hi guys! I'm Annie, and this is round 3 of designing for flow 😛 I'm super excited to share my art with this amazing community for one more year. If you see me in the halls I'm probably eating, sleeping, or dancing with the occasional lock in.. and I'm always down to yap about anything! :3",
+            imgName: "annie(1).jpg"
+        },
+        {
+            name: "Fiona Huang",
+            title: "Designer",
+            desc: "Hi! I’m Fiona and I’ll be one of your designers this year. I’m super excited to design merch for flow. In my free time I love eating, hiking, binging shows (this is why I am always procrastinating), and crocheting. I can’t wait to see what this year brings to flow!!",
+            imgName: "fiona.jpg"
+        },
+        {
+            name: "Adam Oh",
+            title: "IT manager",
+            desc: "HI!!! I am excited to be IT this year!! Hoping to work hard on this website this year!!! My biggest hobby right now is dancing and I'm about to tweak with the new cell phone ban :( Can't wait to see how the next year will go!!!!!",
+            imgName: "adam(1).png"
+        },
+        {
+            name: "Felicity Yu",
+            title: "IT manager",
+            desc: "Hi guys! My name is Felicity and I’m one of the IT/Editors for flow this year! Outside of flow, you might find me sewing my own clothes, editing a video, or just laying down passed out on the ninth floor 😪I can’t wait to create some cool new content for flow this year! Don’t be shy and share some ideas with me 😼",
+            imgName: "felicity.jpg"
+        }
+    ],
 
     "2024-2025": [
         {
