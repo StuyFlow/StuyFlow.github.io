@@ -7,7 +7,7 @@ class Board extends Component {
     constructor(props){
         super(props);
         this.state = {
-            year: "2024-2025",
+            year: "2025-2026",
         }
     }
 
