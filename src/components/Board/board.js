@@ -1,5 +1,50 @@
 // NOTE: The year numbers should match the folder name in /imgs
 export const board = {
+    "2026-2027":[
+        {
+            name: "Felicity Yu",
+            title: "Co-President",
+            desc: "awooga",
+            imgName: "testcat.JPG"
+        },
+        {
+            name: "Nancy Huang",
+            title: "Co-President",
+            desc: "awooga",
+            imgName: "testcat.JPG"
+        },
+                {
+            name: "Claire Xue",
+            title: "Treasurer",
+            desc: "awooga",
+            imgName: "testcat.JPG"
+        },
+        {
+            name: "Angelina Sze",
+            title: "Inventory Manager",
+            desc: "awooga",
+            imgName: "testcat.JPG"
+        },
+        {
+            name: "Iris Yang",
+            title: "Inventory Manager",
+            desc: "awooga",
+            imgName: "testcat.JPG"
+        },
+        {
+            name: "Jessica Ho",
+            title: "Designer",
+            desc: "awooga",
+            imgName: "testcat.JPG"
+        },
+        {
+            name: "Iree Zheng",
+            title: "Designer",
+            desc: "awooga",
+            imgName: "testcat.JPG"
+        }
+    ],
+
     "2025-2026":[
         {
             name: "Sonya Cisse",
