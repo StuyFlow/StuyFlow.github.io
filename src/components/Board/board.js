@@ -5,13 +5,13 @@ export const board = {
             name: "Felicity Yu",
             title: "Co-President",
             desc: "awooga",
-            imgName: "testcat.JPG"
+            imgName: "felicity1.jpg"
         },
         {
             name: "Nancy Huang",
             title: "Co-President",
             desc: "awooga",
-            imgName: "testcat.JPG"
+            imgName: "nancy.jpg"
         },
                 {
             name: "Claire Xue",
@@ -29,7 +29,7 @@ export const board = {
             name: "Iris Yang",
             title: "Inventory Manager",
             desc: "awooga",
-            imgName: "testcat.JPG"
+            imgName: "iris.jpg"
         },
         {
             name: "Jessica Ho",
@@ -41,7 +41,7 @@ export const board = {
             name: "Iree Zheng",
             title: "Designer",
             desc: "awooga",
-            imgName: "testcat.JPG"
+            imgName: "iree1.jpg"
         }
     ],
 
