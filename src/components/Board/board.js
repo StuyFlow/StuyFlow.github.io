@@ -4,43 +4,43 @@ export const board = {
         {
             name: "Felicity Yu",
             title: "Co-President",
-            desc: "awooga",
+            desc: "Hi guys! My name is Felicity and I’m so excited to be one of your co-presidents this year! I joined Flow during my freshman year SING!, and I can’t believe this is my last year at Flow. In my free time, I love finding new random hobbies to try out and going on long hikes or walks with friends! I look forward to making my last year the best one here with Flow!",
             imgName: "felicity1.jpg"
         },
         {
             name: "Nancy Huang",
             title: "Co-President",
-            desc: "awooga",
+            desc: "Hi everyone, I'm Nancy, one of your co-presidents this year! I joined Flow during SING in my freshman year, and I've been practicing stringing and Chinese yo-yo ever since. In my free time, I like going on side quests with some good music, collecting music, and listening to music (I like music). I'm excited to (hopefully) survive senior year with Flow!",
             imgName: "nancy.jpg"
         },
                 {
             name: "Claire Xue",
             title: "Treasurer",
-            desc: "awooga",
-            imgName: "testcat.JPG"
+            desc: "Hello everyone my name is Claire and I am honored to be your StuyFlow treasurer from 2026-2027‼️‼️Flow has been a huggeeeee (yes even bigger than our appetite 🍛🍞) part of my life since Sophomore year and I cannot wait to share my time with you all 🙈🤸 If I’m not found practicing (or loitering on non-practice days 🤫🍴) you could probably bet all your money that I’m either sobbing over the daily Connections 🧶🧠 or claiming to be locked in at an overpriced cafe 💸🚨 (or don’t, but do feel free if you would like to gamble whether or not you’d pay for the next studio fees 😉) I am so excited to unlock new core memories for our new year 🤹🤹 Cheers to a year of living, laughing and loving 🧋📣",
+            imgName: "claire.jpg"
         },
         {
             name: "Angelina Sze",
             title: "Inventory Manager",
-            desc: "awooga",
-            imgName: "testcat.JPG"
+            desc: "Hi Flowers!! I'm Angelina, one of your inventory managers this year! I joined Flow as a sophomore and my main props are whipping and stringing. When I'm not tangled in random props (or passed out back of first 😪), I like papercrafting, listening to music, and making random stuff with other random stuff 😀 (the lock in is nowhere to be found unfortunately) Anyway I'm super excited to make some more awesome memories with Flow this year!",
+            imgName: "angelina.jpg"
         },
         {
             name: "Iris Yang",
             title: "Inventory Manager",
-            desc: "awooga",
+            desc: "Hi, I’m Iris, and I’ve been in FLOW since my freshman year. I’ve really enjoyed learning new moves for each prop, and I hope to continue learning more. Besides that, I love going on walks and reading in the rest of my free time. My main props are whipping and staffing, and I’m really excited to be one of the inventory managers for this year!",
             imgName: "iris.jpg"
         },
         {
             name: "Jessica Ho",
             title: "Designer",
             desc: "awooga",
-            imgName: "testcat.JPG"
+            imgName: "jesso.jpg"
         },
         {
             name: "Iree Zheng",
             title: "Designer",
-            desc: "awooga",
+            desc: "Heya! I'm Iree, one of your designers this year! I also joined flow during Sing with my fellow board members, and it's been a wonderful time here. I like reading a good book or spending time with friends when I have free time. Looking forward to create some new designs and have some fun in flow this year!",
             imgName: "iree1.jpg"
         }
     ],
