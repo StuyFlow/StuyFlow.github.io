@@ -105,7 +105,21 @@ export const singVideos = [
         date: "2024-03-20",
         videoLink: "https://www.youtube.com/embed/-I83ABv9o7E",
     },
-    
+    {
+        name: "Senior Flow | SING! 2025",
+        date: "2025-03-16",
+        videoLink: "https://www.youtube.com/embed/_5Dy5q4PVCA",
+    },
+    {
+        name: "Junior Flow | SING! 2025",
+        date: "2025-03-16",
+        videoLink: "https://www.youtube.com/embed/e3XjNWMYmZQ",
+    },
+    {
+        name: "SophFrosh Flow | SING! 2025",
+        date: "2025-03-16",
+        videoLink: "https://www.youtube.com/embed/Y9WT1WHQEcM",
+    },
 
 
     
