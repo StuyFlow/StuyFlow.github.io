@@ -34,7 +34,7 @@ export const board = {
         {
             name: "Jessica Ho",
             title: "Designer",
-            desc: "awooga",
+            desc: "",
             imgName: "jesso.jpg"
         },
         {
